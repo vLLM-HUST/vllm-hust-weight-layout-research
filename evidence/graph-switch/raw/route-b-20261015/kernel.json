@@ -1,0 +1,182 @@
+{
+  "mode": "kernel",
+  "shape": [
+    7,
+    256,
+    2048
+  ],
+  "dtype": "bf16",
+  "capture_count": 1,
+  "checks": [
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 1,
+      "variant": "candidate",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 1,
+      "variant": "candidate",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 1,
+      "variant": "candidate",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 2,
+      "variant": "baseline",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 2,
+      "variant": "baseline",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 2,
+      "variant": "baseline",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 3,
+      "variant": "candidate",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 3,
+      "variant": "candidate",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 3,
+      "variant": "candidate",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 4,
+      "variant": "baseline",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 4,
+      "variant": "baseline",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 4,
+      "variant": "baseline",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    }
+  ],
+  "updates": [
+    {
+      "variant": "baseline",
+      "host_update_sync_ms": 3.5401415079832077
+    },
+    {
+      "variant": "candidate",
+      "host_update_sync_ms": 0.29548536986112595
+    },
+    {
+      "variant": "baseline",
+      "host_update_sync_ms": 0.20154379308223724
+    },
+    {
+      "variant": "candidate",
+      "host_update_sync_ms": 0.21571386605501175
+    },
+    {
+      "variant": "baseline",
+      "host_update_sync_ms": 0.21355412900447845
+    }
+  ],
+  "evidence": "isolated-operator-task-group",
+  "stage": "finished",
+  "versions": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "triton-ascend": "3.2.2"
+  },
+  "addresses": {
+    "input": 20616935636992,
+    "output": 20616935638016,
+    "suffix": 20616935638528
+  },
+  "all_pass": true
+}

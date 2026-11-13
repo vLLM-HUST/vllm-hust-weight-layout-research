@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "profile": "ascend-910b2-cann91-torch210",
+  "evidence_policy": "fixed-environment evidence; periodically refresh the environment and revalidate",
+  "repositories": {
+    "vllm": "ba07e4a48fc951300d97eb506217dd530583dea3",
+    "vllm_ascend_hust": "588cdbdc577aa2c2d2e1e0ab362e39f6913d02e3",
+    "triton_ascend": "a4e5e4b53959de21563754641f2193eea067994e"
+  },
+  "packages": {
+    "torch": "2.10.0",
+    "torch_npu": "2.10.0.post4",
+    "triton_ascend": "3.2.2"
+  },
+  "runtime": {
+    "python": "3.11",
+    "cann": "9.1.0-beta.3",
+    "atb": "9.1.T6.B010",
+    "hardware": "Ascend 910B2"
+  },
+  "validated": {
+    "model": "Qwen2.5-7B-Instruct",
+    "mode": "graph + batch-invariant",
+    "block_size": 128,
+    "optimizations": [
+      "persistent-matmul-empty",
+      "linear-swiglu-graph"
+    ],
+    "linear_swiglu_scope": "M <= 128 fused; larger M uses the native path"
+  }
+}

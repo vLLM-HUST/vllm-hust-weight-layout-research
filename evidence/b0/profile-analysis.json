@@ -1,0 +1,194 @@
+[
+  {
+    "case": "profile-P2-C1",
+    "rank": 0,
+    "step_time_us": {
+      "Computing": 313730.7400000021,
+      "Communication(Not Overlapped)": 345283.61999999895,
+      "Overlapped": 0.0,
+      "Communication": 345283.61999999895,
+      "Free": 443545.6400000556,
+      "Stage": 1102560.0,
+      "Preparing": 2136.5
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 345.28362,
+      "Transit Time(ms)": 0.0,
+      "Wait Time(ms)": 52.148,
+      "Synchronization Time(ms)": 52.148,
+      "Idle Time(ms)": 293.13562
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P2-C1/dp0_pp0_tp0_dcp0_ep0_rank0_2219262_20261023162220791_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P2-C1",
+    "rank": 1,
+    "step_time_us": {
+      "Computing": 312600.46000000136,
+      "Communication(Not Overlapped)": 133023.26000000007,
+      "Overlapped": 0.0,
+      "Communication": 133023.26000000007,
+      "Free": 656847.200000295,
+      "Stage": 1102470.75,
+      "Preparing": 2141.25
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 133.02326,
+      "Transit Time(ms)": 5.17842,
+      "Wait Time(ms)": 87.75422,
+      "Synchronization Time(ms)": 81.90774,
+      "Idle Time(ms)": 40.09062
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P2-C1/dp0_pp0_tp1_dcp0_ep1_rank1_2219263_20261023162220791_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P2-C64",
+    "rank": 0,
+    "step_time_us": {
+      "Computing": 2967693.7599999905,
+      "Communication(Not Overlapped)": 1403567.6999999988,
+      "Overlapped": 0.0,
+      "Communication": 1403567.6999999988,
+      "Free": 1244890.9800006885,
+      "Stage": 5616152.25,
+      "Preparing": 2065.75
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 1403.5677,
+      "Transit Time(ms)": 0.0,
+      "Wait Time(ms)": 53.975139999999996,
+      "Synchronization Time(ms)": 53.975139999999996,
+      "Idle Time(ms)": 1349.59256
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P2-C64/dp0_pp0_tp0_dcp0_ep0_rank0_2229013_20261023162742905_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P2-C64",
+    "rank": 1,
+    "step_time_us": {
+      "Computing": 2970922.8399999505,
+      "Communication(Not Overlapped)": 1873632.0999999985,
+      "Overlapped": 0.0,
+      "Communication": 1873632.0999999985,
+      "Free": 771606.2200004439,
+      "Stage": 5616161.25,
+      "Preparing": 2047.75
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 1873.6321,
+      "Transit Time(ms)": 32.72692,
+      "Wait Time(ms)": 26.7221,
+      "Synchronization Time(ms)": 22.90252,
+      "Idle Time(ms)": 1814.18308
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P2-C64/dp0_pp0_tp1_dcp0_ep1_rank1_2229014_20261023162742905_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P3-C1",
+    "rank": 0,
+    "step_time_us": {
+      "Computing": 549426.6000000102,
+      "Communication(Not Overlapped)": 236700.9000000003,
+      "Overlapped": 0.0,
+      "Communication": 236700.9000000003,
+      "Free": 318822.819999992,
+      "Stage": 1104950.5,
+      "Preparing": 2716.75
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 236.7009,
+      "Transit Time(ms)": 0.0,
+      "Wait Time(ms)": 65.19904,
+      "Synchronization Time(ms)": 65.19904,
+      "Idle Time(ms)": 171.50186
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P3-C1/dp0_pp0_tp0_dcp0_ep0_rank0_2241455_20261023163248859_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P3-C1",
+    "rank": 1,
+    "step_time_us": {
+      "Computing": 553785.5800000206,
+      "Communication(Not Overlapped)": 216115.6800000006,
+      "Overlapped": 0.0,
+      "Communication": 216115.6800000006,
+      "Free": 335082.1599999967,
+      "Stage": 1104983.5,
+      "Preparing": 2730.25
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 216.11568,
+      "Transit Time(ms)": 5.21182,
+      "Wait Time(ms)": 26.40016,
+      "Synchronization Time(ms)": 20.51614,
+      "Idle Time(ms)": 184.5037
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P3-C1/dp0_pp0_tp1_dcp0_ep1_rank1_2241456_20261023163248858_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P3-C64",
+    "rank": 0,
+    "step_time_us": {
+      "Computing": 7918961.740000096,
+      "Communication(Not Overlapped)": 4146540.0599999973,
+      "Overlapped": 0.0,
+      "Communication": 4146540.0599999973,
+      "Free": 903337.2000006115,
+      "Stage": 12968839.0,
+      "Preparing": 2697.5
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 4146.54006,
+      "Transit Time(ms)": 0.0,
+      "Wait Time(ms)": 0.0,
+      "Synchronization Time(ms)": 0.0,
+      "Idle Time(ms)": 4146.54006
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P3-C64/dp0_pp0_tp0_dcp0_ep0_rank0_2249866_20261023163747162_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  },
+  {
+    "case": "profile-P3-C64",
+    "rank": 1,
+    "step_time_us": {
+      "Computing": 7917162.820000051,
+      "Communication(Not Overlapped)": 3842695.200000007,
+      "Overlapped": 0.0,
+      "Communication": 3842695.200000007,
+      "Free": 1209396.7800007816,
+      "Stage": 12969255.0,
+      "Preparing": 2464.5
+    },
+    "communication_operation_count": 1968,
+    "communication_operation_sums_ms": {
+      "Elapse Time(ms)": 3842.6952,
+      "Transit Time(ms)": 0.0,
+      "Wait Time(ms)": 0.0,
+      "Synchronization Time(ms)": 0.0,
+      "Idle Time(ms)": 3842.6952
+    },
+    "scope": "24-engine-iteration diagnostic capture, not full request or formal performance timing",
+    "sync_wait_warning": "zero Wait/Sync fields do not prove absence of synchronization; free time is not assigned to synchronization",
+    "source": "/root/opset-research/b0-weight-layout-20261023/profiles/profile-P3-C64/dp0_pp0_tp1_dcp0_ep1_rank1_2249867_20261023163747162_ascend_pt/ASCEND_PROFILER_OUTPUT"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "request": {
+    "model": "research-model",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请简要介绍 Transformer 的核心原理。"
+      }
+    ],
+    "temperature": 0,
+    "seed": 0,
+    "max_tokens": 32,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "stream": false
+  },
+  "response": {
+    "id": "chatcmpl-b5d1bf32b86b9412",
+    "object": "chat.completion",
+    "created": 1791972205,
+    "model": "research-model",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "length",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+    "usage": {
+      "prompt_tokens": 20,
+      "total_tokens": 52,
+      "completion_tokens": 32,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_s": 1.0137095805257559,
+  "text": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积"
+}

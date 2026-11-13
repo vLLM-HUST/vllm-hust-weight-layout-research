@@ -1,0 +1,50 @@
+[
+  {
+    "m": 1,
+    "sentinel": "7.0",
+    "finite": true,
+    "nan_count": 0,
+    "max_abs": 3.1635626299680998e+38,
+    "equal": false
+  },
+  {
+    "m": 1,
+    "sentinel": "nan",
+    "finite": false,
+    "nan_count": 256,
+    "max_abs": NaN,
+    "equal": false
+  },
+  {
+    "m": 20,
+    "sentinel": "7.0",
+    "finite": false,
+    "nan_count": 43,
+    "max_abs": NaN,
+    "equal": false
+  },
+  {
+    "m": 20,
+    "sentinel": "nan",
+    "finite": false,
+    "nan_count": 5120,
+    "max_abs": NaN,
+    "equal": false
+  },
+  {
+    "m": 32,
+    "sentinel": "7.0",
+    "finite": false,
+    "nan_count": 61,
+    "max_abs": NaN,
+    "equal": false
+  },
+  {
+    "m": 32,
+    "sentinel": "nan",
+    "finite": false,
+    "nan_count": 8192,
+    "max_abs": NaN,
+    "equal": false
+  }
+]

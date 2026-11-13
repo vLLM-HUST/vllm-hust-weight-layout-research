@@ -1,0 +1,102 @@
+[W1015 07:45:38.682837618 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+imported
+[W1015 07:45:44.030204126 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+INFO 10-15 07:45:44 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-15 07:45:44 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-15 07:45:44 [__init__.py:58] Loading plugin ascend
+INFO 10-15 07:45:45 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-15 07:45:45 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+warmup
+capture
+[E1015 07:45:57.282023760 OpParamMaker.cpp:453] operator():../torch_npu/csrc/aten/ops/op_api/CopyKernelOpApi.cpp:89 NPU function error: call aclnnInplaceCopy failed, error code is 507009
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed
+[Error]: The task type is not supported. 
+        Rectify the fault based on the error information in the ascend log.
+[PID: 53349] 2026-10-15-07:45:57.818.228 AclNN_Runtime_Error(EZ9903): launch failed for CopyToNpu, errno:361001.
+        Solution: In this scenario, collect the plog when the fault occurs and locate the fault based on the plog.
+TraceBack (most recent call last):
+        Pack task group failed, stream_id=13, task_id=13.[FUNC:StarsAddTaskToStream][FILE:stream.cc][LINE:3332]
+        rtMemcpyAsync execution failed, reason=task not supported[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+        Call aclrtMemcpyAsync failed when do CopyNpuToNpuOp, ret code: 507009
+        launch failed for CopyToNpu, errno:361001.
+
+Exception raised from operator() at ../torch_npu/csrc/aten/ops/op_api/CopyKernelOpApi.cpp:89 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0xc8 (0xffff98755978 in /usr/local/python3.12.13/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0xc4 (0xffff986f9adc in /usr/local/python3.12.13/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #2: <unknown function> + 0x173e2a0 (0xfffde905e2a0 in /usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/lib/libtorch_npu.so)
+frame #3: <unknown function> + 0x4b10768 (0xfffdec430768 in /usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/lib/libtorch_npu.so)
+frame #4: <unknown function> + 0x1927070 (0xfffde9247070 in /usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/lib/libtorch_npu.so)
+frame #5: <unknown function> + 0x192810c (0xfffde924810c in /usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/lib/libtorch_npu.so)
+frame #6: <unknown function> + 0x1925b38 (0xfffde9245b38 in /usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/lib/libtorch_npu.so)
+frame #7: <unknown function> + 0xd43cc (0xffffa60b43cc in /lib64/libstdc++.so.6)
+frame #8: <unknown function> + 0x7f874 (0xffffa629f874 in /lib64/libc.so.6)
+frame #9: <unknown function> + 0xe7c8c (0xffffa6307c8c in /lib64/libc.so.6)
+
+NPUGraph: ERROR — capture failed: RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnInplaceCopy.
+Since the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.
+Note: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+, graph_id=281452644661392, stream=<torch_npu.npu.Stream device=npu:0 npu_stream=0xfffade9a4808>, pool=(), device=0
+NPUGRAPH DFX common causes: default stream, CPU ops, multi-device tensors, dynamic control flow on tensor values
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 96, in main
+    handle=torch.npu.graph_task_group_end(capture_stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 92, in graph_task_group_end
+    return _graph_task_group_end(stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnInplaceCopy.
+Since the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.
+Note: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 90, in main
+    with torch.npu.graph(graph):
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 890, in __exit__
+    self.npu_graph.capture_end()
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 636, in capture_end
+    super().capture_end()
+RuntimeError: capture_end:../torch_npu/csrc/core/npu/NPUGraph.cpp:240 NPU function error: c10_npu::acl::AclmdlRICaptureEnd(capture_stream_, &model_ri), error code is 507903
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+EE9999: Inner Error!
+EE9999[PID: 53349] 2026-10-15-07:45:57.821.386 (EE9999):  rtStreamEndCapture execution failed, reason=an error has invalidated the stream capture sequence[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+TraceBack (most recent call last):
+
+
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 96, in main
+    handle=torch.npu.graph_task_group_end(capture_stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 92, in graph_task_group_end
+    return _graph_task_group_end(stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnInplaceCopy.
+Since the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.
+Note: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 141, in <module>
+    with torch.inference_mode(): main()
+                                 ^^^^^^
+  File "/root/opset-research/route_b_probe.py", line 90, in main
+    with torch.npu.graph(graph):
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 890, in __exit__
+    self.npu_graph.capture_end()
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 636, in capture_end
+    super().capture_end()
+RuntimeError: capture_end:../torch_npu/csrc/core/npu/NPUGraph.cpp:240 NPU function error: c10_npu::acl::AclmdlRICaptureEnd(capture_stream_, &model_ri), error code is 507903
+[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+EE9999: Inner Error!
+EE9999[PID: 53349] 2026-10-15-07:45:57.821.386 (EE9999):  rtStreamEndCapture execution failed, reason=an error has invalidated the stream capture sequence[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+TraceBack (most recent call last):
+

@@ -1,0 +1,8 @@
+{
+  "arm": "B1",
+  "evidence_level": "development-smoke",
+  "status": "failed",
+  "error": "RuntimeError: worker startup failed; see server.log",
+  "server_exit_code": -15,
+  "elapsed_seconds": 72.25792354159057
+}

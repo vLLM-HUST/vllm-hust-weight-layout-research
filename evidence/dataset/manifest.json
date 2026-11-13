@@ -1,0 +1,191 @@
+{
+  "version": "mmlu-weight-layout-v1",
+  "seed": 20261023,
+  "model_path": "/data/shared_upload/models/vspec/Qwen3.5-35B-A3B",
+  "performance_source": "validation only",
+  "performance_encoding": "canonical prompt_token_ids; use token-ID input",
+  "quality_protocol": {
+    "temperature": 0,
+    "seed": 20261023,
+    "max_tokens": 16,
+    "ignore_eos": false,
+    "enable_thinking": false,
+    "answer_parser": "strip whitespace; accept exactly one valid uppercase option letter; otherwise invalid"
+  },
+  "performance_protocol": {
+    "temperature": 0,
+    "seed": 20261023,
+    "ignore_eos": true,
+    "max_tokens": "per record output_tokens",
+    "prefix_caching": false,
+    "mtp": false
+  },
+  "sources": {
+    "validation-00000-of-00001.parquet": {
+      "sha256": "139423c23722e480c807ac4a191409a710cfce4eba744c1d641cf88e730e2078",
+      "bytes": 42857
+    },
+    "test-00000-of-00001.parquet": {
+      "sha256": "0e24a191921c2f453518a537a8b2117bd137e7714d4ef1565e9ba06c1ecb9ad8",
+      "bytes": 4144185
+    }
+  },
+  "tokenizer_files": {
+    "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "config.json": "5e4d7f74fec2f360eb9cfbfcd6ec0c4c76e684d3a11caaed259d9fd9bfbc7944"
+  },
+  "sets": {
+    "small": {
+      "quality_count": 70,
+      "performance_count": 128,
+      "categories": {
+        "math": 5,
+        "health": 5,
+        "physics": 5,
+        "business": 5,
+        "biology": 5,
+        "chemistry": 5,
+        "computer science": 5,
+        "economics": 5,
+        "engineering": 5,
+        "philosophy": 5,
+        "other": 5,
+        "history": 5,
+        "psychology": 5,
+        "law": 5
+      },
+      "buckets": [
+        {
+          "name": "P1",
+          "input_tokens": 512,
+          "output_tokens": 128,
+          "requests": 32,
+          "min_context_tokens": 640
+        },
+        {
+          "name": "P2",
+          "input_tokens": 1024,
+          "output_tokens": 1024,
+          "requests": 32,
+          "min_context_tokens": 2048
+        },
+        {
+          "name": "P3",
+          "input_tokens": 8192,
+          "output_tokens": 256,
+          "requests": 32,
+          "min_context_tokens": 8448
+        },
+        {
+          "name": "P4",
+          "input_tokens": 32768,
+          "output_tokens": 256,
+          "requests": 32,
+          "min_context_tokens": 33024
+        }
+      ]
+    },
+    "large": {
+      "quality_count": 12032,
+      "performance_count": 1280,
+      "categories": {
+        "business": 789,
+        "law": 1101,
+        "psychology": 798,
+        "biology": 717,
+        "chemistry": 1132,
+        "history": 381,
+        "other": 924,
+        "health": 818,
+        "economics": 844,
+        "math": 1351,
+        "physics": 1299,
+        "computer science": 410,
+        "philosophy": 499,
+        "engineering": 969
+      },
+      "buckets": [
+        {
+          "name": "P1",
+          "input_tokens": 512,
+          "output_tokens": 128,
+          "requests": 256,
+          "min_context_tokens": 640
+        },
+        {
+          "name": "P2",
+          "input_tokens": 1024,
+          "output_tokens": 1024,
+          "requests": 256,
+          "min_context_tokens": 2048
+        },
+        {
+          "name": "P3",
+          "input_tokens": 8192,
+          "output_tokens": 256,
+          "requests": 256,
+          "min_context_tokens": 8448
+        },
+        {
+          "name": "P4",
+          "input_tokens": 32768,
+          "output_tokens": 256,
+          "requests": 256,
+          "min_context_tokens": 33024
+        },
+        {
+          "name": "P5",
+          "input_tokens": 131072,
+          "output_tokens": 256,
+          "requests": 256,
+          "min_context_tokens": 131328
+        }
+      ]
+    }
+  },
+  "files": {
+    "large/quality.requests.jsonl.gz": {
+      "records": 12032,
+      "sha256": "518257b9fdfca67ab74ddcf00e795d869eb12f1914f2bddef611c9121a4a1572",
+      "bytes": 5768180
+    },
+    "large/quality.answers.jsonl.gz": {
+      "records": 12032,
+      "sha256": "4ae4273a9ea4688b0b8f80bc0602ec14fb9811fa4d34d2c1deab7844e0f371a7",
+      "bytes": 44286
+    },
+    "large/performance.requests.jsonl.gz": {
+      "records": 1280,
+      "sha256": "41cbd67ee7f4aa7a23f2c44e60f9bc9b023b8244d4fc106b592a9b25928813d4",
+      "bytes": 41384387
+    },
+    "small/quality.requests.jsonl.gz": {
+      "records": 70,
+      "sha256": "f20d7ba4a4f83f68daf1d42cf7b9588c4be1bf850a1e3c9814af4b944cd68648",
+      "bytes": 29390
+    },
+    "small/quality.answers.jsonl.gz": {
+      "records": 70,
+      "sha256": "17c59a9581461a4012fe9cdb9dfa2d4a518e3bf650da131b650209002a56f9c9",
+      "bytes": 551
+    },
+    "small/performance.requests.jsonl.gz": {
+      "records": 128,
+      "sha256": "ddcf0b7fa700daadf566002256f697e1c9006f442251707c6514d8b19bd58acf",
+      "bytes": 1284153
+    }
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      "gzip JSON readability",
+      "unique request IDs",
+      "exact input token counts",
+      "performance token hashes",
+      "validation-only performance provenance",
+      "no answer or cot_content fields in requests"
+    ]
+  }
+}

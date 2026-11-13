@@ -1,0 +1,1222 @@
+[
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nTypical advertising regulatory bodies suggest, for example that adverts must not: encourage _________, cause unnecessary ________ or _____, and must not cause _______ offence.\nA. Safe practices, Fear, Jealousy, Trivial\nB. Unsafe practices, Distress, Joy, Trivial\nC. Safe practices, Wants, Jealousy, Trivial\nD. Safe practices, Distress, Fear, Trivial\nE. Unsafe practices, Wants, Jealousy, Serious\nF. Safe practices, Distress, Jealousy, Serious\nG. Safe practices, Wants, Fear, Serious\nH. Unsafe practices, Wants, Fear, Trivial\nI. Unsafe practices, Distress, Fear, Serious"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-a813ed0c6afe4316",
+      "object": "chat.completion",
+      "created": 1791972415,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "I",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 171,
+        "total_tokens": 173,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5376314129680395,
+    "text": "I",
+    "question_id": 70,
+    "expected": "I",
+    "predicted": "I"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nManagers are entrusted to run the company in the best interest of ________. Specifically, they have a duty to act for the benefit of the company, as well as a duty of ________ and of _______.\nA. Shareholders, Diligence, Self-interest\nB. Shareholders, Self-interest, Care and Skill\nC. Stakeholders, Care and skill, Self-interest\nD. Stakeholders, Diligence, Care and Skill\nE. Customers, Care and Skill, Diligence\nF. Shareholders, Care and Skill, Diligence\nG. Shareholders, Self-interest, Diligence\nH. Employees, Care and Skill, Diligence\nI. Stakeholders, Self-interest, Diligence\nJ. Stakeholder, Care and Skill, Diligence"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-8aaac00fbb3322ba",
+      "object": "chat.completion",
+      "created": 1791972416,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "F",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 187,
+        "total_tokens": 189,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5230198167264462,
+    "text": "F",
+    "question_id": 71,
+    "expected": "F",
+    "predicted": "F"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nThere are two main issues associated with _____ sizing. _______ is a key issue as due to the information policy of the corporation it can be argued that employees have a right to know if they are being made redundant. _______ is a second issue, particularly the ________ package that employees receive when laid off.\nA. Down, Autonomy, Remuneration, Benefit\nB. Down, Involvement, Independence, Benefit\nC. Up, Independence, Involvement, Benefit\nD. Down, Privacy, Autonomy, Benefit\nE. Up, Involvement, Autonomy, Compensation\nF. Down, Independence, Autonomy, Compensation\nG. Up, Involvement, Remuneration, Severance\nH. Up, Privacy, Remuneration, Severance\nI. Up, Autonomy, Remuneration, Compensation\nJ. Down, Involvement, Remuneration, Compensation"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-8af9067e03f43392",
+      "object": "chat.completion",
+      "created": 1791972416,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "D",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 211,
+        "total_tokens": 213,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5423469450324774,
+    "text": "D",
+    "question_id": 72,
+    "expected": "J",
+    "predicted": "D"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\n_______ locate morality beyond the sphere of rationality in an emotional 'moral impulse' towards others.\nA. Ethical egoism\nB. Ethics of duty\nC. Postmodern ethics\nD. Consequentialist ethics\nE. Utilitarian ethics\nF. Deontological ethics\nG. Virtue ethics\nH. Ethics of care\nI. Ethics of rights\nJ. Relativist ethics"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-8ee9c5b1644e354c",
+      "object": "chat.completion",
+      "created": 1791972417,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "H",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 108,
+        "total_tokens": 110,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5291055478155613,
+    "text": "H",
+    "question_id": 73,
+    "expected": "C",
+    "predicted": "H"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\n Some of key differences between Islamic finance and conventional finance include - prohibition of charging and paying _______, prohibition on ______ and ______ transactions, prohibition of sinful investment and requirement for all financial products to be backed by __________.\nA. Interest, Certain, Assured, Both tangible and intangible assets\nB. Interest, Uncertain, Assured, Both tangible and intangible assets\nC. Interest, Uncertain, Speculative, Intangible assets\nD. Interest, Certain, Assured, Tangible assets\nE. Interest, Uncertain, Assured, Intangible assets\nF. Profit, Uncertain, Speculative, Tangible assets\nG. Interest, Uncertain, Speculative, Tangible assets\nH. Interest, Certain, Speculative, Intangible assets\nI. Profit, Certain, Assured, Tangible assets\nJ. Interest, Certain, Speculative, Both tangible and intangible assets"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-9e44456fefbaf90f",
+      "object": "chat.completion",
+      "created": 1791972417,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "G",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 209,
+        "total_tokens": 211,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5204491904005408,
+    "text": "G",
+    "question_id": 74,
+    "expected": "G",
+    "predicted": "G"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\n Which of the following are the three broad groups of organizational characteristics segmentation criteria?\nA. Organizational size, industry type, and geographical location.\nB. Organizational size, industry type, and age of company.\nC. Organizational size, industry type, and customer base.\nD. Organizational size, industry type, and annual revenue.\nE. Organizational size, industry type, and business strategy.\nF. None of the above.\nG. Organizational size, industry type, and gender.\nH. Organizational size, industry type, and number of branches.\nI. Psychographics, purchaser, and behavioural criteria.\nJ. Organizational size, industry type, and number of employees."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-af74eb02e1a9e3b8",
+      "object": "chat.completion",
+      "created": 1791972418,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "A",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 172,
+        "total_tokens": 174,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5080347321927547,
+    "text": "A",
+    "question_id": 75,
+    "expected": "A",
+    "predicted": "A"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\n Pine and Gilmore (1999) derive four distinct realms of experience, based on two dimensions. What are these dimensions?\nA. Customer participation and environmental acquisition.\nB. Environmental acquisition and environmental relationship.\nC. Customer retention and environmental relationship.\nD. Customer participation and environmental relationship.\nE. Customer acquisition and customer retention.\nF. Customer participation and customer relationship.\nG. Customer acquisition and environmental participation.\nH. Environmental participation and customer relationship.\nI. Customer retention and customer relationship.\nJ. Customer acquisition and environmental relationship."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-928aa84c5e7ba093",
+      "object": "chat.completion",
+      "created": 1791972418,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "D",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 140,
+        "total_tokens": 142,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5113285826519132,
+    "text": "D",
+    "question_id": 76,
+    "expected": "D",
+    "predicted": "D"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\n Which type of research methods are designed to elicit responses to predetermined, standardized questions from many respondents?\nA. Non-probability.\nB. Cross-sectional.\nC. Qualitative.\nD. Ethnographic.\nE. Longitudinal.\nF. Experimental.\nG. Probability.\nH. Observational.\nI. Case Study.\nJ. Quantitative."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-b1cbe38d6d8e5b7a",
+      "object": "chat.completion",
+      "created": 1791972419,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "J",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 105,
+        "total_tokens": 107,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5071096708998084,
+    "text": "J",
+    "question_id": 77,
+    "expected": "J",
+    "predicted": "J"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nWhere the price is set low relative to the competition to gain market share, this strategy is known as:\nA. Captive product pricing.\nB. High-low pricing.\nC. Price skimming.\nD. Value added pricing.\nE. Penetration pricing.\nF. Premium pricing.\nG. Cost-plus pricing.\nH. Economy pricing.\nI. Psychological pricing.\nJ. Competitive pricing."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-ae5b6257dd66f70d",
+      "object": "chat.completion",
+      "created": 1791972419,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "E",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 111,
+        "total_tokens": 113,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5120614478364587,
+    "text": "E",
+    "question_id": 78,
+    "expected": "E",
+    "predicted": "E"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nOnce a train pulls out of a station, or an aeroplane takes off or a film starts, those seats are lost and can never be sold. This is referred to as:\nA. Immeasurability.\nB. Impalpability.\nC. Variability.\nD. Non-storability.\nE. Indivisibility.\nF. Perishability.\nG. Non-recoverability.\nH. Inseparability.\nI. Heterogeneity.\nJ. Intangibility."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-94fdbad5d9674bf5",
+      "object": "chat.completion",
+      "created": 1791972420,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "F",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 134,
+        "total_tokens": 136,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5263666482642293,
+    "text": "F",
+    "question_id": 79,
+    "expected": "F",
+    "predicted": "F"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nA marketing research firm contracts with clients to conduct a complete marketing research project from data collection, analysis, and reporting. It is a__________ firm.\nA. Data collection firm.\nB. Freelance agency.\nC. Data analysis firm.\nD. Survey firm.\nE. Full-service agency.\nF. Tabulation agency.\nG. Marketing agency.\nH. Research firm.\nI. Consultant.\nJ. Field agency."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-9c773ee72072799a",
+      "object": "chat.completion",
+      "created": 1791972420,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "E",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 117,
+        "total_tokens": 119,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5154535304754972,
+    "text": "E",
+    "question_id": 80,
+    "expected": "E",
+    "predicted": "E"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nThe six dimensions usually considered to constitute the external marketing environment include all of the following except:\nA. Political considerations.\nB. Weather conditions\nC. Personal preferences of the marketing team\nD. Economics issues.\nE. Technology trends\nF. Socio-cultural aspects.\nG. Global factors.\nH. Competitive landscape\nI. Industry regulations\nJ. Environmental concerns"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-b6a3dd6cffee8310",
+      "object": "chat.completion",
+      "created": 1791972421,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "C",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 101,
+        "total_tokens": 103,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5125441886484623,
+    "text": "C",
+    "question_id": 81,
+    "expected": "G",
+    "predicted": "C"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nWhat is the term for the 'rule of thumb' type of bias in decision making?\nA. Framing bias\nB. Availability bias\nC. Representativeness bias\nD. Self-serving bias\nE. Hindsight bias\nF. Over-confidence bias\nG. Confirmation bias\nH. Optimism bias\nI. Anchoring bias\nJ. Heuristics"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-b2cf77c1991cc731",
+      "object": "chat.completion",
+      "created": 1791972421,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "J",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 100,
+        "total_tokens": 102,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5093451384454966,
+    "text": "J",
+    "question_id": 82,
+    "expected": "J",
+    "predicted": "J"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nAs what is ensuring that one individual does not carry the burden of a whole work task referred to?\nA. Work delegation\nB. Workload balancing\nC. Work distribution\nD. Work specialisation\nE. Work rotation\nF. Work redundancy\nG. Work shift\nH. Work division\nI. Work schedule\nJ. Work design"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-822513ad498b4174",
+      "object": "chat.completion",
+      "created": 1791972422,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "B",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 95,
+        "total_tokens": 97,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5215846542268991,
+    "text": "B",
+    "question_id": 83,
+    "expected": "D",
+    "predicted": "B"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nWhat theory is built around the principle that 'people make choices regarding how to behave based on values and beliefs'?\nA. Social Learning\nB. Contingency\nC. Operant Conditioning\nD. Evolutionary\nE. Classical\nF. Expectancy\nG. Psychoanalytic\nH. Instrumental\nI. Cognitive Dissonance\nJ. Humanistic"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-9261faa1a402135f",
+      "object": "chat.completion",
+      "created": 1791972422,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "F",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 99,
+        "total_tokens": 101,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5041458066552877,
+    "text": "F",
+    "question_id": 84,
+    "expected": "F",
+    "predicted": "F"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nHow does lateral communication in an organisation occur?\nA. Information is shared only during official meetings.\nB. Information is restricted within a single department.\nC. Information is transferred through external stakeholders.\nD. Information is transferred only through the head of the organisation.\nE. Information is disseminated through public announcements.\nF. Information passes upwards.\nG. Information passes downwards.\nH. Information is a two-way process.\nI. Information passes diagonally between different levels of hierarchy.\nJ. Information passes between different departments and functions."
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-b4611d2671cb9c7f",
+      "object": "chat.completion",
+      "created": 1791972423,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "J",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 137,
+        "total_tokens": 139,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5139620490372181,
+    "text": "J",
+    "question_id": 85,
+    "expected": "J",
+    "predicted": "J"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nThe stock of the CCC Corporation is currently valued at $12 and is assumed to possess all the properties of geometric Brownian motion. It has an expected annual return of 15%, an annual volatility of 20%, and the annual risk-free is 10%. Using a binomial lattice, determine the price of a call option on CCC stock maturing in 10 monthes time with a strike price of $14 (Let the distance between nodes on your tree be 1 month in length).\nA. 50.0\nB. 60.0\nC. 55.0\nD. 44.0\nE. 48.0\nF. 53.0\nG. 42.0\nH. 46.0\nI. 51.0\nJ. 45.0"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-bd2aad3f8f517d9a",
+      "object": "chat.completion",
+      "created": 1791972423,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "D",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 208,
+        "total_tokens": 210,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5168881919234991,
+    "text": "D",
+    "question_id": 86,
+    "expected": "F",
+    "predicted": "D"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nGeorge is seen to place an even-money $100,000 bet on the Bulls to win the NBA Finals. If George has a logarithmic utility-of-wealth function and if his current wealth is $1,000,000, what must he believe is the minimum probability that the Bulls will win?\nA. 0.525\nB. 0.800\nC. 0.450\nD. 0.575\nE. 0.750\nF. 0.350\nG. 0.650\nH. 0.300\nI. 0.700\nJ. 0.400"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-90c8ecde9626d961",
+      "object": "chat.completion",
+      "created": 1791972424,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "A",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 181,
+        "total_tokens": 183,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5222629178315401,
+    "text": "A",
+    "question_id": 87,
+    "expected": "A",
+    "predicted": "A"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nBoy Alcott and Jon Buxton are partners in a steel company. They share the net income in proportion to their average investments. On January 1, Alcott invested $4,000 and Buxton invested $5,000. On May 1, Alcott invested an additional $2,000 and Buxton invested $1,750. On September 1, Alcott withdrew $500. On November 1, each partner invested an additional $2,000. The net profit for the year was $8,736. Find each partner's share of the profit.\nA. Alcott's share: $3,936, Buxton's share: $4,800\nB. Alcott's share: $4,004, Buxton's share: $4,732\nC. Alcott's share: $4,200, Buxton's share: $4,536\nD. Alcott's share: $4,800, Buxton's share: $3,936\nE. Alcott's share: $5,000, Buxton's share: $3,736\nF. Alcott's share: $3,868, Buxton's share: $4,868\nG. Alcott's share: $4,368, Buxton's share: $4,368\nH. Alcott's share: $4,732, Buxton's share: $4,004\nI. Alcott's share: $4,500, Buxton's share: $4,236\nJ. Alcott's share: $5,236, Buxton's share: $3,500"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-ad7b1823c5aed665",
+      "object": "chat.completion",
+      "created": 1791972424,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "A",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 427,
+        "total_tokens": 429,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5226884167641401,
+    "text": "A",
+    "question_id": 88,
+    "expected": "B",
+    "predicted": "A"
+  },
+  {
+    "request": {
+      "model": "research-model",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请回答以下选择题，仅输出答案字母。\nTheAlforsCompany had a beginning inventory of $30,000, Jan 1, 1974. During the year, purchases amounted to $87,500, net sales to $102,000. Assuming that the gross profit rate is 40% of the net sales, what is the ending inventory using the gross profit method of inventory evaluation?\nA. $50,200\nB. $45,100\nC. $60,400\nD. $56,300\nE. $58,800\nF. $54,400\nG. $65,500\nH. $62,900\nI. $48,700\nJ. $52,600"
+        }
+      ],
+      "temperature": 0,
+      "seed": 0,
+      "max_tokens": 16,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "stream": false
+    },
+    "response": {
+      "id": "chatcmpl-a015bc8236d4be82",
+      "object": "chat.completion",
+      "created": 1791972425,
+      "model": "research-model",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "A",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+      "usage": {
+        "prompt_tokens": 207,
+        "total_tokens": 209,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null
+    },
+    "elapsed_s": 0.5113674234598875,
+    "text": "A",
+    "question_id": 89,
+    "expected": "D",
+    "predicted": "A"
+  }
+]

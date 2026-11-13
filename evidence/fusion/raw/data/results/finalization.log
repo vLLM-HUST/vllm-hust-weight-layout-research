@@ -1,0 +1,62 @@
+{
+  "fusion_status": "passed sampled correctness; installed in development plugin",
+  "empty_status": "blocked; no safe candidate passed full gate",
+  "agreements": [
+    {
+      "round": 1,
+      "smoke_equal": true,
+      "predictions_equal": 20,
+      "questions": 20,
+      "requests_equal": true
+    },
+    {
+      "round": 2,
+      "smoke_equal": true,
+      "predictions_equal": 20,
+      "questions": 20,
+      "requests_equal": true
+    },
+    {
+      "round": 3,
+      "smoke_equal": true,
+      "predictions_equal": 20,
+      "questions": 20,
+      "requests_equal": true
+    }
+  ],
+  "paired_tpot": [
+    {
+      "workload": "short",
+      "paired_tpot_reduction_ms": [
+        0.18986440485432077,
+        0.6578492710278141,
+        0.05098834988616652
+      ],
+      "mean_ms": 0.2995673419227671,
+      "ci95_ms": [
+        -0.49027945019280894,
+        1.0894141340383432
+      ],
+      "interpretation": "three-lifecycle descriptive CI; not a broad certification"
+    },
+    {
+      "workload": "long",
+      "paired_tpot_reduction_ms": [
+        -0.021568239326514416,
+        0.3957098113402484,
+        -0.07099693434106058
+      ],
+      "mean_ms": 0.1010482125575578,
+      "ci95_ms": [
+        -0.5358310797362748,
+        0.7379275048513904
+      ],
+      "interpretation": "three-lifecycle descriptive CI; not a broad certification"
+    }
+  ],
+  "c2_status": "exploratory; initial protocol did not independently prewarm C2; no reliable gain claim",
+  "processes_remaining": [],
+  "no_publication": true,
+  "tests": "11 passed",
+  "evidence_scope": "20 unique MMLU-Pro rows repeated across three pairs; not full five-dataset evaluation"
+}

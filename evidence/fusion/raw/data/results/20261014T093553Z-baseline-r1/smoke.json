@@ -1,0 +1,58 @@
+{
+  "request": {
+    "model": "research-model",
+    "messages": [
+      {
+        "role": "user",
+        "content": "请简要介绍 Transformer 的核心原理。"
+      }
+    ],
+    "temperature": 0,
+    "seed": 0,
+    "max_tokens": 128,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "stream": false
+  },
+  "response": {
+    "id": "chatcmpl-bfcd6eca779d0a88",
+    "object": "chat.completion",
+    "created": 1791970820,
+    "model": "research-model",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积（CNN），仅依靠“自注意力机制”（Self-Attention）来并行处理序列数据**。\n\n以下是其核心原理的简要拆解：\n\n### 1. 自注意力机制 (Self-Attention)\n这是 Transformer 的“心脏”。它允许模型在处理序列中的某个词时，直接关注序列中的**所有其他词**，从而捕捉长距离依赖关系。\n- **工作原理**：对于输入序列中的每个词，模型会计算它与",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "length",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.0-tp2-45fd6615",
+    "usage": {
+      "prompt_tokens": 20,
+      "total_tokens": 148,
+      "completion_tokens": 128,
+      "prompt_tokens_details": null,
+      "completion_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_s": 2.7194168167188764,
+  "text": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积（CNN），仅依靠“自注意力机制”（Self-Attention）来并行处理序列数据**。\n\n以下是其核心原理的简要拆解：\n\n### 1. 自注意力机制 (Self-Attention)\n这是 Transformer 的“心脏”。它允许模型在处理序列中的某个词时，直接关注序列中的**所有其他词**，从而捕捉长距离依赖关系。\n- **工作原理**：对于输入序列中的每个词，模型会计算它与"
+}

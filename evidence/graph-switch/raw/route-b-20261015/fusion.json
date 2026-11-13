@@ -1,0 +1,21 @@
+{
+  "mode": "fusion",
+  "shape": [
+    7,
+    256,
+    2048
+  ],
+  "dtype": "bf16",
+  "capture_count": 0,
+  "checks": [],
+  "updates": [],
+  "evidence": "isolated-operator-task-group",
+  "stage": "capture",
+  "versions": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "triton-ascend": "3.2.2"
+  },
+  "all_pass": false,
+  "error": "Traceback (most recent call last):\n  File \"/root/opset-research/route_b_probe.py\", line 96, in main\n    handle=torch.npu.graph_task_group_end(capture_stream)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py\", line 92, in graph_task_group_end\n    return _graph_task_group_end(stream)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnInplaceCopy.\nSince the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.\nNote: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.\n[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.\n\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/root/opset-research/route_b_probe.py\", line 90, in main\n    with torch.npu.graph(graph):\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py\", line 890, in __exit__\n    self.npu_graph.capture_end()\n  File \"/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py\", line 636, in capture_end\n    super().capture_end()\nRuntimeError: capture_end:../torch_npu/csrc/core/npu/NPUGraph.cpp:240 NPU function error: c10_npu::acl::AclmdlRICaptureEnd(capture_stream_, &model_ri), error code is 507903\n[ERROR] 2026-10-15-07:45:57 (PID:53349, Device:0, RankID:-1) ERR00100 PTA call acl api failed.\nEE9999: Inner Error!\nEE9999[PID: 53349] 2026-10-15-07:45:57.821.386 (EE9999):  rtStreamEndCapture execution failed, reason=an error has invalidated the stream capture sequence[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]\nTraceBack (most recent call last):\n\n"
+}

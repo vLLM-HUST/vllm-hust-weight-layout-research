@@ -1,0 +1,110 @@
+[
+  {
+    "inference": false,
+    "subclass": false,
+    "repeat": 0,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 6
+  },
+  {
+    "inference": false,
+    "subclass": false,
+    "repeat": 1,
+    "finite": true,
+    "reference_finite": true,
+    "equal": true,
+    "nan_count": 0
+  },
+  {
+    "inference": false,
+    "subclass": false,
+    "repeat": 2,
+    "finite": true,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 0
+  },
+  {
+    "inference": false,
+    "subclass": true,
+    "repeat": 0,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 7
+  },
+  {
+    "inference": false,
+    "subclass": true,
+    "repeat": 1,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 27
+  },
+  {
+    "inference": false,
+    "subclass": true,
+    "repeat": 2,
+    "finite": true,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 0
+  },
+  {
+    "inference": true,
+    "subclass": false,
+    "repeat": 0,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 7
+  },
+  {
+    "inference": true,
+    "subclass": false,
+    "repeat": 1,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 21
+  },
+  {
+    "inference": true,
+    "subclass": false,
+    "repeat": 2,
+    "finite": true,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 0
+  },
+  {
+    "inference": true,
+    "subclass": true,
+    "repeat": 0,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 1
+  },
+  {
+    "inference": true,
+    "subclass": true,
+    "repeat": 1,
+    "finite": false,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 23
+  },
+  {
+    "inference": true,
+    "subclass": true,
+    "repeat": 2,
+    "finite": true,
+    "reference_finite": true,
+    "equal": false,
+    "nan_count": 0
+  }
+]

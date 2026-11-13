@@ -1,0 +1,431 @@
+[W1023 04:55:47.774893143 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+2026-10-23T04:56:50.766104+00:00 running_group: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'context': 4096, 'sequences': 64, 'budget': 8192}
+Traceback (most recent call last):
+  File "/root/opset-research/b0-weight-layout-20261023/run_medium.py", line 84, in <module>
+    if __name__=='__main__':asyncio.run(main())
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/root/opset-research/b0-weight-layout-20261023/run_medium.py", line 75, in main
+    await b.group(f'medium-r{repeat}-ctx{context}-seq64-budget{budget}',context,64,budget,tasks)
+  File "/root/opset-research/b0-weight-layout-20261023/run_b0.py", line 375, in group
+    await server.start()
+  File "/root/opset-research/b0-weight-layout-20261023/run_b0.py", line 153, in start
+    await asyncio.sleep(3)
+  File "/usr/local/python3.12.13/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+[W1023 05:01:01.588588142 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+2026-10-23T05:02:17.414569+00:00 running_group: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'context': 4096, 'sequences': 64, 'budget': 8192}
+2026-10-23T05:05:51.896241+00:00 SERVER READY medium-r1-ctx4096-seq64-budget8192 in 214.5s
+2026-10-23T05:05:51.897179+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C1'}
+2026-10-23T05:07:47.396848+00:00 CELL medium-r1-P1-C1: 32/64
+2026-10-23T05:09:39.021163+00:00 CELL medium-r1-P1-C1: 64/64
+2026-10-23T05:09:39.568575+00:00 CELL DONE medium-r1-P1-C1: completed, 37.12 tok/s
+2026-10-23T05:09:39.580008+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C4'}
+2026-10-23T05:10:21.394674+00:00 CELL medium-r1-P1-C4: 32/64
+2026-10-23T05:10:57.324368+00:00 CELL medium-r1-P1-C4: 64/64
+2026-10-23T05:10:57.869209+00:00 CELL DONE medium-r1-P1-C4: completed, 116.36 tok/s
+2026-10-23T05:10:57.878054+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C8'}
+2026-10-23T05:11:25.572949+00:00 CELL medium-r1-P1-C8: 32/64
+2026-10-23T05:11:44.375133+00:00 CELL medium-r1-P1-C8: 64/64
+2026-10-23T05:11:44.925725+00:00 CELL DONE medium-r1-P1-C8: completed, 211.93 tok/s
+2026-10-23T05:11:44.936071+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C16'}
+2026-10-23T05:12:03.910048+00:00 CELL medium-r1-P1-C16: 32/64
+2026-10-23T05:12:14.919448+00:00 CELL medium-r1-P1-C16: 64/64
+2026-10-23T05:12:15.468449+00:00 CELL DONE medium-r1-P1-C16: completed, 377.03 tok/s
+2026-10-23T05:12:15.476244+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C32'}
+2026-10-23T05:12:38.811596+00:00 CELL medium-r1-P1-C32: 32/64
+2026-10-23T05:12:45.459947+00:00 CELL medium-r1-P1-C32: 64/64
+2026-10-23T05:12:46.023675+00:00 CELL DONE medium-r1-P1-C32: completed, 414.55 tok/s
+2026-10-23T05:12:46.031154+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P1-C64'}
+2026-10-23T05:13:08.794902+00:00 CELL medium-r1-P1-C64: 32/64
+2026-10-23T05:13:08.867269+00:00 CELL medium-r1-P1-C64: 64/64
+2026-10-23T05:13:09.423341+00:00 CELL DONE medium-r1-P1-C64: completed, 811.87 tok/s
+2026-10-23T05:13:09.428917+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C1'}
+2026-10-23T05:27:12.872359+00:00 CELL medium-r1-P2-C1: 32/64
+2026-10-23T05:40:43.806983+00:00 CELL medium-r1-P2-C1: 64/64
+2026-10-23T05:40:44.358878+00:00 CELL DONE medium-r1-P2-C1: completed, 40.29 tok/s
+2026-10-23T05:40:44.367274+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C4'}
+2026-10-23T05:45:17.136010+00:00 CELL medium-r1-P2-C4: 32/64
+2026-10-23T05:49:16.843027+00:00 CELL medium-r1-P2-C4: 64/64
+2026-10-23T05:49:17.390256+00:00 CELL DONE medium-r1-P2-C4: completed, 136.51 tok/s
+2026-10-23T05:49:17.396294+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C8'}
+2026-10-23T05:52:09.907637+00:00 CELL medium-r1-P2-C8: 32/64
+2026-10-23T05:54:25.056174+00:00 CELL medium-r1-P2-C8: 64/64
+2026-10-23T05:54:25.611229+00:00 CELL DONE medium-r1-P2-C8: completed, 242.34 tok/s
+2026-10-23T05:54:25.619769+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C16'}
+2026-10-23T05:56:34.381714+00:00 CELL medium-r1-P2-C16: 32/64
+2026-10-23T05:57:56.877524+00:00 CELL medium-r1-P2-C16: 64/64
+2026-10-23T05:57:57.432960+00:00 CELL DONE medium-r1-P2-C16: completed, 394.35 tok/s
+2026-10-23T05:57:57.440638+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C32'}
+2026-10-23T05:59:48.153451+00:00 CELL medium-r1-P2-C32: 32/64
+2026-10-23T06:00:40.416018+00:00 CELL medium-r1-P2-C32: 64/64
+2026-10-23T06:00:40.970436+00:00 CELL DONE medium-r1-P2-C32: completed, 615.89 tok/s
+2026-10-23T06:00:40.979074+00:00 running_cell: {'group': 'medium-r1-ctx4096-seq64-budget8192', 'cell': 'medium-r1-P2-C64'}
+2026-10-23T06:02:59.438130+00:00 CELL medium-r1-P2-C64: 32/64
+2026-10-23T06:02:59.605685+00:00 CELL medium-r1-P2-C64: 64/64
+2026-10-23T06:03:00.217389+00:00 CELL DONE medium-r1-P2-C64: completed, 963.98 tok/s
+2026-10-23T06:03:06.777289+00:00 running_group: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'context': 16384, 'sequences': 64, 'budget': 8192}
+2026-10-23T06:06:41.404241+00:00 SERVER READY medium-r1-ctx16384-seq64-budget8192 in 214.6s
+2026-10-23T06:06:41.404861+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C1'}
+2026-10-23T06:10:21.369780+00:00 CELL medium-r1-P3-C1: 32/64
+2026-10-23T06:13:52.491477+00:00 CELL medium-r1-P3-C1: 64/64
+2026-10-23T06:13:53.040971+00:00 CELL DONE medium-r1-P3-C1: completed, 38.85 tok/s
+2026-10-23T06:13:53.054663+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C4'}
+2026-10-23T06:15:21.313134+00:00 CELL medium-r1-P3-C4: 32/64
+2026-10-23T06:16:34.890806+00:00 CELL medium-r1-P3-C4: 64/64
+2026-10-23T06:16:35.438345+00:00 CELL DONE medium-r1-P3-C4: completed, 109.45 tok/s
+2026-10-23T06:16:35.450596+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C8'}
+2026-10-23T06:17:44.475851+00:00 CELL medium-r1-P3-C8: 32/64
+2026-10-23T06:18:30.479686+00:00 CELL medium-r1-P3-C8: 64/64
+2026-10-23T06:18:31.022711+00:00 CELL DONE medium-r1-P3-C8: completed, 164.85 tok/s
+2026-10-23T06:18:31.035414+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C16'}
+2026-10-23T06:19:36.934384+00:00 CELL medium-r1-P3-C16: 32/64
+2026-10-23T06:20:06.981653+00:00 CELL medium-r1-P3-C16: 64/64
+2026-10-23T06:20:07.526427+00:00 CELL DONE medium-r1-P3-C16: completed, 219.82 tok/s
+2026-10-23T06:20:07.539849+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C32'}
+2026-10-23T06:21:24.960467+00:00 CELL medium-r1-P3-C32: 32/64
+2026-10-23T06:21:39.203721+00:00 CELL medium-r1-P3-C32: 64/64
+2026-10-23T06:21:39.752046+00:00 CELL DONE medium-r1-P3-C32: completed, 278.18 tok/s
+2026-10-23T06:21:39.764735+00:00 running_cell: {'group': 'medium-r1-ctx16384-seq64-budget8192', 'cell': 'medium-r1-P3-C64'}
+2026-10-23T06:23:20.489917+00:00 CELL medium-r1-P3-C64: 32/64
+2026-10-23T06:23:21.890440+00:00 CELL medium-r1-P3-C64: 64/64
+2026-10-23T06:23:22.442583+00:00 CELL DONE medium-r1-P3-C64: completed, 329.81 tok/s
+2026-10-23T06:23:29.021456+00:00 running_group: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'context': 65536, 'sequences': 64, 'budget': 8192}
+2026-10-23T06:27:00.760572+00:00 SERVER READY medium-r1-ctx65536-seq64-budget8192 in 211.7s
+2026-10-23T06:27:00.761367+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C1'}
+2026-10-23T06:31:37.852960+00:00 CELL medium-r1-P4-C1: 32/64
+2026-10-23T06:36:14.389117+00:00 CELL medium-r1-P4-C1: 64/64
+2026-10-23T06:36:14.932982+00:00 CELL DONE medium-r1-P4-C1: completed, 30.19 tok/s
+2026-10-23T06:36:14.971004+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C4'}
+2026-10-23T06:38:48.592367+00:00 CELL medium-r1-P4-C4: 32/64
+2026-10-23T06:40:54.110447+00:00 CELL medium-r1-P4-C4: 64/64
+2026-10-23T06:40:54.666147+00:00 CELL DONE medium-r1-P4-C4: completed, 63.14 tok/s
+2026-10-23T06:40:54.706881+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C8'}
+2026-10-23T06:43:21.788669+00:00 CELL medium-r1-P4-C8: 32/64
+2026-10-23T06:44:52.896946+00:00 CELL medium-r1-P4-C8: 64/64
+2026-10-23T06:44:53.448768+00:00 CELL DONE medium-r1-P4-C8: completed, 78.37 tok/s
+2026-10-23T06:44:53.487414+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C16'}
+2026-10-23T06:47:43.096614+00:00 CELL medium-r1-P4-C16: 32/64
+2026-10-23T06:48:41.770620+00:00 CELL medium-r1-P4-C16: 64/64
+2026-10-23T06:48:42.318417+00:00 CELL DONE medium-r1-P4-C16: completed, 91.43 tok/s
+2026-10-23T06:48:42.357224+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C32'}
+2026-10-23T06:52:36.016078+00:00 CELL medium-r1-P4-C32: 32/64
+2026-10-23T06:52:53.212316+00:00 CELL medium-r1-P4-C32: 64/64
+2026-10-23T06:52:53.761824+00:00 CELL DONE medium-r1-P4-C32: completed, 99.93 tok/s
+2026-10-23T06:52:53.801834+00:00 running_cell: {'group': 'medium-r1-ctx65536-seq64-budget8192', 'cell': 'medium-r1-P4-C64'}
+2026-10-23T06:58:10.486036+00:00 CELL medium-r1-P4-C64: 32/64
+2026-10-23T06:58:20.352117+00:00 CELL medium-r1-P4-C64: 64/64
+2026-10-23T06:58:20.912039+00:00 CELL DONE medium-r1-P4-C64: completed, 101.74 tok/s
+2026-10-23T06:58:27.504480+00:00 running_group: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'context': 262144, 'sequences': 64, 'budget': 8192}
+2026-10-23T07:01:53.142312+00:00 SERVER READY medium-r1-ctx262144-seq64-budget8192 in 205.6s
+2026-10-23T07:01:53.142943+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C1'}
+2026-10-23T07:11:51.581699+00:00 CELL medium-r1-P5-C1: 32/64
+2026-10-23T07:21:34.622300+00:00 CELL medium-r1-P5-C1: 64/64
+2026-10-23T07:21:35.236389+00:00 CELL DONE medium-r1-P5-C1: completed, 14.11 tok/s
+2026-10-23T07:21:35.424777+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C4'}
+2026-10-23T07:30:05.143367+00:00 CELL medium-r1-P5-C4: 32/64
+2026-10-23T07:36:36.751362+00:00 CELL medium-r1-P5-C4: 64/64
+2026-10-23T07:36:37.307767+00:00 CELL DONE medium-r1-P5-C4: completed, 19.40 tok/s
+2026-10-23T07:36:37.480438+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C8'}
+2026-10-23T07:46:07.076120+00:00 CELL medium-r1-P5-C8: 32/64
+2026-10-23T07:51:23.373722+00:00 CELL medium-r1-P5-C8: 64/64
+2026-10-23T07:51:23.970748+00:00 CELL DONE medium-r1-P5-C8: completed, 20.94 tok/s
+2026-10-23T07:51:24.163978+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C16'}
+2026-10-23T08:03:15.197380+00:00 CELL medium-r1-P5-C16: 32/64
+2026-10-23T08:07:18.772658+00:00 CELL medium-r1-P5-C16: 64/64
+2026-10-23T08:07:19.326528+00:00 CELL DONE medium-r1-P5-C16: completed, 21.68 tok/s
+2026-10-23T08:07:19.481643+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C32'}
+2026-10-23T08:22:17.602572+00:00 CELL medium-r1-P5-C32: 32/64
+2026-10-23T08:26:19.389215+00:00 CELL medium-r1-P5-C32: 64/64
+2026-10-23T08:26:19.968091+00:00 CELL DONE medium-r1-P5-C32: completed, 21.75 tok/s
+2026-10-23T08:26:20.126064+00:00 running_cell: {'group': 'medium-r1-ctx262144-seq64-budget8192', 'cell': 'medium-r1-P5-C64'}
+2026-10-23T08:36:44.341805+00:00 running_group: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'context': 262144, 'sequences': 64, 'budget': 8192}
+2026-10-23T08:40:10.030074+00:00 SERVER READY medium-r2-ctx262144-seq64-budget8192 in 205.7s
+2026-10-23T08:40:10.030705+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C64'}
+2026-10-23T08:50:28.183595+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C32'}
+2026-10-23T09:05:24.131717+00:00 CELL medium-r2-P5-C32: 32/64
+2026-10-23T09:09:26.913541+00:00 CELL medium-r2-P5-C32: 64/64
+2026-10-23T09:09:27.515817+00:00 CELL DONE medium-r2-P5-C32: completed, 21.73 tok/s
+2026-10-23T09:09:27.668960+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C16'}
+2026-10-23T09:21:18.733315+00:00 CELL medium-r2-P5-C16: 32/64
+2026-10-23T09:25:21.283153+00:00 CELL medium-r2-P5-C16: 64/64
+2026-10-23T09:25:21.839458+00:00 CELL DONE medium-r2-P5-C16: completed, 21.71 tok/s
+2026-10-23T09:25:21.995835+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C8'}
+2026-10-23T09:34:49.275786+00:00 CELL medium-r2-P5-C8: 32/64
+2026-10-23T09:40:04.012525+00:00 CELL medium-r2-P5-C8: 64/64
+2026-10-23T09:40:04.564597+00:00 CELL DONE medium-r2-P5-C8: completed, 21.04 tok/s
+2026-10-23T09:40:04.721329+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C4'}
+2026-10-23T09:48:31.771921+00:00 CELL medium-r2-P5-C4: 32/64
+2026-10-23T09:55:02.932603+00:00 CELL medium-r2-P5-C4: 64/64
+2026-10-23T09:55:03.488666+00:00 CELL DONE medium-r2-P5-C4: completed, 19.46 tok/s
+2026-10-23T09:55:03.646482+00:00 running_cell: {'group': 'medium-r2-ctx262144-seq64-budget8192', 'cell': 'medium-r2-P5-C1'}
+2026-10-23T10:05:00.521590+00:00 CELL medium-r2-P5-C1: 32/64
+2026-10-23T10:14:40.759820+00:00 CELL medium-r2-P5-C1: 64/64
+2026-10-23T10:14:41.324543+00:00 CELL DONE medium-r2-P5-C1: completed, 14.16 tok/s
+2026-10-23T10:14:48.040164+00:00 running_group: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'context': 65536, 'sequences': 64, 'budget': 8192}
+2026-10-23T10:18:10.663501+00:00 SERVER READY medium-r2-ctx65536-seq64-budget8192 in 202.6s
+2026-10-23T10:18:10.664117+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C64'}
+2026-10-23T10:23:25.331782+00:00 CELL medium-r2-P4-C64: 32/64
+2026-10-23T10:23:35.225281+00:00 CELL medium-r2-P4-C64: 64/64
+2026-10-23T10:23:35.795839+00:00 CELL DONE medium-r2-P4-C64: completed, 102.18 tok/s
+2026-10-23T10:23:35.833554+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C32'}
+2026-10-23T10:27:29.141735+00:00 CELL medium-r2-P4-C32: 32/64
+2026-10-23T10:27:45.855148+00:00 CELL medium-r2-P4-C32: 64/64
+2026-10-23T10:27:46.410203+00:00 CELL DONE medium-r2-P4-C32: completed, 100.26 tok/s
+2026-10-23T10:27:46.447395+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C16'}
+2026-10-23T10:30:35.639154+00:00 CELL medium-r2-P4-C16: 32/64
+2026-10-23T10:31:33.871438+00:00 CELL medium-r2-P4-C16: 64/64
+2026-10-23T10:31:34.418762+00:00 CELL DONE medium-r2-P4-C16: completed, 91.72 tok/s
+2026-10-23T10:31:34.456809+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C8'}
+2026-10-23T10:34:01.837794+00:00 CELL medium-r2-P4-C8: 32/64
+2026-10-23T10:35:30.891361+00:00 CELL medium-r2-P4-C8: 64/64
+2026-10-23T10:35:31.436177+00:00 CELL DONE medium-r2-P4-C8: completed, 79.12 tok/s
+2026-10-23T10:35:31.472262+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C4'}
+2026-10-23T10:38:04.793941+00:00 CELL medium-r2-P4-C4: 32/64
+2026-10-23T10:40:08.865783+00:00 CELL medium-r2-P4-C4: 64/64
+2026-10-23T10:40:09.416465+00:00 CELL DONE medium-r2-P4-C4: completed, 63.54 tok/s
+2026-10-23T10:40:09.455491+00:00 running_cell: {'group': 'medium-r2-ctx65536-seq64-budget8192', 'cell': 'medium-r2-P4-C1'}
+2026-10-23T10:45:02.297380+00:00 CELL medium-r2-P4-C1: 32/64
+2026-10-23T10:49:42.639288+00:00 CELL medium-r2-P4-C1: 64/64
+2026-10-23T10:49:43.185268+00:00 CELL DONE medium-r2-P4-C1: completed, 29.18 tok/s
+2026-10-23T10:49:49.778934+00:00 running_group: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'context': 16384, 'sequences': 64, 'budget': 8192}
+2026-10-23T10:53:21.436949+00:00 SERVER READY medium-r2-ctx16384-seq64-budget8192 in 211.7s
+2026-10-23T10:53:21.437767+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C64'}
+2026-10-23T10:55:02.536122+00:00 CELL medium-r2-P3-C64: 32/64
+2026-10-23T10:55:03.845236+00:00 CELL medium-r2-P3-C64: 64/64
+2026-10-23T10:55:04.396898+00:00 CELL DONE medium-r2-P3-C64: completed, 329.63 tok/s
+2026-10-23T10:55:04.409562+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C32'}
+2026-10-23T10:56:22.023719+00:00 CELL medium-r2-P3-C32: 32/64
+2026-10-23T10:56:36.545319+00:00 CELL medium-r2-P3-C32: 64/64
+2026-10-23T10:56:37.094882+00:00 CELL DONE medium-r2-P3-C32: completed, 276.82 tok/s
+2026-10-23T10:56:37.108666+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C16'}
+2026-10-23T10:57:43.645594+00:00 CELL medium-r2-P3-C16: 32/64
+2026-10-23T10:58:14.777396+00:00 CELL medium-r2-P3-C16: 64/64
+2026-10-23T10:58:15.336674+00:00 CELL DONE medium-r2-P3-C16: completed, 215.87 tok/s
+2026-10-23T10:58:15.350378+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C8'}
+2026-10-23T10:59:26.010524+00:00 CELL medium-r2-P3-C8: 32/64
+2026-10-23T11:00:14.274442+00:00 CELL medium-r2-P3-C8: 64/64
+2026-10-23T11:00:14.819179+00:00 CELL DONE medium-r2-P3-C8: completed, 158.60 tok/s
+2026-10-23T11:00:14.832539+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C4'}
+2026-10-23T11:01:47.703672+00:00 CELL medium-r2-P3-C4: 32/64
+2026-10-23T11:03:05.057447+00:00 CELL medium-r2-P3-C4: 64/64
+2026-10-23T11:03:05.609227+00:00 CELL DONE medium-r2-P3-C4: completed, 103.97 tok/s
+2026-10-23T11:03:05.622024+00:00 running_cell: {'group': 'medium-r2-ctx16384-seq64-budget8192', 'cell': 'medium-r2-P3-C1'}
+2026-10-23T11:07:01.121160+00:00 CELL medium-r2-P3-C1: 32/64
+2026-10-23T11:10:45.940754+00:00 CELL medium-r2-P3-C1: 64/64
+2026-10-23T11:10:46.487367+00:00 CELL DONE medium-r2-P3-C1: completed, 36.38 tok/s
+2026-10-23T11:10:53.054846+00:00 running_group: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'context': 4096, 'sequences': 64, 'budget': 8192}
+2026-10-23T11:14:27.708118+00:00 SERVER READY medium-r2-ctx4096-seq64-budget8192 in 214.7s
+2026-10-23T11:14:27.708997+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C64'}
+2026-10-23T11:14:49.868984+00:00 CELL medium-r2-P1-C64: 32/64
+2026-10-23T11:14:49.966778+00:00 CELL medium-r2-P1-C64: 64/64
+2026-10-23T11:14:50.522246+00:00 CELL DONE medium-r2-P1-C64: completed, 857.47 tok/s
+2026-10-23T11:14:50.527818+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C32'}
+2026-10-23T11:15:07.346581+00:00 CELL medium-r2-P1-C32: 32/64
+2026-10-23T11:15:14.104498+00:00 CELL medium-r2-P1-C32: 64/64
+2026-10-23T11:15:14.659733+00:00 CELL DONE medium-r2-P1-C32: completed, 589.53 tok/s
+2026-10-23T11:15:14.666900+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C16'}
+2026-10-23T11:15:34.065765+00:00 CELL medium-r2-P1-C16: 32/64
+2026-10-23T11:15:45.019863+00:00 CELL medium-r2-P1-C16: 64/64
+2026-10-23T11:15:45.570413+00:00 CELL DONE medium-r2-P1-C16: completed, 375.74 tok/s
+2026-10-23T11:15:45.576754+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C8'}
+2026-10-23T11:16:11.907563+00:00 CELL medium-r2-P1-C8: 32/64
+2026-10-23T11:16:30.433896+00:00 CELL medium-r2-P1-C8: 64/64
+2026-10-23T11:16:31.036640+00:00 CELL DONE medium-r2-P1-C8: completed, 219.42 tok/s
+2026-10-23T11:16:31.044187+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C4'}
+2026-10-23T11:17:13.537402+00:00 CELL medium-r2-P1-C4: 32/64
+2026-10-23T11:17:49.005825+00:00 CELL medium-r2-P1-C4: 64/64
+2026-10-23T11:17:49.558562+00:00 CELL DONE medium-r2-P1-C4: completed, 115.67 tok/s
+2026-10-23T11:17:49.565753+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P1-C1'}
+2026-10-23T11:19:51.184985+00:00 CELL medium-r2-P1-C1: 32/64
+2026-10-23T11:21:52.850373+00:00 CELL medium-r2-P1-C1: 64/64
+2026-10-23T11:21:53.435915+00:00 CELL DONE medium-r2-P1-C1: completed, 34.55 tok/s
+2026-10-23T11:21:53.443785+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C64'}
+2026-10-23T11:24:15.236086+00:00 CELL medium-r2-P2-C64: 32/64
+2026-10-23T11:24:15.396721+00:00 CELL medium-r2-P2-C64: 64/64
+2026-10-23T11:24:15.947229+00:00 CELL DONE medium-r2-P2-C64: completed, 956.07 tok/s
+2026-10-23T11:24:15.955935+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C32'}
+2026-10-23T11:26:05.822505+00:00 CELL medium-r2-P2-C32: 32/64
+2026-10-23T11:26:59.049402+00:00 CELL medium-r2-P2-C32: 64/64
+2026-10-23T11:26:59.600318+00:00 CELL DONE medium-r2-P2-C32: completed, 610.58 tok/s
+2026-10-23T11:26:59.608590+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C16'}
+2026-10-23T11:29:10.028191+00:00 CELL medium-r2-P2-C16: 32/64
+2026-10-23T11:30:31.861337+00:00 CELL medium-r2-P2-C16: 64/64
+2026-10-23T11:30:32.412426+00:00 CELL DONE medium-r2-P2-C16: completed, 393.39 tok/s
+2026-10-23T11:30:32.420569+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C8'}
+2026-10-23T11:33:25.008513+00:00 CELL medium-r2-P2-C8: 32/64
+2026-10-23T11:35:42.261045+00:00 CELL medium-r2-P2-C8: 64/64
+2026-10-23T11:35:42.816604+00:00 CELL DONE medium-r2-P2-C8: completed, 239.69 tok/s
+2026-10-23T11:35:42.825027+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C4'}
+2026-10-23T11:40:19.020885+00:00 CELL medium-r2-P2-C4: 32/64
+2026-10-23T11:44:25.894818+00:00 CELL medium-r2-P2-C4: 64/64
+2026-10-23T11:44:26.445267+00:00 CELL DONE medium-r2-P2-C4: completed, 133.76 tok/s
+2026-10-23T11:44:26.452402+00:00 running_cell: {'group': 'medium-r2-ctx4096-seq64-budget8192', 'cell': 'medium-r2-P2-C1'}
+2026-10-23T11:59:42.101945+00:00 CELL medium-r2-P2-C1: 32/64
+2026-10-23T12:14:42.507440+00:00 CELL medium-r2-P2-C1: 64/64
+2026-10-23T12:14:43.060045+00:00 CELL DONE medium-r2-P2-C1: completed, 36.67 tok/s
+2026-10-23T12:14:49.663051+00:00 running_group: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'context': 4096, 'sequences': 64, 'budget': 8192}
+2026-10-23T12:18:24.299499+00:00 SERVER READY medium-r3-ctx4096-seq64-budget8192 in 214.6s
+2026-10-23T12:18:24.300088+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C1'}
+2026-10-23T12:20:31.273506+00:00 CELL medium-r3-P1-C1: 32/64
+2026-10-23T12:22:38.725331+00:00 CELL medium-r3-P1-C1: 64/64
+2026-10-23T12:22:39.272805+00:00 CELL DONE medium-r3-P1-C1: completed, 33.03 tok/s
+2026-10-23T12:22:39.278607+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C4'}
+2026-10-23T12:23:23.797180+00:00 CELL medium-r3-P1-C4: 32/64
+2026-10-23T12:24:01.051749+00:00 CELL medium-r3-P1-C4: 64/64
+2026-10-23T12:24:01.631805+00:00 CELL DONE medium-r3-P1-C4: completed, 110.37 tok/s
+2026-10-23T12:24:01.638425+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C8'}
+2026-10-23T12:24:30.984702+00:00 CELL medium-r3-P1-C8: 32/64
+2026-10-23T12:24:52.359307+00:00 CELL medium-r3-P1-C8: 64/64
+2026-10-23T12:24:52.910954+00:00 CELL DONE medium-r3-P1-C8: completed, 191.94 tok/s
+2026-10-23T12:24:52.921049+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C16'}
+2026-10-23T12:25:13.823499+00:00 CELL medium-r3-P1-C16: 32/64
+2026-10-23T12:25:25.464654+00:00 CELL medium-r3-P1-C16: 64/64
+2026-10-23T12:25:26.023080+00:00 CELL DONE medium-r3-P1-C16: completed, 349.00 tok/s
+2026-10-23T12:25:26.030175+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C32'}
+2026-10-23T12:25:45.076287+00:00 CELL medium-r3-P1-C32: 32/64
+2026-10-23T12:25:52.660397+00:00 CELL medium-r3-P1-C32: 64/64
+2026-10-23T12:25:53.224390+00:00 CELL DONE medium-r3-P1-C32: completed, 513.77 tok/s
+2026-10-23T12:25:53.231906+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P1-C64'}
+2026-10-23T12:26:16.665337+00:00 CELL medium-r3-P1-C64: 32/64
+2026-10-23T12:26:16.773982+00:00 CELL medium-r3-P1-C64: 64/64
+2026-10-23T12:26:17.335852+00:00 CELL DONE medium-r3-P1-C64: completed, 793.69 tok/s
+2026-10-23T12:26:17.341734+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C1'}
+2026-10-23T12:42:37.157391+00:00 CELL medium-r3-P2-C1: 32/64
+2026-10-23T12:57:36.328744+00:00 CELL medium-r3-P2-C1: 64/64
+2026-10-23T12:57:36.891393+00:00 CELL DONE medium-r3-P2-C1: completed, 35.50 tok/s
+2026-10-23T12:57:36.900023+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C4'}
+2026-10-23T13:02:37.844322+00:00 CELL medium-r3-P2-C4: 32/64
+2026-10-23T13:07:03.009652+00:00 CELL medium-r3-P2-C4: 64/64
+2026-10-23T13:07:03.557761+00:00 CELL DONE medium-r3-P2-C4: completed, 123.66 tok/s
+2026-10-23T13:07:03.563886+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C8'}
+2026-10-23T13:10:18.220784+00:00 CELL medium-r3-P2-C8: 32/64
+2026-10-23T13:12:49.547003+00:00 CELL medium-r3-P2-C8: 64/64
+2026-10-23T13:12:50.109913+00:00 CELL DONE medium-r3-P2-C8: completed, 215.16 tok/s
+2026-10-23T13:12:50.118168+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C16'}
+2026-10-23T13:15:06.687820+00:00 CELL medium-r3-P2-C16: 32/64
+2026-10-23T13:16:35.573936+00:00 CELL medium-r3-P2-C16: 64/64
+2026-10-23T13:16:36.129582+00:00 CELL DONE medium-r3-P2-C16: completed, 368.97 tok/s
+2026-10-23T13:16:36.137304+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C32'}
+2026-10-23T13:18:33.054811+00:00 CELL medium-r3-P2-C32: 32/64
+2026-10-23T13:19:27.882306+00:00 CELL medium-r3-P2-C32: 64/64
+2026-10-23T13:19:28.452326+00:00 CELL DONE medium-r3-P2-C32: completed, 584.34 tok/s
+2026-10-23T13:19:28.460488+00:00 running_cell: {'group': 'medium-r3-ctx4096-seq64-budget8192', 'cell': 'medium-r3-P2-C64'}
+2026-10-23T13:21:54.113937+00:00 CELL medium-r3-P2-C64: 32/64
+2026-10-23T13:21:54.289739+00:00 CELL medium-r3-P2-C64: 64/64
+2026-10-23T13:21:54.854635+00:00 CELL DONE medium-r3-P2-C64: completed, 914.71 tok/s
+2026-10-23T13:22:01.439008+00:00 running_group: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'context': 16384, 'sequences': 64, 'budget': 8192}
+2026-10-23T13:25:48.112193+00:00 SERVER READY medium-r3-ctx16384-seq64-budget8192 in 226.7s
+2026-10-23T13:25:48.112824+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C1'}
+2026-10-23T13:29:39.869936+00:00 CELL medium-r3-P3-C1: 32/64
+2026-10-23T13:33:31.700040+00:00 CELL medium-r3-P3-C1: 64/64
+2026-10-23T13:33:32.248348+00:00 CELL DONE medium-r3-P3-C1: completed, 36.07 tok/s
+2026-10-23T13:33:32.264937+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C4'}
+2026-10-23T13:35:05.454791+00:00 CELL medium-r3-P3-C4: 32/64
+2026-10-23T13:36:21.873271+00:00 CELL medium-r3-P3-C4: 64/64
+2026-10-23T13:36:22.419925+00:00 CELL DONE medium-r3-P3-C4: completed, 104.29 tok/s
+2026-10-23T13:36:22.432650+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C8'}
+2026-10-23T13:37:34.039314+00:00 CELL medium-r3-P3-C8: 32/64
+2026-10-23T13:38:24.516829+00:00 CELL medium-r3-P3-C8: 64/64
+2026-10-23T13:38:25.127987+00:00 CELL DONE medium-r3-P3-C8: completed, 153.69 tok/s
+2026-10-23T13:38:25.140633+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C16'}
+2026-10-23T13:39:32.092042+00:00 CELL medium-r3-P3-C16: 32/64
+2026-10-23T13:40:02.602835+00:00 CELL medium-r3-P3-C16: 64/64
+2026-10-23T13:40:03.152184+00:00 CELL DONE medium-r3-P3-C16: completed, 216.92 tok/s
+2026-10-23T13:40:03.166237+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C32'}
+2026-10-23T13:41:21.607532+00:00 CELL medium-r3-P3-C32: 32/64
+2026-10-23T13:41:36.787218+00:00 CELL medium-r3-P3-C32: 64/64
+2026-10-23T13:41:37.340846+00:00 CELL DONE medium-r3-P3-C32: completed, 272.70 tok/s
+2026-10-23T13:41:37.354996+00:00 running_cell: {'group': 'medium-r3-ctx16384-seq64-budget8192', 'cell': 'medium-r3-P3-C64'}
+2026-10-23T13:43:19.406135+00:00 CELL medium-r3-P3-C64: 32/64
+2026-10-23T13:43:20.888007+00:00 CELL medium-r3-P3-C64: 64/64
+2026-10-23T13:43:21.456442+00:00 CELL DONE medium-r3-P3-C64: completed, 324.54 tok/s
+2026-10-23T13:43:28.027478+00:00 running_group: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'context': 65536, 'sequences': 64, 'budget': 8192}
+2026-10-23T13:47:08.697369+00:00 SERVER READY medium-r3-ctx65536-seq64-budget8192 in 220.7s
+2026-10-23T13:47:08.698176+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C1'}
+2026-10-23T13:52:00.689458+00:00 CELL medium-r3-P4-C1: 32/64
+2026-10-23T13:56:47.717641+00:00 CELL medium-r3-P4-C1: 64/64
+2026-10-23T13:56:48.281033+00:00 CELL DONE medium-r3-P4-C1: completed, 28.87 tok/s
+2026-10-23T13:56:48.319680+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C4'}
+2026-10-23T13:59:28.184921+00:00 CELL medium-r3-P4-C4: 32/64
+2026-10-23T14:01:35.789111+00:00 CELL medium-r3-P4-C4: 64/64
+2026-10-23T14:01:36.338659+00:00 CELL DONE medium-r3-P4-C4: completed, 61.27 tok/s
+2026-10-23T14:01:36.376346+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C8'}
+2026-10-23T14:04:06.285227+00:00 CELL medium-r3-P4-C8: 32/64
+2026-10-23T14:05:35.962156+00:00 CELL medium-r3-P4-C8: 64/64
+2026-10-23T14:05:36.509302+00:00 CELL DONE medium-r3-P4-C8: completed, 78.14 tok/s
+2026-10-23T14:05:36.549161+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C16'}
+2026-10-23T14:08:26.740142+00:00 CELL medium-r3-P4-C16: 32/64
+2026-10-23T14:09:25.432860+00:00 CELL medium-r3-P4-C16: 64/64
+2026-10-23T14:09:25.985714+00:00 CELL DONE medium-r3-P4-C16: completed, 91.23 tok/s
+2026-10-23T14:09:26.023164+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C32'}
+2026-10-23T14:13:20.261236+00:00 CELL medium-r3-P4-C32: 32/64
+2026-10-23T14:13:37.623622+00:00 CELL medium-r3-P4-C32: 64/64
+2026-10-23T14:13:38.183035+00:00 CELL DONE medium-r3-P4-C32: completed, 99.70 tok/s
+2026-10-23T14:13:38.220919+00:00 running_cell: {'group': 'medium-r3-ctx65536-seq64-budget8192', 'cell': 'medium-r3-P4-C64'}
+2026-10-23T14:18:54.731024+00:00 CELL medium-r3-P4-C64: 32/64
+2026-10-23T14:19:04.762511+00:00 CELL medium-r3-P4-C64: 64/64
+2026-10-23T14:19:05.335099+00:00 CELL DONE medium-r3-P4-C64: completed, 101.57 tok/s
+2026-10-23T14:19:11.970588+00:00 running_group: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'context': 262144, 'sequences': 64, 'budget': 8192}
+2026-10-23T14:22:37.634311+00:00 SERVER READY medium-r3-ctx262144-seq64-budget8192 in 205.7s
+2026-10-23T14:22:37.634948+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C1'}
+2026-10-23T14:32:28.199407+00:00 CELL medium-r3-P5-C1: 32/64
+2026-10-23T14:42:07.738195+00:00 CELL medium-r3-P5-C1: 64/64
+2026-10-23T14:42:08.345241+00:00 CELL DONE medium-r3-P5-C1: completed, 14.25 tok/s
+2026-10-23T14:42:08.494951+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C4'}
+2026-10-23T14:50:38.695366+00:00 CELL medium-r3-P5-C4: 32/64
+2026-10-23T14:57:12.237304+00:00 CELL medium-r3-P5-C4: 64/64
+2026-10-23T14:57:12.799250+00:00 CELL DONE medium-r3-P5-C4: completed, 19.35 tok/s
+2026-10-23T14:57:12.951049+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C8'}
+2026-10-23T15:06:42.427177+00:00 CELL medium-r3-P5-C8: 32/64
+2026-10-23T15:11:56.248965+00:00 CELL medium-r3-P5-C8: 64/64
+2026-10-23T15:11:56.796900+00:00 CELL DONE medium-r3-P5-C8: completed, 21.01 tok/s
+2026-10-23T15:11:56.953785+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C16'}
+2026-10-23T15:23:47.010811+00:00 CELL medium-r3-P5-C16: 32/64
+2026-10-23T15:27:49.419830+00:00 CELL medium-r3-P5-C16: 64/64
+2026-10-23T15:27:49.967363+00:00 CELL DONE medium-r3-P5-C16: completed, 21.72 tok/s
+2026-10-23T15:27:50.124684+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C32'}
+2026-10-23T15:42:47.528386+00:00 CELL medium-r3-P5-C32: 32/64
+2026-10-23T15:46:49.394966+00:00 CELL medium-r3-P5-C32: 64/64
+2026-10-23T15:46:49.948247+00:00 CELL DONE medium-r3-P5-C32: completed, 21.75 tok/s
+2026-10-23T15:46:50.105302+00:00 running_cell: {'group': 'medium-r3-ctx262144-seq64-budget8192', 'cell': 'medium-r3-P5-C64'}
+2026-10-23T15:57:15.122478+00:00 all_five_steps_finished: {'revision': 'medium-v2'}
+2026-10-23T15:57:15.651588+00:00 stability_starting: {'concurrency': 64}
+2026-10-23T16:00:56.147361+00:00 SERVER READY stability-P2 in 220.5s
+2026-10-23T16:03:15.984152+00:00 stability_running: {'elapsed_seconds': 69.97591826692224, 'requests': 64, 'concurrency': 64}
+2026-10-23T16:04:25.561931+00:00 stability_running: {'elapsed_seconds': 139.55510761216283, 'requests': 128, 'concurrency': 64}
+2026-10-23T16:05:34.810449+00:00 stability_running: {'elapsed_seconds': 208.80372549034655, 'requests': 192, 'concurrency': 64}
+2026-10-23T16:06:43.444138+00:00 stability_running: {'elapsed_seconds': 277.43738116137683, 'requests': 256, 'concurrency': 64}
+2026-10-23T16:07:52.885458+00:00 stability_running: {'elapsed_seconds': 346.87867889739573, 'requests': 320, 'concurrency': 64}
+2026-10-23T16:09:02.183172+00:00 stability_running: {'elapsed_seconds': 416.17641790769994, 'requests': 384, 'concurrency': 64}
+2026-10-23T16:10:10.431586+00:00 stability_running: {'elapsed_seconds': 484.42486562021077, 'requests': 448, 'concurrency': 64}
+2026-10-23T16:11:18.825823+00:00 stability_running: {'elapsed_seconds': 552.8190449513495, 'requests': 512, 'concurrency': 64}
+2026-10-23T16:12:28.730419+00:00 stability_running: {'elapsed_seconds': 622.7236627191305, 'requests': 576, 'concurrency': 64}
+2026-10-23T16:13:36.757526+00:00 stability_running: {'elapsed_seconds': 690.747987376526, 'requests': 640, 'concurrency': 64}
+2026-10-23T16:14:44.881000+00:00 stability_running: {'elapsed_seconds': 758.8742546457797, 'requests': 704, 'concurrency': 64}
+2026-10-23T16:15:52.691675+00:00 stability_running: {'elapsed_seconds': 826.6849165391177, 'requests': 768, 'concurrency': 64}
+2026-10-23T16:17:00.869429+00:00 stability_running: {'elapsed_seconds': 894.862626766786, 'requests': 832, 'concurrency': 64}
+2026-10-23T16:18:06.313383+00:00 stability_running: {'elapsed_seconds': 960.3065952640027, 'requests': 896, 'concurrency': 64}
+2026-10-23T16:18:12.936586+00:00 profile_running: {'case': 'profile-P2-C1'}
+2026-10-23T16:21:53.610780+00:00 SERVER READY profile-P2-C1 in 220.7s
+2026-10-23T16:22:54.013386+00:00 profile_running: {'case': 'profile-P2-C64'}
+2026-10-23T16:26:31.663858+00:00 SERVER READY profile-P2-C64 in 217.6s
+2026-10-23T16:29:01.306218+00:00 profile_running: {'case': 'profile-P3-C1'}
+2026-10-23T16:32:38.974804+00:00 SERVER READY profile-P3-C1 in 217.7s
+2026-10-23T16:33:03.577964+00:00 profile_running: {'case': 'profile-P3-C64'}
+2026-10-23T16:36:53.253784+00:00 SERVER READY profile-P3-C64 in 229.7s
+2026-10-23T16:38:46.106998+00:00 memory_diagnostic_running: {'bucket': 'P4'}
+2026-10-23T16:42:26.773699+00:00 SERVER READY profile-memory-P4 in 220.7s
+2026-10-23T16:42:45.603251+00:00 memory_diagnostic_running: {'bucket': 'P5'}
+2026-10-23T16:46:38.270915+00:00 SERVER READY profile-memory-P5 in 232.7s
+2026-10-23T16:47:06.276503+00:00 formal_and_extra_tests_finished: {}

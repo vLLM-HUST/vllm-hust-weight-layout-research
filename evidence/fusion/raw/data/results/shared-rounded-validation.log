@@ -1,0 +1,22 @@
+[W1014 09:09:48.472747701 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 09:09:53 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 09:09:53 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 09:09:53 [__init__.py:58] Loading plugin ascend
+INFO 10-14 09:09:53 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 09:09:53 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 09:10:06.554027884 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"dtype": "torch.float16", "shape": [1, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [2, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [4, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [7, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [32, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [128, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.float16", "shape": [7, 513, 257], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [1, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [2, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [4, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [7, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [32, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [128, 256, 2048], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"dtype": "torch.bfloat16", "shape": [7, 513, 257], "repeat": 2, "finite": true, "close": true, "max_abs": 0.0, "mean_abs": 0.0, "exact_fraction": 1.0}
+{"all_pass": true, "comparisons": 42}

@@ -1,0 +1,84 @@
+{
+  "version": "mini-v1",
+  "parent": "small",
+  "parent_sha256": "ddcf0b7fa700daadf566002256f697e1c9006f442251707c6514d8b19bd58acf",
+  "seed": 20261023,
+  "concurrency": [
+    1,
+    16
+  ],
+  "max_num_seqs": 32,
+  "budget": 4096,
+  "selection": "first16 of frozen B0 per-bucket seed-shuffled Small order",
+  "buckets": {
+    "P2": {
+      "ids": [
+        "small-P2-0001",
+        "small-P2-0003",
+        "small-P2-0020",
+        "small-P2-0012",
+        "small-P2-0021",
+        "small-P2-0002",
+        "small-P2-0030",
+        "small-P2-0011",
+        "small-P2-0017",
+        "small-P2-0008",
+        "small-P2-0027",
+        "small-P2-0025",
+        "small-P2-0000",
+        "small-P2-0018",
+        "small-P2-0014",
+        "small-P2-0004"
+      ],
+      "count": 16,
+      "optional": false,
+      "sha256": "b81429856550d14e737d203c98bda67ad903fc26d8af48a99e3fa0d57343d513"
+    },
+    "P3": {
+      "ids": [
+        "small-P3-0005",
+        "small-P3-0030",
+        "small-P3-0015",
+        "small-P3-0023",
+        "small-P3-0011",
+        "small-P3-0019",
+        "small-P3-0002",
+        "small-P3-0029",
+        "small-P3-0012",
+        "small-P3-0009",
+        "small-P3-0028",
+        "small-P3-0014",
+        "small-P3-0021",
+        "small-P3-0010",
+        "small-P3-0007",
+        "small-P3-0001"
+      ],
+      "count": 16,
+      "optional": false,
+      "sha256": "c609675ce636d5e6b4a4db05a2ceb7430e63f9c79dfd29652141f97c0dc02c57"
+    },
+    "P4": {
+      "ids": [
+        "small-P4-0025",
+        "small-P4-0012",
+        "small-P4-0028",
+        "small-P4-0007",
+        "small-P4-0004",
+        "small-P4-0009",
+        "small-P4-0014",
+        "small-P4-0010",
+        "small-P4-0015",
+        "small-P4-0020",
+        "small-P4-0000",
+        "small-P4-0016",
+        "small-P4-0001",
+        "small-P4-0011",
+        "small-P4-0026",
+        "small-P4-0003"
+      ],
+      "count": 16,
+      "optional": true,
+      "sha256": "077048e605bebb4dea8fb32ed1fe691a5139b5fa9ef3120460f7beb9443ea09f"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "devices": [
+    {
+      "device": 0,
+      "passed": true
+    },
+    {
+      "device": 1,
+      "passed": true
+    }
+  ],
+  "empty_state": "blocked",
+  "original_preserved": true,
+  "shared_source_guard": "passed"
+}

@@ -1,0 +1,22 @@
+{
+  "baseline": "results/20261012T200600Z-B0",
+  "baseline_excerpt": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积（CNN），仅依靠“自注意力机制”（Self-Attention）来并行处理序列数据**。\n\n以下是其核心原理的简要拆解：\n\n### 1. 自注意力机制 (Self-Attention)\n这是",
+  "variants": [
+    {
+      "optimization": "linear-swiglu-graph",
+      "run": "results/20261012T201027Z-B1",
+      "status": "completed-smoke",
+      "text_equal": true,
+      "excerpt": "Transformer 是深度学习领域（特别是自然语言处理）的里程碑式架构，其核心原理可以概括为**完全摒弃循环（RNN）和卷积（CNN），仅依靠“自注意力机制”（Self-Attention）来并行处理序列数据**。\n\n以下是其核心原理的简要拆解：\n\n### 1. 自注意力机制 (Self-Attention)\n这是",
+      "degenerate": false
+    },
+    {
+      "optimization": "persistent-matmul-empty",
+      "run": "results/20261012T201458Z-B1",
+      "status": "completed-smoke",
+      "text_equal": false,
+      "excerpt": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "degenerate": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": "candidate_swiglu_kernel.py",
+      "size": 3654,
+      "sha256": "b415408f92d4cb2cd7dea586dc009d638f06568d1e702cff252022e9cf4554a3"
+    },
+    {
+      "path": "control.json",
+      "size": 3388,
+      "sha256": "75bafabd7fe9197e91544a20cfb5f338c055572fdcf39aa4b8880742b4ef3113"
+    },
+    {
+      "path": "control.log",
+      "size": 477,
+      "sha256": "30ec241ecbf04ed011831d66ba1bdeb779559305a23f110a21919bd21504d06f"
+    },
+    {
+      "path": "env.sh",
+      "size": 432,
+      "sha256": "608d5b7aa1c2f1d85d6e05bece2f5e0931679c54bd5328d5f80dc6f1428cfa4a"
+    },
+    {
+      "path": "environment.json",
+      "size": 3719,
+      "sha256": "ea3db3fa6599010ef01e204979224822c478e6658c204cfac7314621f7cc58fe"
+    },
+    {
+      "path": "finalize_route_b.py",
+      "size": 1816,
+      "sha256": "af4ea098e98e63374450dea828da6d6f362dccb5ba1f2cacfcc0d3e611541733"
+    },
+    {
+      "path": "fusion-v2.json",
+      "size": 2367,
+      "sha256": "a51a41fc2b0e2e34188b15fb148704a8d56b58a8355d8d6c7c159a4855dbad25"
+    },
+    {
+      "path": "fusion-v2.log",
+      "size": 3576,
+      "sha256": "a2933761d57549378697627580d5c08f5b672f1f4f29d0b8c8952a0e2adc4f4d"
+    },
+    {
+      "path": "fusion.json",
+      "size": 2474,
+      "sha256": "ce65719c4941634d6dfdb9a47095eda392e1d98b59839ec3ab82b09628123c7c"
+    },
+    {
+      "path": "fusion.log",
+      "size": 8605,
+      "sha256": "cae7d3b3a209631093675531674643fa16a760133fa73d49a25833f00b6c350f"
+    },
+    {
+      "path": "kernel.json",
+      "size": 3389,
+      "sha256": "68d15e1e7f3b8d444c13ebae713f15cb2b7c94555dd92222e1de619043ddb6f4"
+    },
+    {
+      "path": "kernel.log",
+      "size": 477,
+      "sha256": "58966c404c1c40bd6cf17e44c71d5f00e3810cdffc043c41f3080d8c325195dc"
+    },
+    {
+      "path": "route_b_probe.py",
+      "size": 7290,
+      "sha256": "0c7dedb5a67c8d1f9104b4f09473c7ffd21e0279ef56661d77a6dbe8206e5cbb"
+    },
+    {
+      "path": "summary.json",
+      "size": 1179,
+      "sha256": "05d15b5e9e8e4220be6af4f1040960a43f663d0b249ecd37ba2688efff2b2295"
+    },
+    {
+      "path": "topology.json",
+      "size": 2187,
+      "sha256": "963e29f7a901114bdc20c3de5fb1bf873abe3edfc24579e83f72bffeae33e316"
+    },
+    {
+      "path": "topology.log",
+      "size": 2772,
+      "sha256": "bde25eadcf1a0ca666ade328a359e1f8c227858723a7c80b55410cb3760a9c87"
+    },
+    {
+      "path": "triton.json",
+      "size": 3386,
+      "sha256": "949f4570e415094f4c84bb628cf3c0c52a981bf91d464515a8486ffd5c7d2caf"
+    },
+    {
+      "path": "triton.log",
+      "size": 915,
+      "sha256": "42bf7303530eb25ad8f3ce26a1842b7dbdbb4f06dee5cdf0e184629c06d7fe06"
+    }
+  ]
+}

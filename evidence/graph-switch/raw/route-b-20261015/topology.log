@@ -1,0 +1,39 @@
+[W1015 07:45:25.677595933 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+imported
+[W1015 07:45:31.009669369 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+warmup
+capture
+update-0-baseline
+update-1-candidate
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 108, in main
+    torch.npu.graph_task_update_end(update_stream)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 100, in graph_task_update_end
+    _graph_task_update_end(stream)
+RuntimeError: graph_task_update_end:../torch_npu/csrc/core/npu/NPUGraph.cpp:72 NPU function error: c10_npu::acl::AclmdlRICaptureTaskUpdateEnd(stream), error code is 507000
+[ERROR] 2026-10-15-07:45:31 (PID:52881, Device:0, RankID:-1) ERR00100 PTA call acl api failed
+[Error]: An internal error occurs in the runtime module on the host. 
+        Rectify the fault based on the error information in the ascend log.
+EE9999: Inner Error!
+EE9999[PID: 52881] 2026-10-15-07:45:31.955.825 (EE9999):  Update tasks failed, stream_id=44, total=2, success=1, failed=1.[FUNC:StreamEndTaskUpdate][FILE:context_aclgraph.cc][LINE:813]
+TraceBack (most recent call last):
+       rtsStreamEndTaskUpdate execution failed, reason=task group update error[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+
+
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 141, in <module>
+    with torch.inference_mode(): main()
+                                 ^^^^^^
+  File "/root/opset-research/route_b_probe.py", line 108, in main
+    torch.npu.graph_task_update_end(update_stream)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 100, in graph_task_update_end
+    _graph_task_update_end(stream)
+RuntimeError: graph_task_update_end:../torch_npu/csrc/core/npu/NPUGraph.cpp:72 NPU function error: c10_npu::acl::AclmdlRICaptureTaskUpdateEnd(stream), error code is 507000
+[ERROR] 2026-10-15-07:45:31 (PID:52881, Device:0, RankID:-1) ERR00100 PTA call acl api failed
+[Error]: An internal error occurs in the runtime module on the host. 
+        Rectify the fault based on the error information in the ascend log.
+EE9999: Inner Error!
+EE9999[PID: 52881] 2026-10-15-07:45:31.955.825 (EE9999):  Update tasks failed, stream_id=44, total=2, success=1, failed=1.[FUNC:StreamEndTaskUpdate][FILE:context_aclgraph.cc][LINE:813]
+TraceBack (most recent call last):
+       rtsStreamEndTaskUpdate execution failed, reason=task group update error[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+

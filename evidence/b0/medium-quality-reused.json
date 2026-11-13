@@ -1,0 +1,116 @@
+{
+  "status": "completed",
+  "reused": true,
+  "source": "large-quality",
+  "requests": 2406,
+  "successes": 2406,
+  "failures": 0,
+  "quality": {
+    "correct": 1414,
+    "total": 2406,
+    "accuracy": 0.5876974231088944,
+    "macro_accuracy": 0.611677659614051,
+    "invalid_including_failed": 1,
+    "by_category": {
+      "psychology": {
+        "total": 160,
+        "correct": 121,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.75625
+      },
+      "law": {
+        "total": 220,
+        "correct": 119,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.5409090909090909
+      },
+      "business": {
+        "total": 158,
+        "correct": 65,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.41139240506329117
+      },
+      "biology": {
+        "total": 143,
+        "correct": 117,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.8181818181818182
+      },
+      "math": {
+        "total": 270,
+        "correct": 130,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.48148148148148145
+      },
+      "health": {
+        "total": 163,
+        "correct": 126,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.7730061349693251
+      },
+      "economics": {
+        "total": 169,
+        "correct": 125,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.7396449704142012
+      },
+      "other": {
+        "total": 185,
+        "correct": 126,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.6810810810810811
+      },
+      "engineering": {
+        "total": 194,
+        "correct": 100,
+        "invalid": 1,
+        "failed": 0,
+        "accuracy": 0.5154639175257731
+      },
+      "philosophy": {
+        "total": 100,
+        "correct": 70,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.7
+      },
+      "chemistry": {
+        "total": 226,
+        "correct": 94,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.415929203539823
+      },
+      "physics": {
+        "total": 260,
+        "correct": 121,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.4653846153846154
+      },
+      "computer science": {
+        "total": 82,
+        "correct": 53,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.6463414634146342
+      },
+      "history": {
+        "total": 76,
+        "correct": 47,
+        "invalid": 0,
+        "failed": 0,
+        "accuracy": 0.618421052631579
+      }
+    }
+  },
+  "timing_scope": "quality outputs reused by ID; no Medium batch throughput inferred"
+}

@@ -1,0 +1,55 @@
+{
+  "audit_date": "2026-11-13",
+  "hash_verified_files": 611,
+  "release_assets_not_present": [],
+  "fusion_C1_recomputed_from_requests": {
+    "short": {
+      "baseline_tpot_ms": 15.175262139863753,
+      "fusion_tpot_ms": 14.875694797940985,
+      "improvement_pct": 1.974050524872559,
+      "paired_difference_ms": 0.2995673419227671,
+      "descriptive_95pct_t_interval_ms": [
+        -0.49027945022251296,
+        1.0894141340680472
+      ]
+    },
+    "long": {
+      "baseline_tpot_ms": 15.007647367381544,
+      "fusion_tpot_ms": 14.906599154823986,
+      "improvement_pct": 0.6733114797005533,
+      "paired_difference_ms": 0.1010482125575578,
+      "descriptive_95pct_t_interval_ms": [
+        -0.5358310797602261,
+        0.7379275048753418
+      ]
+    }
+  },
+  "W1_small": {
+    "cells": 12,
+    "requests": 384,
+    "throughput_ratio_geomean_change_pct": -1.7995522387934226,
+    "scope": "single-round historical comparison; different physical cards/time"
+  },
+  "B0_medium_from_collected_cell_summaries": {
+    "statuses": {
+      "completed": 87,
+      "warmup_failed": 3
+    },
+    "formal_requests_in_successful_cells": 5568,
+    "P2_C64_mean_tokens_s": 944.9195373620021
+  },
+  "B0_medium_quality_from_large_raw_outputs": {
+    "correct": 1414,
+    "total": 2406,
+    "accuracy_pct": 58.76974231088944
+  },
+  "B0_stability_raw_requests": {
+    "count": 896,
+    "failures": 0
+  },
+  "limitations": [
+    "B0 Medium performance request-level files absent; aggregated evidence only.",
+    "Full fusion profiler is in original release archive.",
+    "No new NPU experiments executed."
+  ]
+}

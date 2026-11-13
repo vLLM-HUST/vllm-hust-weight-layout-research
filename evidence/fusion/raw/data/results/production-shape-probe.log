@@ -1,0 +1,31 @@
+[W1014 09:33:23.527339745 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 09:33:32 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 09:33:32 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 09:33:32 [__init__.py:58] Loading plugin ascend
+INFO 10-14 09:33:32 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 09:33:32 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 09:33:41.723891582 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"device": 0, "dtype": "torch.bfloat16", "shape": [2, 6144, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.bfloat16", "shape": [2, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.bfloat16", "shape": [2, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.bfloat16", "shape": [2, 2048, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.bfloat16", "shape": [1, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.bfloat16", "shape": [1, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [2, 6144, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 2.47955322265625e-05, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [2, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [2, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.0013580322265625e-05, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [2, 2048, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.430511474609375e-05, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [1, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 0, "dtype": "torch.float32", "shape": [1, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.0013580322265625e-05, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [2, 6144, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [2, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [2, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [2, 2048, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [1, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.bfloat16", "shape": [1, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [2, 6144, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 2.47955322265625e-05, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [2, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [2, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.0013580322265625e-05, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [2, 2048, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.430511474609375e-05, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [1, 32, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 0.0, "empty_vs_zeros": 0.0}
+{"device": 1, "dtype": "torch.float32", "shape": [1, 256, 2048], "zeros_finite": true, "empty_finite": true, "equal": true, "zeros_vs_native": 1.0013580322265625e-05, "empty_vs_zeros": 0.0}

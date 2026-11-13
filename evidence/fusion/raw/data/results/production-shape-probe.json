@@ -1,0 +1,341 @@
+{
+  "prompt_tokens": 2,
+  "rows": [
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        6144,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        2048,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        6144,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 2.47955322265625e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.0013580322265625e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        2048,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.430511474609375e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 0,
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.0013580322265625e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        6144,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        2048,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        6144,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 2.47955322265625e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.0013580322265625e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        2048,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.430511474609375e-05,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        32,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 0.0,
+      "empty_vs_zeros": 0.0
+    },
+    {
+      "device": 1,
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "zeros_finite": true,
+      "empty_finite": true,
+      "equal": true,
+      "zeros_vs_native": 1.0013580322265625e-05,
+      "empty_vs_zeros": 0.0
+    }
+  ]
+}

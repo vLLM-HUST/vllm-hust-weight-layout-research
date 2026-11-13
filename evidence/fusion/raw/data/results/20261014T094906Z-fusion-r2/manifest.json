@@ -1,0 +1,50 @@
+{
+  "run_id": "20261014T094906Z-fusion-r2",
+  "variant": "fusion",
+  "round": 2,
+  "status": "starting",
+  "evidence_level": "development-matched",
+  "argv": [
+    "/root/opset-research/.venv/bin/python",
+    "-m",
+    "vllm.entrypoints.openai.api_server",
+    "--model",
+    "/data/shared_upload/models/vspec/Qwen3.5-35B-A3B",
+    "--served-model-name",
+    "research-model",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18080",
+    "--dtype",
+    "bfloat16",
+    "--tensor-parallel-size",
+    "2",
+    "--max-model-len",
+    "4096",
+    "--max-num-seqs",
+    "4",
+    "--max-num-batched-tokens",
+    "4096",
+    "--gpu-memory-utilization",
+    "0.85",
+    "--no-enable-prefix-caching",
+    "--limit-mm-per-prompt",
+    "{\"image\":0,\"video\":0}",
+    "--compilation-config",
+    "{\"cudagraph_capture_sizes\":[1,2,4]}"
+  ],
+  "candidate_hashes": {
+    "experimental-treatment/shared_expert_adapter.py": "d00cfc4fdd23912d7b33324a9f4e3d401b398eedf4ebc2b3abdaf6b677ab7a2b",
+    "experimental-treatment/sitecustomize.py": "f220f1a81db18bd0e44fc448e143e9b1bd8730d181b2b4cc9c6795fde8b557df",
+    "experimental-treatment/candidate_swiglu_kernel.py": "b415408f92d4cb2cd7dea586dc009d638f06568d1e702cff252022e9cf4554a3"
+  },
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "vllm": "0.23.0",
+    "vllm-ascend": "0.23.0",
+    "triton-ascend": "3.2.2",
+    "vllm-hust-opset": "0.3.2"
+  }
+}

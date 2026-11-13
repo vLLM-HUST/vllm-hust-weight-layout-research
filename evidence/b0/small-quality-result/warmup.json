@@ -1,0 +1,186 @@
+[
+  {
+    "id": "validation-59",
+    "input_tokens": 234,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.237919+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      38,
+      248046
+    ],
+    "text": "G",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 234,
+      "total_tokens": 236,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0300115682184696,
+    "ttft_seconds": 0.5883759595453739,
+    "tpot_seconds": 0.44157300889492035,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-34",
+    "input_tokens": 184,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.238540+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      32,
+      248046
+    ],
+    "text": "A",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 184,
+      "total_tokens": 186,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0480826571583748,
+    "ttft_seconds": 1.0296858847141266,
+    "tpot_seconds": 0.018354851752519608,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-19",
+    "input_tokens": 123,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.238917+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      39,
+      248046
+    ],
+    "text": "H",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 123,
+      "total_tokens": 125,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0471179839223623,
+    "ttft_seconds": 1.0285729616880417,
+    "tpot_seconds": 0.018492400646209717,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-22",
+    "input_tokens": 206,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.239251+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      35,
+      248046
+    ],
+    "text": "D",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 206,
+      "total_tokens": 208,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0474521592259407,
+    "ttft_seconds": 1.0290557276457548,
+    "tpot_seconds": 0.01835630089044571,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-57",
+    "input_tokens": 308,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.239608+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      36,
+      248046
+    ],
+    "text": "E",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 308,
+      "total_tokens": 310,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0468390993773937,
+    "ttft_seconds": 1.0284516979008913,
+    "tpot_seconds": 0.018336420878767967,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-64",
+    "input_tokens": 138,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.240272+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      36,
+      248046
+    ],
+    "text": "E",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 138,
+      "total_tokens": 140,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.046508613973856,
+    "ttft_seconds": 1.0281020533293486,
+    "tpot_seconds": 0.018367750570178032,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-62",
+    "input_tokens": 155,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.240622+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      32,
+      248046
+    ],
+    "text": "A",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 155,
+      "total_tokens": 157,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.0459151975810528,
+    "ttft_seconds": 1.027519766241312,
+    "tpot_seconds": 0.01835126057267189,
+    "stream_chunks": 2
+  },
+  {
+    "id": "validation-21",
+    "input_tokens": 185,
+    "expected_output_tokens": 16,
+    "started_utc": "2026-10-22T21:16:11.240970+00:00",
+    "success": true,
+    "output_tokens": 2,
+    "output_token_ids": [
+      35,
+      248046
+    ],
+    "text": "D",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 185,
+      "total_tokens": 187,
+      "completion_tokens": 2
+    },
+    "e2e_seconds": 1.045884758234024,
+    "ttft_seconds": 1.0274712461978197,
+    "tpot_seconds": 0.01837548054754734,
+    "stream_chunks": 2
+  }
+]

@@ -1,0 +1,1231 @@
+{
+  "suite_status": "finished",
+  "quality": [
+    {
+      "run_id": "20261014T093553Z-baseline-r1",
+      "variant": "baseline",
+      "round": 1,
+      "accuracy": 0.65,
+      "samples": 20
+    },
+    {
+      "run_id": "20261014T094345Z-fusion-r1",
+      "variant": "fusion",
+      "round": 1,
+      "accuracy": 0.65,
+      "samples": 20
+    },
+    {
+      "run_id": "20261014T094906Z-fusion-r2",
+      "variant": "fusion",
+      "round": 2,
+      "accuracy": 0.65,
+      "samples": 20
+    },
+    {
+      "run_id": "20261014T095342Z-baseline-r2",
+      "variant": "baseline",
+      "round": 2,
+      "accuracy": 0.65,
+      "samples": 20
+    },
+    {
+      "run_id": "20261014T095813Z-baseline-r3",
+      "variant": "baseline",
+      "round": 3,
+      "accuracy": 0.65,
+      "samples": 20
+    },
+    {
+      "run_id": "20261014T100333Z-fusion-r3",
+      "variant": "fusion",
+      "round": 3,
+      "accuracy": 0.65,
+      "samples": 20
+    }
+  ],
+  "lifecycle": [
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 457.50593580305576,
+      "sd": 8.628208602772867,
+      "variance": 74.4459836929637,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 14.981764070098363,
+      "sd": 0.32676780091047186,
+      "variance": 0.10677719571186578,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 45.67786208471893,
+      "sd": 0.6678447785727081,
+      "variance": 0.4460166482668295,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 2416.9901536467173,
+      "sd": 4315.0556608663255,
+      "variance": 18619705.35637452,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 47.224985282848436,
+      "sd": 68.4949643592013,
+      "variance": 4691.560142568258,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 23.41494247654036,
+      "sd": 14.087014838595573,
+      "variance": 198.44398706281189,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 1,
+      "mean": 46.49694478430057,
+      "sd": 31.217300026905576,
+      "variance": 974.519820969839,
+      "samples": 3
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 459.2165909707546,
+      "sd": 3.650272125781898,
+      "variance": 13.324486592260296,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 14.89378795737312,
+      "sd": 0.27539235397628636,
+      "variance": 0.0758409486286002,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 45.80078335559524,
+      "sd": 0.5635823751756953,
+      "variance": 0.31762509360867824,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 696.3860496568183,
+      "sd": 257.5610590204479,
+      "variance": 66337.69912373465,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 19.876018681479668,
+      "sd": 3.9701701961235996,
+      "variance": 15.762251386188103,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 32.84512229730016,
+      "sd": 0.15525494322445846,
+      "variance": 0.02410409739562982,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 1,
+      "mean": 65.42375808333874,
+      "sd": 0.20754321608935808,
+      "variance": 0.04307418654471398,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 444.16902754455805,
+      "sd": 7.68095057144828,
+      "variance": 58.997001681031655,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 14.791899665244042,
+      "sd": 0.30601479063894427,
+      "variance": 0.09364505208979691,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 46.519169244444576,
+      "sd": 0.742944905962344,
+      "variance": 0.5519671332953962,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 699.9899089957277,
+      "sd": 263.69281666915043,
+      "variance": 69533.90156291018,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 20.245340256089413,
+      "sd": 4.044913698768428,
+      "variance": 16.361326830484487,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 32.39886532155967,
+      "sd": 0.20875750170207388,
+      "variance": 0.04357969451689138,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 1,
+      "mean": 64.48639385051302,
+      "sd": 0.4040377923795721,
+      "variance": 0.1632465376709582,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 456.5441457554698,
+      "sd": 7.8260194563951195,
+      "variance": 61.24658053187496,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 14.915356196699634,
+      "sd": 0.38451292496741324,
+      "variance": 0.14785018946699555,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 45.850786295048636,
+      "sd": 0.8412757948966231,
+      "variance": 0.707744963078945,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 1,
+      "mean": 686.9928439458212,
+      "sd": 255.00131079806727,
+      "variance": 65025.6685087325,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 1,
+      "mean": 19.975158918116776,
+      "sd": 3.917619268956955,
+      "variance": 15.347740736502828,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 1,
+      "mean": 32.90083924498443,
+      "sd": 0.35560214557875264,
+      "variance": 0.1264528859402124,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 1,
+      "mean": 65.51884633600024,
+      "sd": 0.7068192619141284,
+      "variance": 0.49959346901283325,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 457.3650248348713,
+      "sd": 7.241610589083873,
+      "variance": 52.44092392393167,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 15.19653947048244,
+      "sd": 0.3208575051120123,
+      "variance": 0.10294953858670498,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 45.242219020240434,
+      "sd": 0.5029073317195581,
+      "variance": 0.25291578429728573,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 715.6445562529067,
+      "sd": 274.8850916534477,
+      "variance": 75561.81361332434,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 20.335270301315678,
+      "sd": 4.204792951927757,
+      "variance": 17.680283768581344,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 32.0555300639769,
+      "sd": 0.3773213587770758,
+      "variance": 0.14237140778937873,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 2,
+      "mean": 63.791238568404296,
+      "sd": 0.7176357821908709,
+      "variance": 0.5150011158807031,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 472.0381811261177,
+      "sd": 19.891882248096568,
+      "variance": 395.6869793721393,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 15.096955261533223,
+      "sd": 0.20266290370217704,
+      "variance": 0.04107225253699788,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 44.97977037791308,
+      "sd": 0.7107233209942119,
+      "variance": 0.5051276390050415,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 731.8512815982103,
+      "sd": 269.6144737720322,
+      "variance": 72691.96446736986,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 20.442718398515826,
+      "sd": 4.078552000659482,
+      "variance": 16.634586422083462,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 31.694011671303002,
+      "sd": 0.5058597579080902,
+      "variance": 0.25589409467083163,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 2,
+      "mean": 63.04214282506664,
+      "sd": 1.1636801424400949,
+      "variance": 1.3541514739093998,
+      "samples": 3
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 473.59092999249697,
+      "sd": 26.53059111475055,
+      "variance": 703.8722648980809,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 15.854388741510254,
+      "sd": 0.17906243418527032,
+      "variance": 0.032063355336354266,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 43.472391275329386,
+      "sd": 0.5907462159424116,
+      "variance": 0.3489810916502784,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 721.712819300592,
+      "sd": 276.4466214487448,
+      "variance": 76422.7345104256,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 20.283407514431964,
+      "sd": 4.220439461416042,
+      "variance": 17.812109247477736,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 32.008247818133206,
+      "sd": 0.2257188345815938,
+      "variance": 0.05094899228487291,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 2,
+      "mean": 63.666246696589546,
+      "sd": 0.3117484853143747,
+      "variance": 0.09718711809580692,
+      "samples": 3
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 474.21810533851385,
+      "sd": 3.627177810731996,
+      "variance": 13.156418870666556,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 15.492665072873471,
+      "sd": 0.21805248713934364,
+      "variance": 0.04754688714765362,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 44.13371273087382,
+      "sd": 0.44239542064944,
+      "variance": 0.19571370821159495,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 2,
+      "mean": 722.3892382656535,
+      "sd": 273.10736646507974,
+      "variance": 74587.63361749136,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 2,
+      "mean": 20.31901829614841,
+      "sd": 4.2106629987604824,
+      "variance": 17.729682889130615,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 2,
+      "mean": 31.981772337980633,
+      "sd": 0.916588829541253,
+      "variance": 0.8401350824398041,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 2,
+      "mean": 63.58162129385701,
+      "sd": 1.833073306524262,
+      "variance": 3.3601577470917903,
+      "samples": 3
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 445.65200451761484,
+      "sd": 13.566594583346182,
+      "variance": 184.05248858887796,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 14.689633607982643,
+      "sd": 0.1762824107180564,
+      "variance": 0.03107548832856952,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 46.689376154730894,
+      "sd": 0.8226267098006149,
+      "variance": 0.6767147036773851,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 715.5350249571105,
+      "sd": 272.8143399559601,
+      "variance": 74427.66408560619,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 19.904266301266574,
+      "sd": 4.15164025310206,
+      "variance": 17.23611679117733,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 32.50691464420276,
+      "sd": 0.6661665106244531,
+      "variance": 0.4437778198775596,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 3,
+      "mean": 64.63257519191396,
+      "sd": 1.5382519753014254,
+      "variance": 2.366219139518737,
+      "samples": 3
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 447.86936938762665,
+      "sd": 8.715861515355352,
+      "variance": 75.96624195485248,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 14.636489071898044,
+      "sd": 0.19474911348180118,
+      "variance": 0.03792721720194748,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 46.72255195813737,
+      "sd": 0.5967043462459114,
+      "variance": 0.3560560768287605,
+      "samples": 5
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 699.6958969781796,
+      "sd": 258.87339448740545,
+      "variance": 67015.43437343184,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 19.8001924374944,
+      "sd": 3.9943869504270477,
+      "variance": 15.955127109741891,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 32.87026585688753,
+      "sd": 0.1993528048697686,
+      "variance": 0.03974154080944404,
+      "samples": 6
+    },
+    {
+      "variant": "baseline",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 3,
+      "mean": 65.34080376144624,
+      "sd": 0.1305791612556889,
+      "variance": 0.01705091735423921,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 458.10697078704834,
+      "sd": 6.9974064679313726,
+      "variance": 48.96369727744781,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 14.638645258096476,
+      "sd": 0.2218836810682639,
+      "variance": 0.049232367924403046,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 46.37302708511036,
+      "sd": 0.6680640104293816,
+      "variance": 0.44630952203098884,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 701.9395542641481,
+      "sd": 267.458089439493,
+      "variance": 71533.82960662383,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 19.816291767354837,
+      "sd": 4.095932608769762,
+      "variance": 16.776663935583468,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 32.82030550812988,
+      "sd": 0.4848642752391144,
+      "variance": 0.2350933654031517,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 3,
+      "mean": 65.32031929848573,
+      "sd": 1.0442377714687427,
+      "variance": 1.090432523362006,
+      "samples": 3
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 462.91439943015575,
+      "sd": 5.732742040563157,
+      "variance": 32.864331303640235,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 14.707486006239105,
+      "sd": 0.10640518530953315,
+      "variance": 0.011322063460756088,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 46.06063111052113,
+      "sd": 0.1580198646544322,
+      "variance": 0.024970277625405074,
+      "samples": 5
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "round": 3,
+      "mean": 706.9002275044719,
+      "sd": 261.3653717143594,
+      "variance": 68311.85753138526,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "round": 3,
+      "mean": 19.773361021800646,
+      "sd": 4.019094181007768,
+      "variance": 16.153118035810497,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "round": 3,
+      "mean": 32.77770556447908,
+      "sd": 0.22332378571567157,
+      "variance": 0.0498735132663792,
+      "samples": 6
+    },
+    {
+      "variant": "fusion",
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "round": 3,
+      "mean": 65.24968807480558,
+      "sd": 0.3596851535159335,
+      "variance": 0.12937340965978064,
+      "samples": 3
+    }
+  ],
+  "comparison": [
+    {
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "baseline": {
+        "mean": 45.55234934820214,
+        "sd": 1.312178237960334,
+        "variance": 1.7218117281766865,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 45.630395927827614,
+        "sd": 0.5731438879516786,
+        "variance": 0.32849391629636626,
+        "lifecycles": 3
+      },
+      "improvement_pct": 0.17133381865528374
+    },
+    {
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "baseline": {
+        "mean": 15.007647367381544,
+        "sd": 0.43929751888346563,
+        "variance": 0.19298231009716885,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 14.906599154823986,
+        "sd": 0.19488224532175233,
+        "variance": 0.03797908954164765,
+        "lifecycles": 3
+      },
+      "improvement_pct": 0.6733114797005557
+    },
+    {
+      "workload": "long",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "baseline": {
+        "mean": 460.4346885656317,
+        "sd": 13.216534828213405,
+        "variance": 174.67679286537793,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 463.83224210391444,
+        "sd": 7.787689605849186,
+        "variance": 60.64810939705145,
+        "lifecycles": 3
+      },
+      "improvement_pct": -0.737901296895549
+    },
+    {
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "baseline": {
+        "mean": 64.782061046214,
+        "sd": 1.0404383951774059,
+        "variance": 1.0825120541593358,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 64.60355907862416,
+        "sd": 1.3589065751726688,
+        "variance": 1.8466270800475122,
+        "lifecycles": 3
+      },
+      "improvement_pct": -0.27554227930861597
+    },
+    {
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "baseline": {
+        "mean": 32.5657201640561,
+        "sd": 0.5058698917022876,
+        "variance": 0.2559043473308842,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 32.45751882692217,
+        "sd": 0.6640766961202249,
+        "variance": 0.4409978583299536,
+        "lifecycles": 3
+      },
+      "improvement_pct": -0.3322553181346777
+    },
+    {
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "baseline": {
+        "mean": 19.998409805040826,
+        "sd": 0.2802316153594025,
+        "variance": 0.0785297582469401,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 20.06374611281108,
+        "sd": 0.34335927647088843,
+        "variance": 0.117895592738612,
+        "lifecycles": 3
+      },
+      "improvement_pct": -0.3267075152834753
+    },
+    {
+      "workload": "long",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "baseline": {
+        "mean": 706.1570616335505,
+        "sd": 14.154555485232475,
+        "variance": 200.35144098452471,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 708.5814510161678,
+        "sd": 22.476426351302624,
+        "variance": 505.1897415255309,
+        "lifecycles": 3
+      },
+      "improvement_pct": -0.34332155186680424
+    },
+    {
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "output_tokens_s",
+      "baseline": {
+        "mean": 45.279876504926406,
+        "sd": 1.645005264388713,
+        "variance": 2.70604231986658,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 46.044805116598454,
+        "sd": 0.6988903449283898,
+        "variance": 0.4884477142341236,
+        "lifecycles": 3
+      },
+      "improvement_pct": 1.6893345802054593
+    },
+    {
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "tpot_ms",
+      "baseline": {
+        "mean": 15.175262139863753,
+        "sd": 0.6060072256350827,
+        "variance": 0.36724475752193003,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 14.875694797940985,
+        "sd": 0.2882320354353635,
+        "variance": 0.08307770625121264,
+        "lifecycles": 3
+      },
+      "improvement_pct": 1.9740505248725615
+    },
+    {
+      "workload": "short",
+      "concurrency": 1,
+      "metric": "ttft_ms",
+      "baseline": {
+        "mean": 458.9162901043892,
+        "sd": 14.022756990485917,
+        "variance": 196.63771361422164,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 453.2136743888259,
+        "sd": 7.841673823370313,
+        "variance": 61.49184835213119,
+        "lifecycles": 3
+      },
+      "improvement_pct": 1.2426265614293497
+    },
+    {
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "aggregate_tokens_s",
+      "baseline": {
+        "mean": 58.26525555760136,
+        "sd": 10.203102544469479,
+        "variance": 104.10330153295956,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 64.53265057246769,
+        "sd": 0.7655891411332089,
+        "variance": 0.5861267330210843,
+        "lifecycles": 3
+      },
+      "improvement_pct": 10.756659272987058
+    },
+    {
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "output_tokens_s",
+      "baseline": {
+        "mean": 29.310034979625442,
+        "sd": 5.1113847307557485,
+        "variance": 26.126253865803015,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 32.42490029788882,
+        "sd": 0.3830518698416563,
+        "variance": 0.14672873498918917,
+        "lifecycles": 3
+      },
+      "improvement_pct": 10.627299900626674
+    },
+    {
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "tpot_ms",
+      "baseline": {
+        "mean": 29.13755303284899,
+        "sd": 15.665322884116373,
+        "variance": 245.40234106362013,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 20.132300774919976,
+        "sd": 0.2773411669863086,
+        "variance": 0.07691812290532753,
+        "lifecycles": 3
+      },
+      "improvement_pct": 30.90600040359156
+    },
+    {
+      "workload": "short",
+      "concurrency": 2,
+      "metric": "ttft_ms",
+      "baseline": {
+        "mean": 1284.7459993014731,
+        "sd": 980.5570661988369,
+        "variance": 961492.1600724702,
+        "lifecycles": 3
+      },
+      "fusion": {
+        "mean": 705.8580065042609,
+        "sd": 8.53127752187261,
+        "variance": 72.78269615520887,
+        "lifecycles": 3
+      },
+      "improvement_pct": 45.058555785498335
+    }
+  ],
+  "scope": "sampled development evidence, not full MMLU-Pro or five-dataset results",
+  "startup_excluded": true,
+  "warmup_excluded": true,
+  "profiler_excluded": true
+}

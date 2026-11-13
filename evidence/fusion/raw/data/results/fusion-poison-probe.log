@@ -1,0 +1,18 @@
+[W1014 11:13:03.219817187 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+[W1014 11:13:10.749507523 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"dtype": "torch.float16", "shape": [1, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [1, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [20, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [20, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [128, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [128, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [7, 513, 257], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.float16", "shape": [7, 513, 257], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [1, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [1, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [20, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [20, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [128, 256, 2048], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [128, 256, 2048], "sentinel": "nan", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [7, 513, 257], "sentinel": "7.0", "launches": 3, "passed": true}
+{"dtype": "torch.bfloat16", "shape": [7, 513, 257], "sentinel": "nan", "launches": 3, "passed": true}

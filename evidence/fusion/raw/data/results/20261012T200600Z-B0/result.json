@@ -1,0 +1,9 @@
+{
+  "arm": "B0",
+  "evidence_level": "development-smoke",
+  "status": "completed-smoke",
+  "startup_seconds": 261.293851130642,
+  "task_quality_verified": false,
+  "server_exit_code": 0,
+  "elapsed_seconds": 265.1857940517366
+}

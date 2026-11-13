@@ -1,0 +1,15 @@
+{
+  "model_hashes_equal": true,
+  "dataset_manifest_equal": true,
+  "packages_equal": true,
+  "repos": {
+    "runtime-vllm": {
+      "head_equal": true,
+      "diff_equal": true
+    },
+    "runtime-ascend": {
+      "head_equal": true,
+      "diff_equal": true
+    }
+  }
+}

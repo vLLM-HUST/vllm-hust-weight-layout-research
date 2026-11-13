@@ -1,0 +1,74 @@
+{
+  "argv": [
+    "/root/opset-research/.venv/bin/python",
+    "-m",
+    "vllm.entrypoints.openai.api_server",
+    "--model",
+    "/data/shared_upload/models/vspec/Qwen3.5-35B-A3B",
+    "--served-model-name",
+    "research-model",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18080",
+    "--dtype",
+    "bfloat16",
+    "--tensor-parallel-size",
+    "2",
+    "--max-model-len",
+    "4096",
+    "--max-num-seqs",
+    "4",
+    "--max-num-batched-tokens",
+    "4096",
+    "--block-size",
+    "128",
+    "--gpu-memory-utilization",
+    "0.85",
+    "--no-enable-prefix-caching",
+    "--limit-mm-per-prompt",
+    "{\"image\":0,\"video\":0}",
+    "--compilation-config",
+    "{\"cudagraph_capture_sizes\":[1,2,4]}"
+  ],
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "vllm": "0.23.0",
+    "vllm-ascend": "0.23.0",
+    "triton-ascend": "3.2.2",
+    "vllm-hust-opset": "0.3.2"
+  },
+  "python": "3.12.13 (main, Aug  3 2026, 03:58:42) [GCC 12.3.1 (openEuler 12.3.1-105.oe2403sp3)]",
+  "direct_urls": {
+    "vllm": {
+      "url": "file:///root/opset-research/sources/runtime-vllm",
+      "dir_info": {
+        "editable": true
+      }
+    },
+    "vllm-ascend": {
+      "url": "file:///root/opset-research/sources/runtime-ascend",
+      "dir_info": {
+        "editable": true
+      }
+    },
+    "vllm-hust-opset": {
+      "dir_info": {
+        "editable": true
+      },
+      "url": "file:///root/opset-research/sources/opset"
+    }
+  },
+  "runtime_origin": "server-version source snapshots; deployment probe records active import paths and fork commits",
+  "environment": {
+    "VLLM_PLUGINS": "ascend,operator_optimizations",
+    "VLLM_BATCH_INVARIANT": "1",
+    "TORCH_DEVICE_BACKEND_AUTOLOAD": "0",
+    "VLLM_CACHE_ROOT": "/root/opset-research/cache/B1/persistent-matmul-empty",
+    "VLLM_HUST_OPERATOR_OPTIMIZATIONS": "persistent-matmul-empty"
+  },
+  "config.json_sha256": "5e4d7f74fec2f360eb9cfbfcd6ec0c4c76e684d3a11caaed259d9fd9bfbc7944",
+  "tokenizer_config.json_sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+  "model.safetensors.index.json_sha256": "d8d0b7ca4e61ae107e3e87a3ff21136b3ac7c789e64bb24267227ca804e04205"
+}

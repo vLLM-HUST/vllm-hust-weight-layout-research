@@ -1,0 +1,1 @@
+{"arm": "B1", "evidence_level": "development-smoke", "status": "failed", "error": "RuntimeError: server exited during startup: 1", "server_exit_code": 1, "elapsed_seconds": 24.031582364812493}

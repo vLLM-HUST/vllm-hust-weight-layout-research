@@ -1,0 +1,10132 @@
+{
+  "correctness": [
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "exact_fraction": 1.0
+    }
+  ],
+  "timing": [
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.021755276247859
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.021413248032331467
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.018566753715276718
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.019066734239459038
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.019953306764364243
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.01836526207625866
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018288707360625267
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.019738776609301567
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.018967268988490105
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.01818775199353695
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.018212758004665375
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.01893877051770687
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.01897173933684826
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.018183235079050064
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.01826370134949684
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.018872786313295364
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.018949713557958603
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.018283724784851074
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.01825825311243534
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.018996279686689377
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.018810760229825974
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.019061239436268806
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.018331268802285194
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.01902724616229534
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.018996745347976685
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.018118275329470634
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.018319254741072655
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.01901877112686634
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.019950326532125473
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.01825527288019657
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.01890375278890133
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.01937723718583584
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.01898873597383499
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.018100766465067863
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.01811673864722252
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.01898873597383499
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.019227806478738785
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.018271245062351227
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.018827756866812706
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.018945755437016487
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.019050808623433113
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.01817927695810795
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.01819324679672718
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.01892726868391037
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.018904730677604675
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.018380722030997276
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.018452247604727745
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.01889728009700775
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.018987245857715607
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.018058717250823975
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.018201768398284912
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.019022729247808456
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.019597774371504784
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.018271245062351227
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.01815776340663433
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.019079772755503654
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.018940260633826256
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.018160231411457062
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.018343748524785042
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.018910784274339676
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.020713824778795242
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.018233247101306915
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.018271757289767265
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.019848812371492386
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.01972871832549572
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.018147751688957214
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018314272165298462
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.01964624971151352
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.0197503250092268
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.01848675310611725
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.01820526085793972
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.019845273345708847
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.019845739006996155
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.018535787239670753
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.018121767789125443
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.019853748381137848
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.01994781196117401
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.018094759434461594
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.018111756071448326
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.01964922994375229
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.02000723034143448
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.018274784088134766
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.018210243433713913
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.02010772004723549
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.01982981339097023
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.018182257190346718
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.01823226921260357
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.019956286996603012
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.020044250413775444
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.0182232353836298
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.018040742725133896
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.02045677974820137
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.019792746752500534
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.018176715821027756
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.01820223405957222
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.019962294027209282
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.01985877752304077
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.018242746591567993
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.018153758719563484
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.019847741350531578
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.019881268963217735
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.01820172183215618
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.01820824109017849
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.01974073238670826
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.01988275907933712
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.018484750762581825
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.018296251073479652
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.019573234021663666
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.01986226998269558
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.01820521429181099
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.019304733723402023
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.01995130442082882
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.019830279052257538
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.01858128234744072
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.018135691061615944
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.019582733511924744
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.019670743495225906
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.018180254846811295
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.01812223345041275
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.019603734835982323
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.022510765120387077
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.018563726916909218
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.018720747902989388
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.02047778107225895
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.020616315305233
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.018325773999094963
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018359720706939697
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.020747259259223938
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.02071131020784378
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.01832074485719204
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.01811017282307148
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.020644301548600197
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.020654266700148582
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.0184567179530859
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.018374761566519737
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.020594289526343346
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.020476803183555603
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.018991250544786453
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.018283259123563766
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.0202912837266922
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.020899809896945953
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.01838221214711666
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.018349243327975273
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.02084975130856037
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.020768214017152786
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.018525728955864906
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.018563726916909218
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.020449748262763023
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.020714709535241127
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.018367264419794083
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.054344721138477325
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.020642811432480812
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.020595267415046692
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.018364237621426582
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.018207216635346413
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.020416267216205597
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.020424742251634598
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.01829620450735092
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.01845075748860836
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.02043275162577629
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.02049827016890049
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.01856326125562191
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.01819077879190445
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.020581716671586037
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.020656222477555275
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.01825522631406784
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.018307240679860115
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.0204477459192276
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.020528770983219147
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.01840372569859028
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.01828474923968315
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.020382273942232132
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.02060127444565296
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.018575740978121758
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.018245214596390724
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.020428234711289406
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.020519783720374107
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.018534716218709946
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.018384726718068123
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.020837830379605293
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.02284729853272438
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.021724263206124306
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.021458324044942856
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.02153431996703148
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.021411804482340813
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.02185683697462082
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.021860282868146896
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.021289754658937454
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.020896829664707184
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.021319789811968803
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.021458277478814125
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.02141529694199562
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.021004769951105118
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.0214478000998497
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.021467264741659164
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.021112291142344475
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.02117333933711052
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.021585775539278984
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.021616322919726372
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.020961789414286613
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.020902231335639954
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.022036302834749222
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.021374830976128578
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.02126125618815422
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.021191313862800598
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.02121780999004841
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.021893810480833054
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.020937342196702957
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.021110335364937782
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.021510804072022438
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.02184179611504078
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.020798807963728905
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.021295761689543724
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.021612830460071564
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.02154279500246048
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.021121790632605553
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.02147480845451355
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.02136882394552231
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.021558813750743866
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.020976271480321884
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.021053804084658623
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.021413806825876236
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.021466752514243126
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.02084127627313137
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.02159629948437214
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.02140030264854431
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.022617820650339127
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.021683750674128532
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.021180789917707443
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.021340278908610344
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.02182871103286743
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.021121324971318245
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.020899297669529915
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.02155732363462448
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.021781818941235542
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.02102479338645935
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.020843232050538063
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.021621258929371834
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.021369801834225655
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.021041324362158775
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.024292338639497757
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.019654259085655212
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.019431300461292267
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.022482266649603844
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.022585317492485046
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.019644806161522865
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.02025580033659935
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.02243686467409134
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.02248631790280342
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.019682245329022408
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.0449146144092083
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.022703781723976135
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.022645341232419014
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.02020881511271
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.019745761528611183
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.02255733124911785
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.022811302915215492
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.019624829292297363
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.01982627436518669
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.022515328601002693
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.022476306185126305
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.019571231678128242
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.019550835713744164
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.022925855591893196
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.022342801094055176
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.019589252769947052
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.020138779655098915
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.02261931076645851
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.02258080057799816
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.019768252968788147
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.01982026733458042
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.022679800167679787
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.022229785099625587
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.019530300050973892
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.019941292703151703
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.022552814334630966
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.022528832778334618
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.01973230391740799
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.01990632154047489
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.02240980975329876
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.022564828395843506
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.019481265917420387
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.01953081227838993
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.02220878377556801
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.022433791309595108
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.01968778669834137
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.019865762442350388
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.022515282034873962
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.022961804643273354
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.01962524838745594
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.019824272021651268
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.022520311176776886
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.022497819736599922
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.01973775215446949
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.020454730838537216
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.022354768589138985
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.022589322179555893
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.01962529495358467
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.019739801064133644
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.022377772256731987
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.028053857386112213
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.025911349803209305
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.025710370391607285
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.026937387883663177
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.026953406631946564
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.02565584145486355
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.025715352967381477
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.026632333174347878
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.026725325733423233
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.02588033676147461
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.025801872834563255
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.026706326752901077
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.026713358238339424
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.025914376601576805
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.025911349803209305
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.027071405202150345
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.026881881058216095
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.025755353271961212
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.0257713720202446
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.026810867711901665
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.026789354160428047
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.02606692723929882
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.025602849200367928
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.026524346321821213
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.026807840913534164
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.025820359587669373
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.02575637772679329
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.026729842647910118
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.026793358847498894
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.025902315974235535
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.025686854496598244
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.026973383501172066
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.027124397456645966
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.02613542601466179
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.026462320238351822
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.02692784182727337
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.027227820828557014
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.026295846328139305
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.026243366301059723
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.027139345183968544
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.026959367096424103
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.026012863963842392
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.026047416031360626
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.026742881163954735
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.027005420997738838
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.026422366499900818
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.026248861104249954
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.027444353327155113
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.02683834172785282
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.026342319324612617
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.026209373027086258
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.02715233713388443
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.027272338047623634
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.026130815967917442
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.025866413488984108
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.026697898283600807
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.02688635140657425
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.02614934928715229
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.02623484469950199
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.02703135833144188
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.016812700778245926
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.014994200319051743
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.014774175360798836
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.01540323719382286
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.015739211812615395
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.015082722529768944
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.014950195327401161
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.015710247680544853
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.015437696129083633
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.015377206727862358
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.015004212036728859
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.015425262972712517
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.015892693772912025
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.014942698180675507
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.014852173626422882
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.015492690727114677
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.015360210090875626
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.014994200319051743
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.014886725693941116
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.015484215691685677
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.01602116972208023
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.0150331761687994
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.015085237100720406
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.015786197036504745
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.015547685325145721
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.01526116393506527
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.015092175453901291
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.015573715791106224
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.015787221491336823
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.01499522477388382
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.014952709898352623
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.01552472822368145
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.015549687668681145
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.01517576165497303
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.01561320386826992
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.01576067879796028
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.015671178698539734
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.014964211732149124
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.015165703371167183
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.015499209985136986
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.015620701014995575
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.015434203669428825
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.014858786016702652
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.015547219663858414
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.0157967209815979
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.014871684834361076
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.014930684119462967
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.015446217730641365
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.01553371548652649
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.01497725024819374
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.015150196850299835
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.015496229752898216
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.01573720946907997
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.015023676678538322
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.015053199604153633
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.015590712428092957
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.015502749010920525
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.015096180140972137
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.01514023169875145
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.01591825857758522
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.02075033262372017
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.018473761156201363
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.018495740368962288
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.019182264804840088
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.01932322047650814
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.018383236601948738
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018319766968488693
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.019284244626760483
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.019275257363915443
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.018193712458014488
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.018376251682639122
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.01926473341882229
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.019413745030760765
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.01838523894548416
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.01828474923968315
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.01948922872543335
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.019328249618411064
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.01822276972234249
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.01845979131758213
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.019365781918168068
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.01952224411070347
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.018455274403095245
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.01803925260901451
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.019410764798521996
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.019623246043920517
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.01831776462495327
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.018414249643683434
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.01929677091538906
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.01962874084711075
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.018461234867572784
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.018469244241714478
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.01974678598344326
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.019314279779791832
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.018167728558182716
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.018278229981660843
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.019499799236655235
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.01946273259818554
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.01827627420425415
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.0186932273209095
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.01946329139173031
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.0192263163626194
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.018374761566519737
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.018327217549085617
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.019895797595381737
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.019372301176190376
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.018357764929533005
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.018475251272320747
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.019608810544013977
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.0196763314306736
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.018408289179205894
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.018327264115214348
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.019305245950818062
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.019704317674040794
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.018345285207033157
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.018318230286240578
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.01941826194524765
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.019472790881991386
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.018263794481754303
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.018449733033776283
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.019289739429950714
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.020587770268321037
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.01825029030442238
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.01796823926270008
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.019093230366706848
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.01929621212184429
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.018003256991505623
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018293224275112152
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.0192287378013134
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.019303802400827408
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.018227705731987953
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.018186261877417564
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.019626272842288017
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.019694818183779716
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.018328800797462463
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.018055737018585205
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.01933872699737549
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.019380776211619377
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.018623284995555878
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.018149754032492638
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.019170762971043587
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.019340775907039642
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.01828279346227646
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.01807175576686859
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.019342219457030296
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.019301800057291985
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.01816125586628914
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.01902724616229534
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.01968424767255783
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.019161216914653778
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.018866267055273056
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.018009264022111893
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.01955125480890274
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.019183708354830742
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.018201768398284912
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.017997249960899353
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.019174767658114433
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.019570253789424896
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.018129777163267136
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.018015271052718163
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.01927921548485756
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.01909025013446808
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.01810179091989994
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.0181522686034441
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.01926724798977375
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.019298261031508446
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.0181468203663826
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.01824023202061653
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.019573234021663666
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.019432231783866882
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.018187332898378372
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.017993245273828506
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.019537750631570816
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.0193912535905838
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.018025236204266548
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.01805974170565605
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.01924429088830948
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.02027330920100212
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.018277252092957497
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.018133269622921944
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.01917574554681778
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.022467318922281265
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.018475297838449478
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.01837322488427162
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.0208413228392601
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.021067773923277855
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.018632225692272186
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.018505798652768135
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.02117580734193325
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.020943721756339073
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.018420256674289703
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.018898723646998405
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.020765280351042747
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.020929798483848572
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.018280791118741035
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.01834672875702381
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.02092178910970688
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.02103429287672043
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.018340768292546272
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.018410757184028625
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.020677316933870316
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.02098381519317627
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.01824074424803257
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.01847422681748867
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.020893802866339684
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.02096281386911869
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.019043264910578728
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.018254248425364494
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.020848214626312256
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.02110530622303486
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.018327729776501656
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.01843571662902832
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.020787818357348442
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.020886817947030067
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.0183063093572855
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.018322747200727463
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.02096281386911869
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.020960811525583267
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.018428312614560127
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.018224772065877914
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.02080029807984829
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.021007796749472618
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.018393807113170624
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.018408754840493202
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.145980017259717
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.023097312077879906
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.018357252702116966
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.018387753516435623
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.021784799173474312
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.02088882029056549
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.018464215099811554
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.018534809350967407
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.020870286971330643
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.021099764853715897
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.0184627715498209
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.018238741904497147
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.02071978524327278
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.020878249779343605
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.01838826574385166
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.018359720706939697
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.0210548285394907
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.023384299129247665
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.02131727524101734
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.021151825785636902
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.02206927165389061
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.022668344900012016
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.022031785920262337
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.02154228277504444
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.022106384858489037
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.02219085581600666
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.021833786740899086
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.021303817629814148
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.022185826674103737
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.022254325449466705
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.021917279809713364
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.021246308460831642
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.022127805277705193
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.02214079722762108
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.02125827595591545
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.02118428237736225
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.021843845024704933
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.022147828713059425
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.021442770957946777
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.021390803158283234
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.022058794274926186
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.021937815472483635
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.021417299285531044
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.02158679999411106
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.02227937802672386
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.02231476828455925
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.02153129316866398
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.021366309374570847
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.02189776860177517
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.02179429866373539
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.021287286654114723
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.021046819165349007
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.02224431373178959
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.02196882851421833
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.021609803661704063
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.021630851551890373
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.02233828417956829
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.022283801808953285
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.021864287555217743
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.02143331803381443
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.02196826972067356
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.02196580171585083
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.02162228338420391
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.02168179489672184
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.022156862542033195
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.022198306396603584
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.021221302449703217
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.021576834842562675
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.022235792130231857
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.022092275321483612
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.021796301007270813
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.0212883111089468
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.022171810269355774
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.022061821073293686
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.02167331986129284
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.021172314882278442
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.022491859272122383
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.025061890482902527
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.020126299932599068
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.019841734319925308
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.023561296984553337
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.02347487024962902
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.01972033642232418
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.019721826538443565
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.024032872170209885
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.0236493069678545
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.01983828842639923
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.01958077773451805
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.023743323981761932
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.056256307289004326
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.020068325102329254
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.01993579789996147
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.02340087667107582
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.023531867191195488
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.020005740225315094
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.01982073299586773
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.0235783401876688
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.023851357400417328
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.020070839673280716
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.021346798166632652
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.02363133244216442
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.023849355056881905
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.019911304116249084
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.01969076693058014
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.023446790874004364
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.023686373606324196
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.020736781880259514
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.01986529678106308
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.023769820109009743
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.02366681583225727
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.0196733046323061
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.019594281911849976
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.02384483814239502
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.02360530197620392
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.020672287791967392
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.020044296979904175
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.023810844868421555
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.023570284247398376
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.019745249301195145
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.019792234525084496
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.023964885622262955
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.02374988980591297
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.019960245117545128
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.01976774074137211
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.023807352408766747
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.02374132163822651
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.020098267123103142
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.02019675448536873
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.02399533987045288
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.023682834580540657
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.019858311861753464
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.01973826438188553
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.023652799427509308
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.023768842220306396
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.019895285367965698
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.01966981217265129
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.024265842512249947
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.03147446550428867
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.02591283991932869
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.02572084777057171
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.030629942193627357
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.030665937811136246
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.025929370895028114
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.026277871802449226
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.030733412131667137
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.030677951872348785
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.02569141797721386
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.025979382917284966
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.030517950654029846
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.03038286231458187
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.026036333292722702
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.025975843891501427
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.030761444941163063
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.030739465728402138
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.027889898046851158
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.02598986029624939
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.03081248141825199
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.03054696135222912
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.02585337497293949
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.02621491439640522
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.031064962968230247
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.03096046857535839
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.025952933356165886
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.02560485154390335
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.030542444437742233
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.030798930674791336
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.026280386373400688
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.026164855808019638
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.030530430376529694
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.03061196766793728
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.025805411860346794
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.025775330141186714
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.030411919578909874
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.030624447390437126
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.025897333398461342
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.026182876899838448
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.030851876363158226
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.030619418248534203
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.025991396978497505
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.026028882712125778
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.030620954930782318
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.03076787106692791
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.026125367730855942
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.026022829115390778
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.030322885140776634
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.030464446172118187
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.025858916342258453
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.026195915415883064
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.030692433938384056
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.0305254478007555
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.026041362434625626
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.02598636783659458
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.030758418142795563
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.03040092997252941
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.025985436514019966
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.025854911655187607
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.030459929257631302
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 0,
+      "latency_ms": 0.018040789291262627
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 0,
+      "latency_ms": 0.015406263992190361
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 1,
+      "latency_ms": 0.015480723232030869
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 1,
+      "latency_ms": 0.016499776393175125
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 2,
+      "latency_ms": 0.016656750813126564
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 2,
+      "latency_ms": 0.015315739437937737
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 3,
+      "latency_ms": 0.015229778364300728
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 3,
+      "latency_ms": 0.01636827364563942
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 4,
+      "latency_ms": 0.01639528200030327
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 4,
+      "latency_ms": 0.015163188800215721
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 5,
+      "latency_ms": 0.015153270214796066
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 5,
+      "latency_ms": 0.016726739704608917
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 6,
+      "latency_ms": 0.017374753952026367
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 6,
+      "latency_ms": 0.01520467922091484
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 7,
+      "latency_ms": 0.01517520286142826
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 7,
+      "latency_ms": 0.016454234719276428
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 8,
+      "latency_ms": 0.01625875011086464
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 8,
+      "latency_ms": 0.015152199193835258
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 9,
+      "latency_ms": 0.01527923159301281
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 9,
+      "latency_ms": 0.016321195289492607
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 10,
+      "latency_ms": 0.017069745808839798
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 10,
+      "latency_ms": 0.015203747898340225
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 11,
+      "latency_ms": 0.015026703476905823
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 11,
+      "latency_ms": 0.016931723803281784
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 12,
+      "latency_ms": 0.01647118479013443
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 12,
+      "latency_ms": 0.01591220498085022
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 13,
+      "latency_ms": 0.0151017215102911
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 13,
+      "latency_ms": 0.016319705173373222
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 14,
+      "latency_ms": 0.01661675050854683
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 14,
+      "latency_ms": 0.015292223542928696
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 15,
+      "latency_ms": 0.015132734552025795
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 15,
+      "latency_ms": 0.01641218550503254
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 16,
+      "latency_ms": 0.01636175438761711
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 16,
+      "latency_ms": 0.015173200517892838
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 17,
+      "latency_ms": 0.015464704483747482
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 17,
+      "latency_ms": 0.01645726151764393
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 18,
+      "latency_ms": 0.01713475212454796
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 18,
+      "latency_ms": 0.015227170661091805
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 19,
+      "latency_ms": 0.015234248712658882
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 19,
+      "latency_ms": 0.016441242769360542
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 20,
+      "latency_ms": 0.01640627160668373
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 20,
+      "latency_ms": 0.015399185940623283
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 21,
+      "latency_ms": 0.015278719365596771
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 21,
+      "latency_ms": 0.01662876456975937
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 22,
+      "latency_ms": 0.016550207510590553
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 22,
+      "latency_ms": 0.015185680240392685
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 23,
+      "latency_ms": 0.015316205099225044
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 23,
+      "latency_ms": 0.01642419956624508
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 24,
+      "latency_ms": 0.016360729932785034
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 24,
+      "latency_ms": 0.015208171680569649
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 25,
+      "latency_ms": 0.014990195631980896
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 25,
+      "latency_ms": 0.016301218420267105
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 26,
+      "latency_ms": 0.016519706696271896
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 26,
+      "latency_ms": 0.01530516892671585
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 27,
+      "latency_ms": 0.015243655070662498
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 27,
+      "latency_ms": 0.016356678679585457
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 28,
+      "latency_ms": 0.01753624528646469
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 28,
+      "latency_ms": 0.015434715896844864
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "candidate",
+      "repeat": 29,
+      "latency_ms": 0.015571760013699532
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "variant": "baseline",
+      "repeat": 29,
+      "latency_ms": 0.016366271302103996
+    }
+  ],
+  "summary": [
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.019195380931099255,
+        "sd_ms": 0.0005714639647047471,
+        "variance_ms2": 3.2657106295606846e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.01842426446576913,
+        "sd_ms": 0.0006114095168706999,
+        "variance_ms2": 3.7382159732006275e-07,
+        "samples": 30
+      },
+      "latency_reduction_pct": 4.017198033724901
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.019875747772554558,
+        "sd_ms": 0.0002372782462566157,
+        "variance_ms2": 5.630096614661517e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.01827274914830923,
+        "sd_ms": 0.00023397323107137927,
+        "variance_ms2": 5.4743472857981034e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 8.065098443535435
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.020646685734391212,
+        "sd_ms": 0.0003825025210442394,
+        "variance_ms2": 1.463081786051988e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.019603452334801357,
+        "sd_ms": 0.006563885246586916,
+        "variance_ms2": 4.308458953036137e-05,
+        "samples": 30
+      },
+      "latency_reduction_pct": 5.052788680035658
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.02120011020451784,
+        "sd_ms": 0.00039006670568942953,
+        "variance_ms2": 1.52152034887404e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.02160504770775636,
+        "sd_ms": 0.00027811655660947164,
+        "variance_ms2": 7.734881906030943e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": -1.9100726332650142
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "baseline": {
+        "mean_ms": 0.01565564579019944,
+        "sd_ms": 0.0002743720965301371,
+        "variance_ms2": 7.528004735434287e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.015057772397994995,
+        "sd_ms": 0.0001808630872472928,
+        "variance_ms2": 3.2711456328621845e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 3.818899585596902
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.022596226384242375,
+        "sd_ms": 0.0003622414960016588,
+        "variance_ms2": 1.312189014255198e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.020603675705691177,
+        "sd_ms": 0.004597764640168662,
+        "variance_ms2": 2.113943968638526e-05,
+        "samples": 30
+      },
+      "latency_reduction_pct": 8.818068312241357
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.02695181096593539,
+        "sd_ms": 0.00029306622750392903,
+        "variance_ms2": 8.588781370338469e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.02598882808039586,
+        "sd_ms": 0.00024387636620800706,
+        "variance_ms2": 5.947568199482197e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 3.572980260052483
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.01948718757679065,
+        "sd_ms": 0.00029360137732296627,
+        "variance_ms2": 8.620176876594282e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.018360503017902374,
+        "sd_ms": 0.00012238258687706548,
+        "variance_ms2": 1.497749757072248e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 5.781668362602321
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.01941980483631293,
+        "sd_ms": 0.0003251937610023563,
+        "variance_ms2": 1.0575098219485762e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.01820554646352927,
+        "sd_ms": 0.0002429900983000801,
+        "variance_ms2": 5.90441878718826e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 6.252680616610162
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        4,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.0252466198677818,
+        "sd_ms": 0.022808556678561114,
+        "variance_ms2": 0.0005202302577591348,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.01842462457716465,
+        "sd_ms": 0.00017595809839194272,
+        "variance_ms2": 3.09612523897086e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 27.021420397440863
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.022186014490822952,
+        "sd_ms": 0.00029109924431770524,
+        "variance_ms2": 8.473877004233904e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.021480900856355827,
+        "sd_ms": 0.0002520073694873073,
+        "variance_ms2": 6.35077142759122e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 3.178189731908765
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        7,
+        513,
+        257
+      ],
+      "baseline": {
+        "mean_ms": 0.0166254381959637,
+        "sd_ms": 0.0004177891308007363,
+        "variance_ms2": 1.7454775781523472e-07,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.015275413170456886,
+        "sd_ms": 0.00017814687097218604,
+        "variance_ms2": 3.1736307637180696e-08,
+        "samples": 30
+      },
+      "latency_reduction_pct": 8.120237250856766
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        32,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.02485510582725207,
+        "sd_ms": 0.0059385860962596956,
+        "variance_ms2": 3.526680482268897e-05,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.019966266117990017,
+        "sd_ms": 0.0003729877902756954,
+        "variance_ms2": 1.391198916947461e-07,
+        "samples": 30
+      },
+      "latency_reduction_pct": 19.66935785041698
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        128,
+        256,
+        2048
+      ],
+      "baseline": {
+        "mean_ms": 0.030665768620868523,
+        "sd_ms": 0.000229499010846717,
+        "variance_ms2": 5.2669795979621534e-08,
+        "samples": 30
+      },
+      "candidate": {
+        "mean_ms": 0.026040910743176937,
+        "sd_ms": 0.0003872822995576986,
+        "variance_ms2": 1.49987579550699e-07,
+        "samples": 30
+      },
+      "latency_reduction_pct": 15.081499945004806
+    }
+  ],
+  "all_pass": true,
+  "evidence_level": "operator-graph-only"
+}

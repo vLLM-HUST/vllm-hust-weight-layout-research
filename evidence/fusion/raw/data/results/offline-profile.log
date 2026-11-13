@@ -1,0 +1,15 @@
+[W1014 10:13:02.009829092 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+[2026-10-14 10:13:07] [INFO] [301107] profiler.py: Start parsing profiling data in sync mode at: /root/opset-research/results/20261014T095813Z-baseline-r3/profile/dp0_pp0_tp0_dcp0_ep0_rank0_273323_20261014100325430_ascend_pt
+[2026-10-14 10:13:07] [INFO] [301109] profiler.py: Start parsing profiling data in sync mode at: /root/opset-research/results/20261014T095813Z-baseline-r3/profile/dp0_pp0_tp1_dcp0_ep1_rank1_273324_20261014100325430_ascend_pt
+||//--\\||//--\\||//--\\||//--\\||//--\\||[2026-10-14 10:13:30] [INFO] [301127] profiler.py: CANN profiling data parsed in a total time of 0:00:22.099307
+[2026-10-14 10:13:30] [INFO] [301128] profiler.py: CANN profiling data parsed in a total time of 0:00:22.085452
+//--\\||//--\\|[2026-10-14 10:13:38] [INFO] [301109] profiler.py: All profiling data parsed in a total time of 0:00:30.584361
+[2026-10-14 10:13:38] [INFO] [301107] profiler.py: All profiling data parsed in a total time of 0:00:30.767298
+PARSED 20261014T095813Z-baseline-r3
+[2026-10-14 10:13:39] [INFO] [302649] profiler.py: Start parsing profiling data in sync mode at: /root/opset-research/results/20261014T100333Z-fusion-r3/profile/dp0_pp0_tp1_dcp0_ep1_rank1_283992_20261014100739912_ascend_pt
+[2026-10-14 10:13:39] [INFO] [302646] profiler.py: Start parsing profiling data in sync mode at: /root/opset-research/results/20261014T100333Z-fusion-r3/profile/dp0_pp0_tp0_dcp0_ep0_rank0_283991_20261014100739912_ascend_pt
+||//--\\||//--\\||//--\\||//--\\||//--\[2026-10-14 10:13:59] [INFO] [302667] profiler.py: CANN profiling data parsed in a total time of 0:00:20.123394
+\[2026-10-14 10:13:59] [INFO] [302668] profiler.py: CANN profiling data parsed in a total time of 0:00:20.145719
+||//--\\||//--\\[2026-10-14 10:14:08] [INFO] [302646] profiler.py: All profiling data parsed in a total time of 0:00:29.305365
+[2026-10-14 10:14:08] [INFO] [302649] profiler.py: All profiling data parsed in a total time of 0:00:29.307539
+PARSED 20261014T100333Z-fusion-r3

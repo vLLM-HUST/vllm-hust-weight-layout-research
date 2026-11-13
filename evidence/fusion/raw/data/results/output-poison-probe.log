@@ -1,0 +1,13 @@
+[W1014 10:25:56.392642617 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 10:26:02 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 10:26:02 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 10:26:02 [__init__.py:58] Loading plugin ascend
+INFO 10-14 10:26:02 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 10:26:02 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 10:26:14.686470389 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"m": 1, "sentinel": "7.0", "finite": true, "nan_count": 0, "max_abs": 3.1635626299680998e+38, "equal": false}
+{"m": 1, "sentinel": "nan", "finite": false, "nan_count": 256, "max_abs": NaN, "equal": false}
+{"m": 20, "sentinel": "7.0", "finite": false, "nan_count": 43, "max_abs": NaN, "equal": false}
+{"m": 20, "sentinel": "nan", "finite": false, "nan_count": 5120, "max_abs": NaN, "equal": false}
+{"m": 32, "sentinel": "7.0", "finite": false, "nan_count": 61, "max_abs": NaN, "equal": false}
+{"m": 32, "sentinel": "nan", "finite": false, "nan_count": 8192, "max_abs": NaN, "equal": false}

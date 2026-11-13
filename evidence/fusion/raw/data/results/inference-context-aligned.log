@@ -1,0 +1,19 @@
+[W1014 10:23:56.983088108 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 10:24:02 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 10:24:02 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 10:24:02 [__init__.py:58] Loading plugin ascend
+INFO 10-14 10:24:02 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 10:24:02 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 10:24:13.374308683 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"inference": false, "subclass": false, "repeat": 0, "finite": false, "reference_finite": true, "equal": false, "nan_count": 6}
+{"inference": false, "subclass": false, "repeat": 1, "finite": true, "reference_finite": true, "equal": true, "nan_count": 0}
+{"inference": false, "subclass": false, "repeat": 2, "finite": true, "reference_finite": true, "equal": false, "nan_count": 0}
+{"inference": false, "subclass": true, "repeat": 0, "finite": false, "reference_finite": true, "equal": false, "nan_count": 7}
+{"inference": false, "subclass": true, "repeat": 1, "finite": false, "reference_finite": true, "equal": false, "nan_count": 27}
+{"inference": false, "subclass": true, "repeat": 2, "finite": true, "reference_finite": true, "equal": false, "nan_count": 0}
+{"inference": true, "subclass": false, "repeat": 0, "finite": false, "reference_finite": true, "equal": false, "nan_count": 7}
+{"inference": true, "subclass": false, "repeat": 1, "finite": false, "reference_finite": true, "equal": false, "nan_count": 21}
+{"inference": true, "subclass": false, "repeat": 2, "finite": true, "reference_finite": true, "equal": false, "nan_count": 0}
+{"inference": true, "subclass": true, "repeat": 0, "finite": false, "reference_finite": true, "equal": false, "nan_count": 1}
+{"inference": true, "subclass": true, "repeat": 1, "finite": false, "reference_finite": true, "equal": false, "nan_count": 23}
+{"inference": true, "subclass": true, "repeat": 2, "finite": true, "reference_finite": true, "equal": false, "nan_count": 0}

@@ -1,0 +1,74 @@
+{
+  "control": {
+    "stage": "finished",
+    "all_pass": true,
+    "capture_count": 1,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 15
+  },
+  "kernel": {
+    "stage": "finished",
+    "all_pass": true,
+    "capture_count": 1,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 15
+  },
+  "topology": {
+    "stage": "update-1-candidate",
+    "all_pass": false,
+    "capture_count": 1,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 3
+  },
+  "fusion": {
+    "stage": "capture",
+    "all_pass": false,
+    "capture_count": 0,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 0
+  },
+  "fusion-v2": {
+    "stage": "update-1-candidate",
+    "all_pass": false,
+    "capture_count": 1,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 3
+  },
+  "triton": {
+    "stage": "finished",
+    "all_pass": true,
+    "capture_count": 1,
+    "shape": [
+      7,
+      256,
+      2048
+    ],
+    "dtype": "bf16",
+    "successful_checks": 15
+  }
+}

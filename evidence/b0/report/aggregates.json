@@ -1,0 +1,302 @@
+[
+  {
+    "bucket": "P1",
+    "concurrency": 1,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P1",
+    "concurrency": 4,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P1",
+    "concurrency": 8,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P1",
+    "concurrency": 16,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P1",
+    "concurrency": 32,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P1",
+    "concurrency": 64,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 1,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 4,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 8,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 16,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 32,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P2",
+    "concurrency": 64,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 1,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 4,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 8,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 16,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 32,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P3",
+    "concurrency": 64,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 1,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 4,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 8,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 16,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 32,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P4",
+    "concurrency": 64,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 1,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 4,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 8,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 16,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 32,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  },
+  {
+    "bucket": "P5",
+    "concurrency": 64,
+    "successful_repeats": 0,
+    "tested_repeats": 0,
+    "output_tokens_per_second_mean": null,
+    "output_tokens_per_second_stdev": null,
+    "max_ttft_p95": null,
+    "max_tpot_p95": null
+  }
+]

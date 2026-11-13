@@ -1,0 +1,11 @@
+{
+  "archive": "opset-repair-evidence-20261014.tar.gz",
+  "sha256": "91a8967a208da284d13ce4c749332f238f3e58e3679ffe64299889c283eaab8d",
+  "size_bytes": 121129614,
+  "manifest": "data/results/repair-manifest.json",
+  "artifacts_checked": 718,
+  "size_or_hash_mismatches": 0,
+  "archive_paths_checked": true,
+  "extracted": true,
+  "public_release_created": false
+}

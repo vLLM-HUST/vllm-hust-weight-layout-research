@@ -1,0 +1,20 @@
+{
+  "scope": "Clarifications for immutable intermediate diagnostic artifacts; performance results are unaffected.",
+  "file_notes": [
+    {
+      "path_in_archive": "results/explicit-accumulator-probe.json",
+      "actual_variant": "kernel-local clearing before tile alignment, nine small-matrix cases",
+      "reason": "The diagnostic runner reused its output JSON filename when testing the later fused-clear candidate.",
+      "authoritative_explicit_accumulator_negative_log": "results/explicit-accumulator-probe.log",
+      "authoritative_fused_clear_small_matrix_log": "results/fused-clear-probe.log",
+      "interpretation": "Do not use this intermediate JSON to claim that explicit dot accumulation fixed the issue. The later full correctness gate failed."
+    },
+    {
+      "path_in_archive": "results/production-shape-probe.json",
+      "actual_variant": "initial M=2 probe from an incorrectly interpreted tokenizer return object",
+      "authoritative_corrected_probe": "results/production-shape-probe-m20.json",
+      "interpretation": "Only the corrected M=20 probe represents the real short chat prompt length."
+    }
+  ],
+  "raw_nonfinite_values": "Some failed diagnostic JSON records preserve NaN as a raw Python diagnostic value; they are not strict-JSON success summaries or correctness acceptance evidence."
+}

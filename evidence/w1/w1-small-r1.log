@@ -1,0 +1,74 @@
+2026-10-25T20:00:29.466589+00:00 step1_freeze: {}
+2026-10-25T20:00:33.472985+00:00 HASH model .gitattributes
+2026-10-25T20:00:33.473375+00:00 HASH model LICENSE
+2026-10-25T20:00:33.473597+00:00 HASH model README.md
+2026-10-25T20:00:33.474026+00:00 HASH model chat_template.jinja
+2026-10-25T20:00:33.474221+00:00 HASH model config.json
+2026-10-25T20:00:33.474391+00:00 HASH model generation_config.json
+2026-10-25T20:00:33.474551+00:00 HASH model merges.txt
+2026-10-25T20:00:33.497881+00:00 HASH model model.safetensors-00001-of-00014.safetensors
+2026-10-25T20:00:41.364220+00:00 HASH model model.safetensors-00002-of-00014.safetensors
+2026-10-25T20:00:49.178039+00:00 HASH model model.safetensors-00003-of-00014.safetensors
+2026-10-25T20:00:56.867005+00:00 HASH model model.safetensors-00004-of-00014.safetensors
+2026-10-25T20:01:04.714942+00:00 HASH model model.safetensors-00005-of-00014.safetensors
+2026-10-25T20:01:12.686009+00:00 HASH model model.safetensors-00006-of-00014.safetensors
+2026-10-25T20:01:20.644922+00:00 HASH model model.safetensors-00007-of-00014.safetensors
+2026-10-25T20:01:28.529992+00:00 HASH model model.safetensors-00008-of-00014.safetensors
+2026-10-25T20:01:36.455662+00:00 HASH model model.safetensors-00009-of-00014.safetensors
+2026-10-25T20:01:44.270222+00:00 HASH model model.safetensors-00010-of-00014.safetensors
+2026-10-25T20:01:52.354174+00:00 HASH model model.safetensors-00011-of-00014.safetensors
+2026-10-25T20:02:00.176363+00:00 HASH model model.safetensors-00012-of-00014.safetensors
+2026-10-25T20:02:07.922710+00:00 HASH model model.safetensors-00013-of-00014.safetensors
+2026-10-25T20:02:15.670892+00:00 HASH model model.safetensors-00014-of-00014.safetensors
+2026-10-25T20:02:19.057699+00:00 HASH model model.safetensors.index.json
+2026-10-25T20:02:19.058588+00:00 HASH model preprocessor_config.json
+2026-10-25T20:02:19.058804+00:00 HASH model tokenizer.json
+2026-10-25T20:02:19.078334+00:00 HASH model tokenizer_config.json
+2026-10-25T20:02:19.078706+00:00 HASH model video_preprocessor_config.json
+2026-10-25T20:02:19.078875+00:00 HASH model vocab.json
+2026-10-25T20:02:20.470344+00:00 running_group: {'group': 'W1-r1-ctx4096', 'context': 4096, 'sequences': 32, 'budget': 4096}
+2026-10-25T20:06:06.808910+00:00 SERVER READY W1-r1-ctx4096 in 226.3s
+2026-10-25T20:06:06.809554+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-quality'}
+2026-10-25T20:06:11.528008+00:00 CELL small-quality: 32/70
+2026-10-25T20:06:15.130004+00:00 CELL small-quality: 64/70
+2026-10-25T20:06:16.562504+00:00 CELL DONE small-quality: completed, 17.48 tok/s
+2026-10-25T20:06:16.563660+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P1-C1'}
+2026-10-25T20:08:04.818691+00:00 CELL small-P1-C1: 32/32
+2026-10-25T20:08:05.381278+00:00 CELL DONE small-P1-C1: completed, 39.23 tok/s
+2026-10-25T20:08:05.383154+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P1-C8'}
+2026-10-25T20:08:28.690469+00:00 CELL small-P1-C8: 32/32
+2026-10-25T20:08:29.254900+00:00 CELL DONE small-P1-C8: completed, 223.00 tok/s
+2026-10-25T20:08:29.257747+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P1-C32'}
+2026-10-25T20:08:45.503720+00:00 CELL small-P1-C32: 32/32
+2026-10-25T20:08:46.063599+00:00 CELL DONE small-P1-C32: completed, 518.80 tok/s
+2026-10-25T20:08:46.066698+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P2-C1'}
+2026-10-25T20:21:06.558285+00:00 CELL small-P2-C1: 32/32
+2026-10-25T20:21:07.119730+00:00 CELL DONE small-P2-C1: completed, 45.70 tok/s
+2026-10-25T20:21:07.123960+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P2-C8'}
+2026-10-25T20:23:44.614368+00:00 CELL small-P2-C8: 32/32
+2026-10-25T20:23:45.209719+00:00 CELL DONE small-P2-C8: completed, 261.66 tok/s
+2026-10-25T20:23:45.212781+00:00 running_cell: {'group': 'W1-r1-ctx4096', 'cell': 'small-P2-C32'}
+2026-10-25T20:25:27.247479+00:00 CELL small-P2-C32: 32/32
+2026-10-25T20:25:27.798038+00:00 CELL DONE small-P2-C32: completed, 640.96 tok/s
+2026-10-25T20:25:34.357137+00:00 running_group: {'group': 'W1-r1-ctx16384', 'context': 16384, 'sequences': 32, 'budget': 4096}
+2026-10-25T20:28:59.658891+00:00 SERVER READY W1-r1-ctx16384 in 205.3s
+2026-10-25T20:28:59.659660+00:00 running_cell: {'group': 'W1-r1-ctx16384', 'cell': 'small-P3-C1'}
+2026-10-25T20:32:34.570759+00:00 CELL small-P3-C1: 32/32
+2026-10-25T20:32:35.127115+00:00 CELL DONE small-P3-C1: completed, 39.45 tok/s
+2026-10-25T20:32:35.132836+00:00 running_cell: {'group': 'W1-r1-ctx16384', 'cell': 'small-P3-C8'}
+2026-10-25T20:33:50.348238+00:00 CELL small-P3-C8: 32/32
+2026-10-25T20:33:50.910733+00:00 CELL DONE small-P3-C8: completed, 137.02 tok/s
+2026-10-25T20:33:50.916439+00:00 running_cell: {'group': 'W1-r1-ctx16384', 'cell': 'small-P3-C32'}
+2026-10-25T20:35:11.191751+00:00 CELL small-P3-C32: 32/32
+2026-10-25T20:35:11.754804+00:00 CELL DONE small-P3-C32: completed, 205.39 tok/s
+2026-10-25T20:35:18.326575+00:00 running_group: {'group': 'W1-r1-ctx65536', 'context': 65536, 'sequences': 32, 'budget': 4096}
+2026-10-25T20:38:31.592875+00:00 SERVER READY W1-r1-ctx65536 in 193.3s
+2026-10-25T20:38:31.593705+00:00 running_cell: {'group': 'W1-r1-ctx65536', 'cell': 'small-P4-C1'}
+2026-10-25T20:43:25.151732+00:00 CELL small-P4-C1: 32/32
+2026-10-25T20:43:25.719590+00:00 CELL DONE small-P4-C1: completed, 28.83 tok/s
+2026-10-25T20:43:25.743318+00:00 running_cell: {'group': 'W1-r1-ctx65536', 'cell': 'small-P4-C8'}
+2026-10-25T20:46:22.192166+00:00 CELL small-P4-C8: 32/32
+2026-10-25T20:46:22.746011+00:00 CELL DONE small-P4-C8: completed, 58.30 tok/s
+2026-10-25T20:46:22.771134+00:00 running_cell: {'group': 'W1-r1-ctx65536', 'cell': 'small-P4-C32'}
+2026-10-25T20:50:32.161272+00:00 CELL small-P4-C32: 32/32
+2026-10-25T20:50:32.714637+00:00 CELL DONE small-P4-C32: completed, 64.30 tok/s

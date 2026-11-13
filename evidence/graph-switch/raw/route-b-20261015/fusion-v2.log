@@ -1,0 +1,44 @@
+[W1015 07:47:10.294037031 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+imported
+[W1015 07:47:17.901149978 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+INFO 10-15 07:47:17 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-15 07:47:17 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-15 07:47:17 [__init__.py:58] Loading plugin ascend
+INFO 10-15 07:47:17 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-15 07:47:17 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+warmup
+capture
+update-0-baseline
+update-1-candidate
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 114, in main
+    torch.npu.graph_task_update_end(update_stream)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 100, in graph_task_update_end
+    _graph_task_update_end(stream)
+RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is _linear_swiglu_kernel.
+Since the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.
+Note: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.
+[ERROR] 2026-10-15-07:47:30 (PID:57500, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+EE9999: Inner Error!
+EE9999[PID: 57500] 2026-10-15-07:47:30.192.385 (EE9999):  Check kernel task failed, stream_id=44, task_id=10, retCode=0x7080005.[FUNC:StreamLaunchKernelV1][FILE:aix_stars.cc][LINE:674]
+TraceBack (most recent call last):
+       rtKernelLaunch execution failed, reason=kernel type error[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+
+
+Traceback (most recent call last):
+  File "/root/opset-research/route_b_probe.py", line 147, in <module>
+    with torch.inference_mode(): main()
+                                 ^^^^^^
+  File "/root/opset-research/route_b_probe.py", line 114, in main
+    torch.npu.graph_task_update_end(update_stream)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py", line 100, in graph_task_update_end
+    _graph_task_update_end(stream)
+RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is _linear_swiglu_kernel.
+Since the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.
+Note: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.
+[ERROR] 2026-10-15-07:47:30 (PID:57500, Device:0, RankID:-1) ERR00100 PTA call acl api failed.
+EE9999: Inner Error!
+EE9999[PID: 57500] 2026-10-15-07:47:30.192.385 (EE9999):  Check kernel task failed, stream_id=44, task_id=10, retCode=0x7080005.[FUNC:StreamLaunchKernelV1][FILE:aix_stars.cc][LINE:674]
+TraceBack (most recent call last):
+       rtKernelLaunch execution failed, reason=kernel type error[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+

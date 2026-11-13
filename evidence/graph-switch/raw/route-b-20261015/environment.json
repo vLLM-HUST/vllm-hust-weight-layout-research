@@ -1,0 +1,28 @@
+{
+  "versions": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "triton-ascend": "3.2.2",
+    "vllm": "0.23.0",
+    "vllm-ascend": "0.23.0"
+  },
+  "runtime_commits": {
+    "runtime-ascend": {
+      "exit_code": 0,
+      "output": "5cb98caaadeff42b5b62b996e34bb2aaa29d20fd\n"
+    },
+    "runtime-vllm": {
+      "exit_code": 0,
+      "output": "0fc695fc6d1d82e9a5ac6835ac8e4e1c83703665\n"
+    }
+  },
+  "device": {
+    "exit_code": 0,
+    "output": "+------------------------------------------------------------------------------------------------------------------+\n| npu-smi 26.0.rc1                            Version: 26.0.rc1                                                    |\n+---------------------------+---------------+----------------------------------------------------------------------+\n| NPU   Name                | Health        | Power(W)             Temp(C)                 Hugepages-Usage(page)   |\n| Chip                      | Bus-Id        | AICore(%)            Memory-Usage(MB)        HBM-Usage(MB)           |\n+===========================+===============+======================================================================+\n| 1     910B2               | OK            | 95.4                 43                      0    / 0                |\n| 0                         | 0000:01:00.0  | 0                    0    / 0                3431 / 65536            |\n+===========================+===============+======================================================================+\n| 2     910B2               | OK            | 97.8                 43                      0    / 0                |\n| 0                         | 0000:C2:00.0  | 0                    0    / 0                3436 / 65536            |\n+===========================+===============+======================================================================+\n+---------------------------+---------------+----------------------------------------------------------------------+\n| NPU     Chip              | Process id    | Process name       | Process memory(MB)    | Process id in container |\n+===========================+===============+======================================================================+\n| No running processes found in NPU 1                                                                              |\n+===========================+===============+======================================================================+\n| No running processes found in NPU 2                                                                              |\n+===========================+===============+======================================================================+\n"
+  },
+  "processes": {
+    "exit_code": 0,
+    "output": "    PID    PPID COMMAND\n      1       0 ./coder agent\n     35       1 ./coder agent --no-reap\n    178       1 sshd: /usr/sbin/sshd -e -o PermitRootLogin=prohibit-password -o PubkeyAuthentication=yes -o AuthorizedKeysFile=/etc/ssh/authorized_keys.generated %h/.ssh/authorized_keys -o PasswordAuthentication=no -o KbdInteractiveAuthentication=no -o PermitUserEnvironment=yes [listener] 0 of 10-100 startups\n  62331     178 sshd: root [priv]\n  62335   62331 sshd: root@notty\n  62430   62335 bash -c cd /root/opset-research; source env.sh; python finalize_route_b.py; ps -eo pid,args | grep -E \"[p]ython route_b_probe|[v]llm serve|[E]ngineCore\"; npu-smi info; tar -czf artifacts/route-b-20261015.tar.gz -C results route-b-20261015; sha256sum artifacts/route-b-20261015.tar.gz\n  63422   62430 python finalize_route_b.py\n  63437   63422 ps -eo pid,ppid,args\n"
+  },
+  "scope": "single logical NPU 0, no service; no TP or model-level qualification"
+}

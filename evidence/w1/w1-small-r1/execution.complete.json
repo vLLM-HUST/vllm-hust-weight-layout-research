@@ -1,0 +1,6 @@
+{
+  "arm": "W1",
+  "repeat": 1,
+  "medium_allowed": false,
+  "note": "Requires reviewed paired performance and quality gate"
+}

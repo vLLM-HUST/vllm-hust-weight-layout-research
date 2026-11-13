@@ -1,0 +1,45 @@
+{
+  "evidence_level": "source-and-device-probe",
+  "python": "3.12.13 (main, Aug  3 2026, 03:58:42) [GCC 12.3.1 (openEuler 12.3.1-105.oe2403sp3)]",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "triton-ascend": "3.2.2",
+    "vllm": "0.23.0+empty",
+    "vllm-ascend": "0.23.0",
+    "vllm-hust-opset": "0.3.2"
+  },
+  "sources": {
+    "vllm": {
+      "commit": "0fc695fc6d1d82e9a5ac6835ac8e4e1c83703665",
+      "origin": "https://github.com/vLLM-HUST/vllm-hust.git"
+    },
+    "ascend": {
+      "commit": "5cb98caaadeff42b5b62b996e34bb2aaa29d20fd",
+      "origin": "https://github.com/vLLM-HUST/vllm-ascend-hust.git"
+    },
+    "opset": {
+      "commit": "e6f805044f13a1c059d08d6805829e3e322125c1",
+      "origin": "https://github.com/vLLM-HUST/vllm-hust-opset.git"
+    }
+  },
+  "npu": {
+    "available": true,
+    "count": 2
+  },
+  "device_roundtrip": [
+    true,
+    true
+  ],
+  "active_import_paths": {
+    "vllm": "/root/opset-research/sources/runtime-vllm/vllm/__init__.py",
+    "vllm_ascend": "/root/opset-research/sources/runtime-ascend/vllm_ascend/__init__.py",
+    "vllm_hust_operator_optimizations": "/root/opset-research/sources/opset/src/vllm_hust_operator_optimizations/__init__.py"
+  },
+  "opset_source_guard": {
+    "empty_allocation": true,
+    "fused_op_registered": true,
+    "fusion_pass_installed": true,
+    "persistent_source_sha256": "4a0fcbf2e38f2c4f5a0cfa805548846538257f28e48fc941faacbd4ca975a5ed"
+  }
+}

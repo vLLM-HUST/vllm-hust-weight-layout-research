@@ -1,0 +1,38 @@
+[W1014 10:49:26.143647486 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 10:49:32 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 10:49:32 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 10:49:32 [__init__.py:58] Loading plugin ascend
+INFO 10-14 10:49:32 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 10:49:32 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 10:49:44.601005857 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+Traceback (most recent call last):
+  File "/root/opset-research/validate_fused_init.py", line 38, in <module>
+    torch.testing.assert_close(out.float().cpu(),reference.float().cpu(),atol=.05 if dtype==torch.bfloat16 else .02,rtol=.03 if dtype==torch.bfloat16 else .005)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 121880 / 122880 (99.2%)
+Greatest absolute difference: 11.6875 at index (5, 122) (up to 0.02 allowed)
+Greatest relative difference: 125913.8125 at index (17, 3796) (up to 0.005 allowed)
+[W1014 10:52:01.282605315 NPUStream.cpp:734] Warning: NPU warning, error code is 507011[Error]: 
+[Error]: Model execution failed. 
+        Rectify the fault based on the error information in the ascend log.
+EZ9999: Inner Error!
+EZ9999[PID: 373516] 2026-10-14-10:51:59.396.296 (EZ9999):  The error from device(chipId:1, dieId:0), serial number is 6, there is an exception of fftsplus aicore error, core id is 2, error code = 0x800000, dump info: pc start: 0x1240002e5000, current: 0x1240002e57bc, vec error info: 0, mte error info: 0x950300005e, ifu error info: 0x289b111f0d680, ccu error info: 0xe38f39bd230e565e, cube error info: 0, biu error info: 0, aic error mask: 0x6500020bd00028c, para base: 0x12c100000080, aic cond: 0.
+The extend info: errcode:(0x800000, 0, 0) errorStr: MTE accesses an invalid GM address or the cross-device memory access times out. fixp_error0 info: 0x300005e, fixp_error1 info: 0x95, fsmId:0, tslot:5, thread:0, ctxid:0, blk:5, sublk:0, subErrType:4.
+For details, see the troubleshooting document on the Ascend official website. Search for the keyword "AI Core Error".[FUNC:PrintCoreInfo][FILE:device_error_core_proc.cc][LINE:1060]
+TraceBack (most recent call last):
+       The error from device(chipId:1, dieId:0), serial number is 7, there is an exception of fftsplus aivector error, core id is 0, error code = 0x800000, dump info: pc start: 0x1240002e58f0, current: 0x1240002e5a74, vec error info: 0xc21386ec08, mte error info: 0x96060000e2, ifu error info: 0x547ea641d2c0, ccu error info: 0x4c6f08a8399302ef, cube error info: 0, biu error info: 0, aic error mask: 0x6500020bd00028c, para base: 0x12c100000080, aic cond: 0.
+The extend info: errcode:(0x800000, 0, 0) errorStr: MTE accesses an invalid GM address or the cross-device memory access times out. fixp_error0 info: 0x60000e2, fixp_error1 info: 0x96, fsmId:0, tslot:5, thread:0, ctxid:0, blk:18, sublk:0, subErrType:4.
+For details, see the troubleshooting document on the Ascend official website. Search for the keyword "AI Core Error".[FUNC:PrintCoreInfo][FILE:device_error_core_proc.cc][LINE:1060]
+       rtDeviceSynchronizeWithTimeout execution failed, reason=the model stream execute failed[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+ (function npuSynchronizeUsedDevices)
+[W1014 10:52:01.283860717 NPUStream.cpp:716] Warning: NPU warning, error code is 507011[Error]: 
+[Error]: Model execution failed. 
+        Rectify the fault based on the error information in the ascend log.
+EE9999: Inner Error!
+EE9999[PID: 373516] 2026-10-14-10:52:01.821.040 (EE9999):  rtDeviceSynchronizeWithTimeout execution failed, reason=the model stream execute failed[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]
+TraceBack (most recent call last):
+ (function npuSynchronizeDevice)
+[ERROR] 2026-10-14-10:52:03 (PID:373516, Device:0, RankID:-1) ERR99999 UNKNOWN applicaiton exception

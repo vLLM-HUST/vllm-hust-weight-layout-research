@@ -1,0 +1,49 @@
+[W1014 08:32:46.775241384 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+INFO 10-14 08:32:52 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-14 08:32:52 [__init__.py:46] - ascend -> vllm_ascend:register
+INFO 10-14 08:32:52 [__init__.py:58] Loading plugin ascend
+INFO 10-14 08:32:52 [__init__.py:238] Platform plugin ascend is activated
+INFO 10-14 08:32:52 [platform.py:62] Breakable cudagraph is force disabled on Ascend because DeepSeek V4 PIECEWISE cudagraph is not supported yet.
+[W1014 08:33:04.517403724 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{"shape": [1, 1, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 1, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 1, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 1, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 1, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 1, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 32, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 256, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 256, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 256, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 256, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 256, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 256, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 1.0728836059570312e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [1, 2048, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 2.1457672119140625e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [4, 6144, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 1.6689300537109375e-06, "close": true}
+{"shape": [32, 2048, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [32, 2048, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [32, 2048, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [32, 2048, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [32, 2048, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [32, 2048, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 0.0, "close": true}
+{"shape": [1, 124416, 2048], "variant": "zeros", "replay": 0, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}
+{"shape": [1, 124416, 2048], "variant": "zeros", "replay": 1, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}
+{"shape": [1, 124416, 2048], "variant": "zeros", "replay": 2, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}
+{"shape": [1, 124416, 2048], "variant": "empty", "replay": 0, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}
+{"shape": [1, 124416, 2048], "variant": "empty", "replay": 1, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}
+{"shape": [1, 124416, 2048], "variant": "empty", "replay": 2, "finite": true, "max_abs": 3.0994415283203125e-06, "close": true}

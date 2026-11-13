@@ -1,0 +1,14 @@
+{
+  "physical_npuid": [
+    4,
+    5
+  ],
+  "worker_cpu_affinity": {
+    "TP0": "96-119",
+    "TP1": "48-71"
+  },
+  "api_cpus": "24-31",
+  "engine_cpus": "32-39",
+  "memory_policy": "interleave NUMA2,4",
+  "binding_point": "after initialization, before all request warmups and timings"
+}

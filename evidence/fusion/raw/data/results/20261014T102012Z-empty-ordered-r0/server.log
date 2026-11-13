@@ -1,0 +1,56 @@
+[W1014 10:20:16.221651336 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/root/opset-research/sources/runtime-vllm/vllm/__init__.py", line 14, in <module>
+    import vllm.env_override  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/opset-research/sources/runtime-vllm/vllm/env_override.py", line 643, in <module>
+    _patch_fxgraphcache_pickle_if_needed()
+  File "/root/opset-research/sources/runtime-vllm/vllm/env_override.py", line 638, in _patch_fxgraphcache_pickle_if_needed
+    from torch._inductor.codecache import BypassFxGraphCache, FxGraphCachePickler
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch/_inductor/codecache.py", line 114, in <module>
+    from .output_code import CompiledFxGraph
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 58, in <module>
+    from .runtime.autotune_cache import AutotuneCacheBundler
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch/_inductor/runtime/autotune_cache.py", line 53, in <module>
+    from .triton_compat import Config, HAS_WARP_SPEC
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch/_inductor/runtime/triton_compat.py", line 10, in <module>
+    import triton
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/__init__.py", line 8, in <module>
+    from .runtime import (
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/runtime/__init__.py", line 1, in <module>
+    from .autotuner import (Autotuner, Config, Heuristics, autotune, heuristics)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/runtime/autotuner.py", line 11, in <module>
+    from .jit import KernelInterface
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/runtime/jit.py", line 15, in <module>
+    from .driver import driver
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/runtime/driver.py", line 1, in <module>
+    from ..backends import backends
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/backends/__init__.py", line 55, in <module>
+    backends = _discover_backends()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/backends/__init__.py", line 48, in _discover_backends
+    compiler = _load_module(name, os.path.join(root, name, 'compiler.py'))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/backends/__init__.py", line 12, in _load_module
+    spec.loader.exec_module(module)
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/backends/ascend/compiler.py", line 36, in <module>
+    from triton.backends.ascend.utils import (
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/triton/backends/ascend/utils.py", line 34, in <module>
+    from triton.backends.ascend.backend_register import backend_strategy_registry
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "/root/opset-research/experimental-treatment/sitecustomize.py", line 22, in exec_module
+    import torch_npu
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/__init__.py", line 66, in <module>
+    _initialize()
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/__init__.py", line 51, in _initialize
+    _load_core_modules()
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/_init/core/module_loader.py", line 171, in _load_core_modules
+    _initialize_logging_if_needed()
+  File "/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/_init/core/module_loader.py", line 75, in _initialize_logging_if_needed
+    if not hasattr(torch_npu._C, "_logging"):
+                   ^^^^^^^^^^^^
+AttributeError: partially initialized module 'torch_npu' has no attribute '_C' (most likely due to a circular import)

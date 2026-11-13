@@ -1,0 +1,11 @@
+[W1015 07:44:45.713355621 FunctionLoader.cpp:48] Warning: LD_PRELOAD detected, FunctionLoader prefers RTLD_DEFAULT for symbol resolution. (function operator())
+imported
+[W1015 07:44:52.547008299 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+warmup
+capture
+update-0-baseline
+update-1-candidate
+update-2-baseline
+update-3-candidate
+update-4-baseline
+finished

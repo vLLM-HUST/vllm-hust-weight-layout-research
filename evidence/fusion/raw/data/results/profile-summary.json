@@ -1,0 +1,1508 @@
+[
+  {
+    "variant": "baseline",
+    "run_id": "20261014T095813Z-baseline-r3",
+    "path": "results/20261014T095813Z-baseline-r3/profile/dp0_pp0_tp0_dcp0_ep0_rank0_273323_20261014100325430_ascend_pt/ASCEND_PROFILER_OUTPUT/kernel_details.csv",
+    "instances": 54784,
+    "kernel_duration_sum_us": 451353.060000003,
+    "operators": {
+      "linear_persistent": {
+        "count": 8672,
+        "duration_us": 101782.58000000073,
+        "wait_us": 66633.24999999983,
+        "share_pct": 22.550546129010414,
+        "mean_us": 11.736921125461338
+      },
+      "hcom_allReduce_": {
+        "count": 2592,
+        "duration_us": 92204.87999999998,
+        "wait_us": 44816.549999999625,
+        "share_pct": 20.428548772882888,
+        "mean_us": 35.57287037037036
+      },
+      "GroupedMatmul": {
+        "count": 2560,
+        "duration_us": 84168.21999999988,
+        "wait_us": 11935.569999999976,
+        "share_pct": 18.647978148192752,
+        "mean_us": 32.87821093749996
+      },
+      "Transpose": {
+        "count": 1350,
+        "duration_us": 27215.799999999937,
+        "wait_us": 24692.140000000087,
+        "share_pct": 6.029825077512437,
+        "mean_us": 20.159851851851805
+      },
+      "ZerosLike": {
+        "count": 9722,
+        "duration_us": 14602.759999999898,
+        "wait_us": 63691.50999999931,
+        "share_pct": 3.2353297881706617,
+        "mean_us": 1.502032503600072
+      },
+      "MoeInitRoutingCustom": {
+        "count": 1280,
+        "duration_us": 13308.51999999999,
+        "wait_us": 19801.290000000103,
+        "share_pct": 2.9485830892560916,
+        "mean_us": 10.397281249999992
+      },
+      "ConcatD": {
+        "count": 960,
+        "duration_us": 12844.52,
+        "wait_us": 2195.1800000000007,
+        "share_pct": 2.8457810832167425,
+        "mean_us": 13.379708333333333
+      },
+      "RecurrentGatedDeltaRule": {
+        "count": 930,
+        "duration_us": 12550.29999999998,
+        "wait_us": 61.76999999999988,
+        "share_pct": 2.780594862921699,
+        "mean_us": 13.494946236559118
+      },
+      "SwiGlu": {
+        "count": 2560,
+        "duration_us": 8347.360000000072,
+        "wait_us": 13314.300000000023,
+        "share_pct": 1.8494080886479456,
+        "mean_us": 3.260687500000028
+      },
+      "Add": {
+        "count": 4544,
+        "duration_us": 7893.260000000028,
+        "wait_us": 23485.2600000001,
+        "share_pct": 1.7487994874788209,
+        "mean_us": 1.737073063380288
+      },
+      "FusedInferAttentionScore": {
+        "count": 320,
+        "duration_us": 7664.080000000004,
+        "wait_us": 3107.499999999999,
+        "share_pct": 1.698023272513086,
+        "mean_us": 23.95025000000001
+      },
+      "CausalConv1d": {
+        "count": 960,
+        "duration_us": 7350.540000000001,
+        "wait_us": 1704.6199999999994,
+        "share_pct": 1.6285565893803737,
+        "mean_us": 7.656812500000001
+      },
+      "AddRmsNorm": {
+        "count": 2560,
+        "duration_us": 6431.6999999999825,
+        "wait_us": 1856.779999999982,
+        "share_pct": 1.4249820306967542,
+        "mean_us": 2.512382812499993
+      },
+      "MoeGatingTopK": {
+        "count": 1280,
+        "duration_us": 5646.460000000005,
+        "wait_us": 21459.339999999967,
+        "share_pct": 1.2510073599589568,
+        "mean_us": 4.411296875000003
+      },
+      "_layer_norm_fwd_1pass_kernel_npu": {
+        "count": 960,
+        "duration_us": 4518.359999999987,
+        "wait_us": 30972.07000000001,
+        "share_pct": 1.0010699827757803,
+        "mean_us": 4.7066249999999865
+      },
+      "MoeTokenUnpermute": {
+        "count": 1280,
+        "duration_us": 4388.599999999999,
+        "wait_us": 4028.7400000000102,
+        "share_pct": 0.9723208700523643,
+        "mean_us": 3.4285937499999997
+      },
+      "Index": {
+        "count": 414,
+        "duration_us": 4290.9400000000005,
+        "wait_us": 66.96000000000001,
+        "share_pct": 0.9506837064536511,
+        "mean_us": 10.364589371980678
+      },
+      "_compute_slot_mapping_kernel": {
+        "count": 32,
+        "duration_us": 3874.719999999999,
+        "wait_us": 280.65,
+        "share_pct": 0.8584676483637826,
+        "mean_us": 121.08499999999997
+      },
+      "FusedGdnGating": {
+        "count": 960,
+        "duration_us": 3528.680000000034,
+        "wait_us": 2635.149999999982,
+        "share_pct": 0.7818003936873742,
+        "mean_us": 3.6757083333333687
+      },
+      "l2norm_fwd_kernel2": {
+        "count": 1860,
+        "duration_us": 3525.4000000000683,
+        "wait_us": 112.3200000000003,
+        "share_pct": 0.7810736898515863,
+        "mean_us": 1.8953763440860583
+      },
+      "Mul": {
+        "count": 1664,
+        "duration_us": 3080.379999999974,
+        "wait_us": 1722.0999999999942,
+        "share_pct": 0.6824768175937378,
+        "mean_us": 1.8511899038461384
+      },
+      "Sigmoid": {
+        "count": 1600,
+        "duration_us": 2255.100000000001,
+        "wait_us": 6019.030000000002,
+        "share_pct": 0.4996310427140974,
+        "mean_us": 1.4094375000000006
+      },
+      "Cast": {
+        "count": 1343,
+        "duration_us": 2006.719999999993,
+        "wait_us": 20483.79999999995,
+        "share_pct": 0.4446009516363929,
+        "mean_us": 1.4942069992553932
+      },
+      "Slice": {
+        "count": 850,
+        "duration_us": 1907.440000000003,
+        "wait_us": 29783.930000000026,
+        "share_pct": 0.42260486724073393,
+        "mean_us": 2.244047058823533
+      },
+      "split_qkv_rmsnorm_mrope_kernel": {
+        "count": 320,
+        "duration_us": 1778.92,
+        "wait_us": 3871.490000000004,
+        "share_pct": 0.394130484016213,
+        "mean_us": 5.559125
+      },
+      "Abs": {
+        "count": 1280,
+        "duration_us": 1694.2799999999984,
+        "wait_us": 8050.310000000015,
+        "share_pct": 0.3753779801559309,
+        "mean_us": 1.3236562499999986
+      },
+      "solve_tril_16x16_kernel": {
+        "count": 30,
+        "duration_us": 1376.7800000000002,
+        "wait_us": 9537.23,
+        "share_pct": 0.3050339350751252,
+        "mean_us": 45.89266666666667
+      },
+      "IndexCheck": {
+        "count": 444,
+        "duration_us": 1280.6200000000006,
+        "wait_us": 8815.570000000029,
+        "share_pct": 0.28372910554765973,
+        "mean_us": 2.8842792792792804
+      },
+      "ChunkGatedDeltaRuleFwdH": {
+        "count": 30,
+        "duration_us": 1180.8999999999996,
+        "wait_us": 4470.3,
+        "share_pct": 0.26163553649109894,
+        "mean_us": 39.36333333333332
+      },
+      "recompute_w_u_fwd_kernel": {
+        "count": 30,
+        "duration_us": 1058.2199999999998,
+        "wait_us": 10011.68,
+        "share_pct": 0.23445504058397051,
+        "mean_us": 35.273999999999994
+      },
+      "ArgMaxV2": {
+        "count": 32,
+        "duration_us": 959.26,
+        "wait_us": 92.55000000000001,
+        "share_pct": 0.2125298541235089,
+        "mean_us": 29.976875
+      },
+      "hcom_allGather_": {
+        "count": 32,
+        "duration_us": 928.82,
+        "wait_us": 102.60999999999997,
+        "share_pct": 0.20578568803765146,
+        "mean_us": 29.025625
+      },
+      "reshape_and_cache_200000000": {
+        "count": 310,
+        "duration_us": 820.7800000000003,
+        "wait_us": 202.5200000000003,
+        "share_pct": 0.18184877266590257,
+        "mean_us": 2.6476774193548396
+      },
+      "ChunkFwdO": {
+        "count": 30,
+        "duration_us": 781.26,
+        "wait_us": 3410.97,
+        "share_pct": 0.17309287766875775,
+        "mean_us": 26.041999999999998
+      },
+      "IndexPutV2": {
+        "count": 30,
+        "duration_us": 758.8399999999999,
+        "wait_us": 736.9399999999999,
+        "share_pct": 0.16812559108383907,
+        "mean_us": 25.294666666666664
+      },
+      "Sub": {
+        "count": 349,
+        "duration_us": 513.5399999999996,
+        "wait_us": 5933.830000000012,
+        "share_pct": 0.11377789263243196,
+        "mean_us": 1.4714613180515748
+      },
+      "merge_16x16_to_64x64_inverse_kernel": {
+        "count": 30,
+        "duration_us": 418.59999999999997,
+        "wait_us": 9175.47,
+        "share_pct": 0.09274336148291477,
+        "mean_us": 13.953333333333331
+      },
+      "chunk_scaled_dot_kkt_fwd_kernel": {
+        "count": 30,
+        "duration_us": 401.02,
+        "wait_us": 8321.71,
+        "share_pct": 0.08884840616788935,
+        "mean_us": 13.367333333333333
+      },
+      "l2norm_fwd_kernel2_loop": {
+        "count": 60,
+        "duration_us": 358.37999999999994,
+        "wait_us": 29210.53999999999,
+        "share_pct": 0.07940125630254895,
+        "mean_us": 5.972999999999999
+      },
+      "GatherV2": {
+        "count": 32,
+        "duration_us": 282.52,
+        "wait_us": 65.14,
+        "share_pct": 0.06259401453930502,
+        "mean_us": 8.82875
+      },
+      "_clear_ssm_states_kernel": {
+        "count": 30,
+        "duration_us": 244.68,
+        "wait_us": 6589.320000000001,
+        "share_pct": 0.05421033370195792,
+        "mean_us": 8.156
+      },
+      "Fill": {
+        "count": 166,
+        "duration_us": 233.70000000000007,
+        "wait_us": 30660.360000000008,
+        "share_pct": 0.051777648300423286,
+        "mean_us": 1.4078313253012054
+      },
+      "BroadcastTo": {
+        "count": 31,
+        "duration_us": 224.0,
+        "wait_us": 1102.9,
+        "share_pct": 0.04962855463968684,
+        "mean_us": 7.225806451612903
+      },
+      "GemmaRmsNorm": {
+        "count": 32,
+        "duration_us": 143.22,
+        "wait_us": 222.7299999999999,
+        "share_pct": 0.03173125712274977,
+        "mean_us": 4.475625
+      },
+      "MaskedFill": {
+        "count": 32,
+        "duration_us": 106.31999999999996,
+        "wait_us": 377.9800000000001,
+        "share_pct": 0.02355583897005135,
+        "mean_us": 3.322499999999999
+      },
+      "GreaterEqual": {
+        "count": 32,
+        "duration_us": 93.19999999999999,
+        "wait_us": 18.510000000000005,
+        "share_pct": 0.020649023626869698,
+        "mean_us": 2.9124999999999996
+      },
+      "Less": {
+        "count": 32,
+        "duration_us": 91.22,
+        "wait_us": 36.77000000000001,
+        "share_pct": 0.02021034265282247,
+        "mean_us": 2.850625
+      },
+      "chunk_local_cumsum_scalar_kernel": {
+        "count": 30,
+        "duration_us": 82.24000000000001,
+        "wait_us": 10319.15,
+        "share_pct": 0.018220769346285023,
+        "mean_us": 2.741333333333334
+      },
+      "ReshapeAndCacheNdKernel": {
+        "count": 10,
+        "duration_us": 53.22,
+        "wait_us": 5209.31,
+        "share_pct": 0.011791212847875595,
+        "mean_us": 5.322
+      },
+      "LogicalAnd": {
+        "count": 32,
+        "duration_us": 48.220000000000006,
+        "wait_us": 31.960000000000008,
+        "share_pct": 0.010683432610382588,
+        "mean_us": 1.5068750000000002
+      },
+      "LogicalNot": {
+        "count": 32,
+        "duration_us": 45.44000000000001,
+        "wait_us": 38.56999999999999,
+        "share_pct": 0.010067506798336474,
+        "mean_us": 1.4200000000000004
+      },
+      "Greater": {
+        "count": 3,
+        "duration_us": 7.54,
+        "wait_us": 25.499999999999996,
+        "share_pct": 0.0016705325981394585,
+        "mean_us": 2.513333333333333
+      }
+    }
+  },
+  {
+    "variant": "baseline",
+    "run_id": "20261014T095813Z-baseline-r3",
+    "path": "results/20261014T095813Z-baseline-r3/profile/dp0_pp0_tp1_dcp0_ep1_rank1_273324_20261014100325430_ascend_pt/ASCEND_PROFILER_OUTPUT/kernel_details.csv",
+    "instances": 54784,
+    "kernel_duration_sum_us": 881481.4599999785,
+    "operators": {
+      "hcom_allReduce_": {
+        "count": 2592,
+        "duration_us": 520761.919999999,
+        "wait_us": 14191.749999999929,
+        "share_pct": 59.07803438089459,
+        "mean_us": 200.91123456790083
+      },
+      "linear_persistent": {
+        "count": 8672,
+        "duration_us": 100724.14000000003,
+        "wait_us": 6743.040000000242,
+        "share_pct": 11.426688429726303,
+        "mean_us": 11.614868542435428
+      },
+      "GroupedMatmul": {
+        "count": 2560,
+        "duration_us": 87826.95999999998,
+        "wait_us": 5639.360000000012,
+        "share_pct": 9.963562931885388,
+        "mean_us": 34.30740624999999
+      },
+      "Transpose": {
+        "count": 1350,
+        "duration_us": 25920.280000000002,
+        "wait_us": 5354.440000000083,
+        "share_pct": 2.9405360380467487,
+        "mean_us": 19.200207407407408
+      },
+      "ZerosLike": {
+        "count": 9722,
+        "duration_us": 14552.559999999907,
+        "wait_us": 7705.120000000225,
+        "share_pct": 1.6509207125014587,
+        "mean_us": 1.496868957004722
+      },
+      "MoeInitRoutingCustom": {
+        "count": 1280,
+        "duration_us": 13119.720000000001,
+        "wait_us": 2574.5999999999913,
+        "share_pct": 1.4883716329099332,
+        "mean_us": 10.249781250000002
+      },
+      "ConcatD": {
+        "count": 960,
+        "duration_us": 12548.239999999983,
+        "wait_us": 1114.4199999999996,
+        "share_pct": 1.4235398666241137,
+        "mean_us": 13.071083333333316
+      },
+      "RecurrentGatedDeltaRule": {
+        "count": 930,
+        "duration_us": 12308.099999999995,
+        "wait_us": 63.42999999999992,
+        "share_pct": 1.396297092850971,
+        "mean_us": 13.234516129032253
+      },
+      "SwiGlu": {
+        "count": 2560,
+        "duration_us": 8341.22000000005,
+        "wait_us": 2568.8499999999967,
+        "share_pct": 0.9462728802033173,
+        "mean_us": 3.25828906250002
+      },
+      "Add": {
+        "count": 4544,
+        "duration_us": 7914.100000000029,
+        "wait_us": 7897.350000000014,
+        "share_pct": 0.8978180891065164,
+        "mean_us": 1.7416593309859218
+      },
+      "FusedInferAttentionScore": {
+        "count": 320,
+        "duration_us": 7423.059999999997,
+        "wait_us": 1092.0699999999993,
+        "share_pct": 0.8421118692615699,
+        "mean_us": 23.19706249999999
+      },
+      "CausalConv1d": {
+        "count": 960,
+        "duration_us": 7301.159999999996,
+        "wait_us": 1500.7399999999998,
+        "share_pct": 0.8282828773279218,
+        "mean_us": 7.605374999999996
+      },
+      "AddRmsNorm": {
+        "count": 2560,
+        "duration_us": 6458.54,
+        "wait_us": 185.32000000000065,
+        "share_pct": 0.7326915304605678,
+        "mean_us": 2.5228671875
+      },
+      "MoeGatingTopK": {
+        "count": 1280,
+        "duration_us": 5645.900000000011,
+        "wait_us": 727.609999999999,
+        "share_pct": 0.6405012761130731,
+        "mean_us": 4.410859375000008
+      },
+      "_layer_norm_fwd_1pass_kernel_npu": {
+        "count": 960,
+        "duration_us": 4534.099999999994,
+        "wait_us": 10512.579999999978,
+        "share_pct": 0.5143727016107752,
+        "mean_us": 4.723020833333327
+      },
+      "MoeTokenUnpermute": {
+        "count": 1280,
+        "duration_us": 4379.55999999999,
+        "wait_us": 313.53,
+        "share_pct": 0.4968408524440318,
+        "mean_us": 3.4215312499999926
+      },
+      "Index": {
+        "count": 414,
+        "duration_us": 4290.919999999999,
+        "wait_us": 22.499999999999964,
+        "share_pct": 0.48678505387964754,
+        "mean_us": 10.36454106280193
+      },
+      "_compute_slot_mapping_kernel": {
+        "count": 32,
+        "duration_us": 3875.979999999999,
+        "wait_us": 12.900000000000002,
+        "share_pct": 0.4397120275224045,
+        "mean_us": 121.12437499999997
+      },
+      "FusedGdnGating": {
+        "count": 960,
+        "duration_us": 3532.2000000000376,
+        "wait_us": 343.4500000000009,
+        "share_pct": 0.4007117744711413,
+        "mean_us": 3.679375000000039
+      },
+      "l2norm_fwd_kernel2": {
+        "count": 1860,
+        "duration_us": 3528.3000000000648,
+        "wait_us": 112.39000000000016,
+        "share_pct": 0.40026933748557236,
+        "mean_us": 1.8969354838710026
+      },
+      "Mul": {
+        "count": 1664,
+        "duration_us": 3074.799999999983,
+        "wait_us": 287.7599999999998,
+        "share_pct": 0.3488218572402031,
+        "mean_us": 1.8478365384615283
+      },
+      "Sigmoid": {
+        "count": 1600,
+        "duration_us": 2281.1799999999994,
+        "wait_us": 827.7299999999984,
+        "share_pct": 0.2587893340377295,
+        "mean_us": 1.4257374999999997
+      },
+      "Cast": {
+        "count": 1343,
+        "duration_us": 2032.159999999996,
+        "wait_us": 16935.00000000009,
+        "share_pct": 0.23053916528205204,
+        "mean_us": 1.51314966492926
+      },
+      "Slice": {
+        "count": 850,
+        "duration_us": 1914.720000000002,
+        "wait_us": 2883.9299999999976,
+        "share_pct": 0.2172161397472896,
+        "mean_us": 2.2526117647058848
+      },
+      "hcom_allGather_": {
+        "count": 32,
+        "duration_us": 1870.0199999999995,
+        "wait_us": 73.29,
+        "share_pct": 0.21214513122034864,
+        "mean_us": 58.438124999999985
+      },
+      "split_qkv_rmsnorm_mrope_kernel": {
+        "count": 320,
+        "duration_us": 1772.7599999999984,
+        "wait_us": 17.039999999999992,
+        "share_pct": 0.2011114334724682,
+        "mean_us": 5.539874999999995
+      },
+      "Abs": {
+        "count": 1280,
+        "duration_us": 1717.5199999999936,
+        "wait_us": 1636.9600000000044,
+        "share_pct": 0.19484471063067343,
+        "mean_us": 1.341812499999995
+      },
+      "solve_tril_16x16_kernel": {
+        "count": 30,
+        "duration_us": 1377.3199999999995,
+        "wait_us": 1862.5499999999995,
+        "share_pct": 0.1562505920430854,
+        "mean_us": 45.91066666666665
+      },
+      "ChunkGatedDeltaRuleFwdH": {
+        "count": 30,
+        "duration_us": 1310.1999999999998,
+        "wait_us": 1118.4100000000003,
+        "share_pct": 0.14863613807601034,
+        "mean_us": 43.673333333333325
+      },
+      "IndexCheck": {
+        "count": 444,
+        "duration_us": 1277.520000000001,
+        "wait_us": 3311.1700000000014,
+        "share_pct": 0.14492874302767889,
+        "mean_us": 2.877297297297299
+      },
+      "recompute_w_u_fwd_kernel": {
+        "count": 30,
+        "duration_us": 1056.6400000000003,
+        "wait_us": 1929.2099999999998,
+        "share_pct": 0.11987092729097513,
+        "mean_us": 35.22133333333334
+      },
+      "ArgMaxV2": {
+        "count": 32,
+        "duration_us": 960.6400000000001,
+        "wait_us": 1.79,
+        "share_pct": 0.10898017072304884,
+        "mean_us": 30.020000000000003
+      },
+      "reshape_and_cache_200000000": {
+        "count": 310,
+        "duration_us": 826.5200000000006,
+        "wait_us": 202.94000000000005,
+        "share_pct": 0.09376487623460858,
+        "mean_us": 2.6661935483870987
+      },
+      "ChunkFwdO": {
+        "count": 30,
+        "duration_us": 824.34,
+        "wait_us": 851.4799999999999,
+        "share_pct": 0.09351756530421185,
+        "mean_us": 27.478
+      },
+      "IndexPutV2": {
+        "count": 30,
+        "duration_us": 758.8599999999999,
+        "wait_us": 195.32999999999998,
+        "share_pct": 0.0860891617618388,
+        "mean_us": 25.29533333333333
+      },
+      "Sub": {
+        "count": 349,
+        "duration_us": 509.19999999999936,
+        "wait_us": 2537.19999999999,
+        "share_pct": 0.057766387962375494,
+        "mean_us": 1.4590257879656143
+      },
+      "chunk_scaled_dot_kkt_fwd_kernel": {
+        "count": 30,
+        "duration_us": 469.19999999999993,
+        "wait_us": 1479.5400000000002,
+        "share_pct": 0.053228572725739616,
+        "mean_us": 15.639999999999997
+      },
+      "merge_16x16_to_64x64_inverse_kernel": {
+        "count": 30,
+        "duration_us": 381.12,
+        "wait_us": 1754.1800000000007,
+        "share_pct": 0.043236303574667276,
+        "mean_us": 12.704
+      },
+      "l2norm_fwd_kernel2_loop": {
+        "count": 60,
+        "duration_us": 378.0000000000001,
+        "wait_us": 3276.360000000003,
+        "share_pct": 0.04288235398620969,
+        "mean_us": 6.300000000000002
+      },
+      "_clear_ssm_states_kernel": {
+        "count": 30,
+        "duration_us": 278.5600000000001,
+        "wait_us": 654.9999999999999,
+        "share_pct": 0.031601345307932724,
+        "mean_us": 9.285333333333337
+      },
+      "GatherV2": {
+        "count": 32,
+        "duration_us": 275.59999999999997,
+        "wait_us": 43.90999999999999,
+        "share_pct": 0.03126554698042165,
+        "mean_us": 8.612499999999999
+      },
+      "BroadcastTo": {
+        "count": 31,
+        "duration_us": 241.84,
+        "wait_us": 399.5400000000001,
+        "share_pct": 0.027435630920700917,
+        "mean_us": 7.801290322580646
+      },
+      "Fill": {
+        "count": 166,
+        "duration_us": 236.33999999999997,
+        "wait_us": 7317.769999999997,
+        "share_pct": 0.026811681325663472,
+        "mean_us": 1.423734939759036
+      },
+      "GemmaRmsNorm": {
+        "count": 32,
+        "duration_us": 142.3,
+        "wait_us": 212.03999999999996,
+        "share_pct": 0.01614327770433237,
+        "mean_us": 4.446875
+      },
+      "MaskedFill": {
+        "count": 32,
+        "duration_us": 107.67999999999996,
+        "wait_us": 1142.1500000000008,
+        "share_pct": 0.012215798617023956,
+        "mean_us": 3.364999999999999
+      },
+      "GreaterEqual": {
+        "count": 32,
+        "duration_us": 93.44,
+        "wait_us": 2.4600000000000004,
+        "share_pct": 0.010600336392781564,
+        "mean_us": 2.92
+      },
+      "Less": {
+        "count": 32,
+        "duration_us": 91.69999999999999,
+        "wait_us": 17.430000000000003,
+        "share_pct": 0.0104029414299879,
+        "mean_us": 2.8656249999999996
+      },
+      "chunk_local_cumsum_scalar_kernel": {
+        "count": 30,
+        "duration_us": 82.46000000000004,
+        "wait_us": 1659.5799999999997,
+        "share_pct": 0.009354706110325003,
+        "mean_us": 2.7486666666666677
+      },
+      "ReshapeAndCacheNdKernel": {
+        "count": 10,
+        "duration_us": 51.16,
+        "wait_us": 8.05,
+        "share_pct": 0.005803865687657372,
+        "mean_us": 5.116
+      },
+      "LogicalAnd": {
+        "count": 32,
+        "duration_us": 47.080000000000005,
+        "wait_us": 54.13999999999999,
+        "share_pct": 0.005341008533520507,
+        "mean_us": 1.4712500000000002
+      },
+      "LogicalNot": {
+        "count": 32,
+        "duration_us": 46.32000000000001,
+        "wait_us": 43.62,
+        "share_pct": 0.005254790044024424,
+        "mean_us": 1.4475000000000002
+      },
+      "Greater": {
+        "count": 3,
+        "duration_us": 7.3,
+        "wait_us": 44.42,
+        "share_pct": 0.0008281512806860597,
+        "mean_us": 2.433333333333333
+      }
+    }
+  },
+  {
+    "variant": "fusion",
+    "run_id": "20261014T100333Z-fusion-r3",
+    "path": "results/20261014T100333Z-fusion-r3/profile/dp0_pp0_tp0_dcp0_ep0_rank0_283991_20261014100739912_ascend_pt/ASCEND_PROFILER_OUTPUT/kernel_details.csv",
+    "instances": 52224,
+    "kernel_duration_sum_us": 522401.18000001,
+    "operators": {
+      "hcom_allReduce_": {
+        "count": 2592,
+        "duration_us": 167741.38,
+        "wait_us": 43375.23999999968,
+        "share_pct": 32.10968627597602,
+        "mean_us": 64.71503858024691
+      },
+      "GroupedMatmul": {
+        "count": 2560,
+        "duration_us": 87554.77999999982,
+        "wait_us": 10866.950000000075,
+        "share_pct": 16.76006551133712,
+        "mean_us": 34.20108593749993
+      },
+      "linear_persistent": {
+        "count": 7392,
+        "duration_us": 83417.12000000002,
+        "wait_us": 36295.79999999948,
+        "share_pct": 15.968019061518664,
+        "mean_us": 11.284783549783553
+      },
+      "Transpose": {
+        "count": 1350,
+        "duration_us": 23703.560000000005,
+        "wait_us": 25820.430000000077,
+        "share_pct": 4.537424666613416,
+        "mean_us": 17.558192592592597
+      },
+      "shared_linear_swiglu": {
+        "count": 1280,
+        "duration_us": 20067.86000000002,
+        "wait_us": 33937.46000000014,
+        "share_pct": 3.8414652891862984,
+        "mean_us": 15.678015625000015
+      },
+      "ZerosLike": {
+        "count": 8442,
+        "duration_us": 13082.379999999923,
+        "wait_us": 39581.869999999704,
+        "share_pct": 2.5042784168289347,
+        "mean_us": 1.549677801468837
+      },
+      "RecurrentGatedDeltaRule": {
+        "count": 930,
+        "duration_us": 12570.219999999992,
+        "wait_us": 58.76999999999991,
+        "share_pct": 2.406238822048555,
+        "mean_us": 13.516365591397841
+      },
+      "ConcatD": {
+        "count": 960,
+        "duration_us": 12497.01999999998,
+        "wait_us": 2253.1900000000005,
+        "share_pct": 2.3922266025508865,
+        "mean_us": 13.017729166666646
+      },
+      "MoeInitRoutingCustom": {
+        "count": 1280,
+        "duration_us": 12358.599999999993,
+        "wait_us": 14207.530000000026,
+        "share_pct": 2.3657297251893183,
+        "mean_us": 9.655156249999994
+      },
+      "Add": {
+        "count": 4544,
+        "duration_us": 7929.3200000000525,
+        "wait_us": 15089.39,
+        "share_pct": 1.5178602774212533,
+        "mean_us": 1.745008802816913
+      },
+      "FusedInferAttentionScore": {
+        "count": 320,
+        "duration_us": 7863.760000000005,
+        "wait_us": 2768.5000000000023,
+        "share_pct": 1.5053105354777059,
+        "mean_us": 24.574250000000013
+      },
+      "CausalConv1d": {
+        "count": 960,
+        "duration_us": 7096.119999999995,
+        "wait_us": 1689.0699999999977,
+        "share_pct": 1.3583659975652926,
+        "mean_us": 7.391791666666662
+      },
+      "AddRmsNorm": {
+        "count": 2560,
+        "duration_us": 6529.419999999982,
+        "wait_us": 400.9599999999916,
+        "share_pct": 1.249886150716554,
+        "mean_us": 2.550554687499993
+      },
+      "MoeGatingTopK": {
+        "count": 1280,
+        "duration_us": 5416.720000000017,
+        "wait_us": 9391.950000000048,
+        "share_pct": 1.0368889289262158,
+        "mean_us": 4.231812500000013
+      },
+      "MoeTokenUnpermute": {
+        "count": 1280,
+        "duration_us": 4589.540000000028,
+        "wait_us": 3807.239999999961,
+        "share_pct": 0.8785470201273167,
+        "mean_us": 3.585578125000022
+      },
+      "SwiGlu": {
+        "count": 1280,
+        "duration_us": 4586.20000000003,
+        "wait_us": 1332.0300000000004,
+        "share_pct": 0.8779076647567952,
+        "mean_us": 3.582968750000023
+      },
+      "_layer_norm_fwd_1pass_kernel_npu": {
+        "count": 960,
+        "duration_us": 4496.459999999992,
+        "wait_us": 30337.809999999972,
+        "share_pct": 0.8607292962086927,
+        "mean_us": 4.683812499999991
+      },
+      "Index": {
+        "count": 414,
+        "duration_us": 4382.379999999995,
+        "wait_us": 88.47000000000006,
+        "share_pct": 0.8388916732538604,
+        "mean_us": 10.585458937198055
+      },
+      "_compute_slot_mapping_kernel": {
+        "count": 32,
+        "duration_us": 3876.0399999999995,
+        "wait_us": 759.23,
+        "share_pct": 0.7419661647777911,
+        "mean_us": 121.12624999999998
+      },
+      "FusedGdnGating": {
+        "count": 960,
+        "duration_us": 3652.6000000000245,
+        "wait_us": 2601.800000000001,
+        "share_pct": 0.6991944390324606,
+        "mean_us": 3.8047916666666923
+      },
+      "l2norm_fwd_kernel2": {
+        "count": 1860,
+        "duration_us": 3561.320000000066,
+        "wait_us": 111.36000000000008,
+        "share_pct": 0.6817212778883842,
+        "mean_us": 1.9146881720430462
+      },
+      "Mul": {
+        "count": 1664,
+        "duration_us": 3124.3199999999697,
+        "wait_us": 1927.1099999999983,
+        "share_pct": 0.5980690931823527,
+        "mean_us": 1.8775961538461357
+      },
+      "Sigmoid": {
+        "count": 1600,
+        "duration_us": 2250.779999999996,
+        "wait_us": 5741.940000000004,
+        "share_pct": 0.43085277870160116,
+        "mean_us": 1.4067374999999975
+      },
+      "Cast": {
+        "count": 1343,
+        "duration_us": 1988.9399999999987,
+        "wait_us": 20985.019999999946,
+        "share_pct": 0.3807303804329004,
+        "mean_us": 1.4809679821295596
+      },
+      "Slice": {
+        "count": 850,
+        "duration_us": 1902.5399999999993,
+        "wait_us": 21052.02999999997,
+        "share_pct": 0.3641913672553272,
+        "mean_us": 2.2382823529411757
+      },
+      "split_qkv_rmsnorm_mrope_kernel": {
+        "count": 320,
+        "duration_us": 1776.999999999998,
+        "wait_us": 1744.0400000000006,
+        "share_pct": 0.34016002796930206,
+        "mean_us": 5.553124999999993
+      },
+      "Abs": {
+        "count": 1280,
+        "duration_us": 1733.9199999999958,
+        "wait_us": 7220.4399999999905,
+        "share_pct": 0.3319134922321505,
+        "mean_us": 1.3546249999999966
+      },
+      "solve_tril_16x16_kernel": {
+        "count": 30,
+        "duration_us": 1363.68,
+        "wait_us": 10109.23,
+        "share_pct": 0.2610407579860317,
+        "mean_us": 45.456
+      },
+      "IndexCheck": {
+        "count": 444,
+        "duration_us": 1299.5000000000016,
+        "wait_us": 9312.920000000011,
+        "share_pct": 0.24875518083630224,
+        "mean_us": 2.9268018018018056
+      },
+      "ChunkGatedDeltaRuleFwdH": {
+        "count": 30,
+        "duration_us": 1217.44,
+        "wait_us": 4329.43,
+        "share_pct": 0.23304694679287988,
+        "mean_us": 40.58133333333333
+      },
+      "recompute_w_u_fwd_kernel": {
+        "count": 30,
+        "duration_us": 1058.96,
+        "wait_us": 10004.48,
+        "share_pct": 0.20271010873290518,
+        "mean_us": 35.29866666666667
+      },
+      "ArgMaxV2": {
+        "count": 32,
+        "duration_us": 959.58,
+        "wait_us": 110.76,
+        "share_pct": 0.18368641510342332,
+        "mean_us": 29.986875
+      },
+      "hcom_allGather_": {
+        "count": 32,
+        "duration_us": 908.1800000000002,
+        "wait_us": 101.14999999999998,
+        "share_pct": 0.17384723365287627,
+        "mean_us": 28.380625000000006
+      },
+      "ChunkFwdO": {
+        "count": 30,
+        "duration_us": 878.86,
+        "wait_us": 3244.6400000000012,
+        "share_pct": 0.16823468890326457,
+        "mean_us": 29.295333333333335
+      },
+      "reshape_and_cache_200000000": {
+        "count": 310,
+        "duration_us": 790.2800000000004,
+        "wait_us": 204.89999999999992,
+        "share_pct": 0.15127837192097945,
+        "mean_us": 2.5492903225806467
+      },
+      "IndexPutV2": {
+        "count": 30,
+        "duration_us": 757.3799999999998,
+        "wait_us": 731.7,
+        "share_pct": 0.14498053009757467,
+        "mean_us": 25.24599999999999
+      },
+      "Sub": {
+        "count": 349,
+        "duration_us": 509.9599999999998,
+        "wait_us": 7007.690000000018,
+        "share_pct": 0.09761846250040822,
+        "mean_us": 1.4612034383954149
+      },
+      "merge_16x16_to_64x64_inverse_kernel": {
+        "count": 30,
+        "duration_us": 421.41999999999996,
+        "wait_us": 9646.82,
+        "share_pct": 0.08066980246866821,
+        "mean_us": 14.047333333333333
+      },
+      "chunk_scaled_dot_kkt_fwd_kernel": {
+        "count": 30,
+        "duration_us": 406.52,
+        "wait_us": 8332.189999999999,
+        "share_pct": 0.07781758839059134,
+        "mean_us": 13.550666666666666
+      },
+      "l2norm_fwd_kernel2_loop": {
+        "count": 60,
+        "duration_us": 390.82000000000005,
+        "wait_us": 34053.71999999999,
+        "share_pct": 0.07481223530161103,
+        "mean_us": 6.513666666666667
+      },
+      "GatherV2": {
+        "count": 32,
+        "duration_us": 309.46000000000004,
+        "wait_us": 63.64999999999999,
+        "share_pct": 0.059237997892729516,
+        "mean_us": 9.670625000000001
+      },
+      "_clear_ssm_states_kernel": {
+        "count": 30,
+        "duration_us": 247.14000000000001,
+        "wait_us": 6686.070000000001,
+        "share_pct": 0.04730846894335026,
+        "mean_us": 8.238000000000001
+      },
+      "Fill": {
+        "count": 166,
+        "duration_us": 237.81999999999982,
+        "wait_us": 46334.780000000035,
+        "share_pct": 0.04552439946632495,
+        "mean_us": 1.4326506024096375
+      },
+      "BroadcastTo": {
+        "count": 31,
+        "duration_us": 224.67999999999998,
+        "wait_us": 1061.5999999999997,
+        "share_pct": 0.043009091212235714,
+        "mean_us": 7.24774193548387
+      },
+      "GemmaRmsNorm": {
+        "count": 32,
+        "duration_us": 143.76,
+        "wait_us": 60.08999999999999,
+        "share_pct": 0.027519080259351108,
+        "mean_us": 4.4925
+      },
+      "MaskedFill": {
+        "count": 32,
+        "duration_us": 106.88,
+        "wait_us": 167.04000000000002,
+        "share_pct": 0.02045937185670177,
+        "mean_us": 3.34
+      },
+      "GreaterEqual": {
+        "count": 32,
+        "duration_us": 91.65999999999998,
+        "wait_us": 3.33,
+        "share_pct": 0.01754590217426351,
+        "mean_us": 2.8643749999999994
+      },
+      "Less": {
+        "count": 32,
+        "duration_us": 88.44,
+        "wait_us": 16.160000000000004,
+        "share_pct": 0.0169295176553771,
+        "mean_us": 2.76375
+      },
+      "chunk_local_cumsum_scalar_kernel": {
+        "count": 30,
+        "duration_us": 82.52000000000001,
+        "wait_us": 10281.070000000003,
+        "share_pct": 0.015796288974691527,
+        "mean_us": 2.750666666666667
+      },
+      "ReshapeAndCacheNdKernel": {
+        "count": 10,
+        "duration_us": 54.21999999999999,
+        "wait_us": 3360.1000000000004,
+        "share_pct": 0.010378996463981754,
+        "mean_us": 5.421999999999999
+      },
+      "LogicalNot": {
+        "count": 32,
+        "duration_us": 47.10000000000001,
+        "wait_us": 31.720000000000006,
+        "share_pct": 0.009016059266940995,
+        "mean_us": 1.4718750000000003
+      },
+      "LogicalAnd": {
+        "count": 32,
+        "duration_us": 47.039999999999985,
+        "wait_us": 30.380000000000013,
+        "share_pct": 0.00900457384112323,
+        "mean_us": 1.4699999999999995
+      },
+      "Greater": {
+        "count": 3,
+        "duration_us": 7.58,
+        "wait_us": 1.85,
+        "share_pct": 0.001450992128310249,
+        "mean_us": 2.526666666666667
+      }
+    }
+  },
+  {
+    "variant": "fusion",
+    "run_id": "20261014T100333Z-fusion-r3",
+    "path": "results/20261014T100333Z-fusion-r3/profile/dp0_pp0_tp1_dcp0_ep1_rank1_283992_20261014100739912_ascend_pt/ASCEND_PROFILER_OUTPUT/kernel_details.csv",
+    "instances": 52224,
+    "kernel_duration_sum_us": 488203.46000001265,
+    "operators": {
+      "hcom_allReduce_": {
+        "count": 2592,
+        "duration_us": 131072.19999999952,
+        "wait_us": 43495.69999999981,
+        "share_pct": 26.84786379842456,
+        "mean_us": 50.567978395061544
+      },
+      "GroupedMatmul": {
+        "count": 2560,
+        "duration_us": 87478.73999999986,
+        "wait_us": 11973.100000000039,
+        "share_pct": 17.91850061857357,
+        "mean_us": 34.17138281249994
+      },
+      "linear_persistent": {
+        "count": 7392,
+        "duration_us": 84623.28000000012,
+        "wait_us": 56966.52999999938,
+        "share_pct": 17.33360922923363,
+        "mean_us": 11.44795454545456
+      },
+      "Transpose": {
+        "count": 1350,
+        "duration_us": 23890.41999999999,
+        "wait_us": 25261.600000000082,
+        "share_pct": 4.893537624661524,
+        "mean_us": 17.696607407407402
+      },
+      "shared_linear_swiglu": {
+        "count": 1280,
+        "duration_us": 20056.460000000014,
+        "wait_us": 34552.760000000235,
+        "share_pct": 4.108217504234709,
+        "mean_us": 15.66910937500001
+      },
+      "ZerosLike": {
+        "count": 8442,
+        "duration_us": 13063.53999999997,
+        "wait_us": 49768.95999999962,
+        "share_pct": 2.6758392904465755,
+        "mean_us": 1.5474461028192337
+      },
+      "MoeInitRoutingCustom": {
+        "count": 1280,
+        "duration_us": 12763.360000000008,
+        "wait_us": 19955.65,
+        "share_pct": 2.6143526307658034,
+        "mean_us": 9.971375000000005
+      },
+      "ConcatD": {
+        "count": 960,
+        "duration_us": 12492.739999999993,
+        "wait_us": 2283.6800000000007,
+        "share_pct": 2.558920823707327,
+        "mean_us": 13.013270833333326
+      },
+      "RecurrentGatedDeltaRule": {
+        "count": 930,
+        "duration_us": 12224.260000000011,
+        "wait_us": 56.559999999999846,
+        "share_pct": 2.503927358482813,
+        "mean_us": 13.144365591397861
+      },
+      "FusedInferAttentionScore": {
+        "count": 320,
+        "duration_us": 8392.120000000003,
+        "wait_us": 2992.7600000000016,
+        "share_pct": 1.7189800334474863,
+        "mean_us": 26.225375000000007
+      },
+      "Add": {
+        "count": 4544,
+        "duration_us": 7927.740000000057,
+        "wait_us": 22899.539999999928,
+        "share_pct": 1.6238598554790766,
+        "mean_us": 1.7446610915493084
+      },
+      "CausalConv1d": {
+        "count": 960,
+        "duration_us": 7414.960000000004,
+        "wait_us": 1809.9600000000014,
+        "share_pct": 1.5188257780884657,
+        "mean_us": 7.72391666666667
+      },
+      "AddRmsNorm": {
+        "count": 2560,
+        "duration_us": 6527.12,
+        "wait_us": 1589.9699999999746,
+        "share_pct": 1.336967173481284,
+        "mean_us": 2.54965625
+      },
+      "MoeGatingTopK": {
+        "count": 1280,
+        "duration_us": 5456.599999999998,
+        "wait_us": 21209.11999999997,
+        "share_pct": 1.117689743534357,
+        "mean_us": 4.262968749999998
+      },
+      "SwiGlu": {
+        "count": 1280,
+        "duration_us": 4630.540000000018,
+        "wait_us": 1340.3300000000006,
+        "share_pct": 0.9484856989747468,
+        "mean_us": 3.617609375000014
+      },
+      "_layer_norm_fwd_1pass_kernel_npu": {
+        "count": 960,
+        "duration_us": 4505.019999999992,
+        "wait_us": 31570.51000000003,
+        "share_pct": 0.9227751069195363,
+        "mean_us": 4.692729166666658
+      },
+      "MoeTokenUnpermute": {
+        "count": 1280,
+        "duration_us": 4489.240000000046,
+        "wait_us": 3902.3299999999685,
+        "share_pct": 0.9195428479757045,
+        "mean_us": 3.5072187500000362
+      },
+      "Index": {
+        "count": 414,
+        "duration_us": 4386.059999999992,
+        "wait_us": 141.82000000000022,
+        "share_pct": 0.8984082169347752,
+        "mean_us": 10.594347826086938
+      },
+      "_compute_slot_mapping_kernel": {
+        "count": 32,
+        "duration_us": 3875.3399999999992,
+        "wait_us": 706.41,
+        "share_pct": 0.7937960947675174,
+        "mean_us": 121.10437499999998
+      },
+      "l2norm_fwd_kernel2": {
+        "count": 1860,
+        "duration_us": 3692.08000000005,
+        "wait_us": 106.96000000000022,
+        "share_pct": 0.7562584665008221,
+        "mean_us": 1.9849892473118549
+      },
+      "FusedGdnGating": {
+        "count": 960,
+        "duration_us": 3512.16000000002,
+        "wait_us": 2694.3799999999933,
+        "share_pct": 0.7194049792272936,
+        "mean_us": 3.6585000000000205
+      },
+      "Mul": {
+        "count": 1664,
+        "duration_us": 3078.659999999989,
+        "wait_us": 1879.139999999997,
+        "share_pct": 0.630610032956323,
+        "mean_us": 1.8501562499999933
+      },
+      "Sigmoid": {
+        "count": 1600,
+        "duration_us": 2248.5799999999977,
+        "wait_us": 6177.840000000042,
+        "share_pct": 0.4605825612132981,
+        "mean_us": 1.4053624999999985
+      },
+      "Cast": {
+        "count": 1343,
+        "duration_us": 2030.979999999998,
+        "wait_us": 22250.999999999985,
+        "share_pct": 0.4160109803400298,
+        "mean_us": 1.5122710349962756
+      },
+      "Slice": {
+        "count": 850,
+        "duration_us": 1921.0199999999975,
+        "wait_us": 30758.71999999998,
+        "share_pct": 0.39348758404947554,
+        "mean_us": 2.260023529411762
+      },
+      "split_qkv_rmsnorm_mrope_kernel": {
+        "count": 320,
+        "duration_us": 1815.9599999999991,
+        "wait_us": 3956.86000000001,
+        "share_pct": 0.371967867659101,
+        "mean_us": 5.6748749999999974
+      },
+      "Abs": {
+        "count": 1280,
+        "duration_us": 1732.559999999998,
+        "wait_us": 8139.179999999992,
+        "share_pct": 0.35488482609278377,
+        "mean_us": 1.3535624999999984
+      },
+      "solve_tril_16x16_kernel": {
+        "count": 30,
+        "duration_us": 1364.0799999999997,
+        "wait_us": 9633.619999999999,
+        "share_pct": 0.27940809759930096,
+        "mean_us": 45.469333333333324
+      },
+      "IndexCheck": {
+        "count": 444,
+        "duration_us": 1291.3200000000002,
+        "wait_us": 8628.200000000006,
+        "share_pct": 0.264504475244802,
+        "mean_us": 2.9083783783783788
+      },
+      "ChunkGatedDeltaRuleFwdH": {
+        "count": 30,
+        "duration_us": 1232.28,
+        "wait_us": 4494.15,
+        "share_pct": 0.2524111566108049,
+        "mean_us": 41.076
+      },
+      "hcom_allGather_": {
+        "count": 32,
+        "duration_us": 1210.5400000000002,
+        "wait_us": 91.84,
+        "share_pct": 0.24795809517613185,
+        "mean_us": 37.829375000000006
+      },
+      "recompute_w_u_fwd_kernel": {
+        "count": 30,
+        "duration_us": 1059.5200000000002,
+        "wait_us": 9951.810000000001,
+        "share_pct": 0.21702427098734053,
+        "mean_us": 35.31733333333334
+      },
+      "ArgMaxV2": {
+        "count": 32,
+        "duration_us": 959.7,
+        "wait_us": 101.84000000000002,
+        "share_pct": 0.19657787759225942,
+        "mean_us": 29.990625
+      },
+      "ChunkFwdO": {
+        "count": 30,
+        "duration_us": 824.4999999999999,
+        "wait_us": 3409.460000000001,
+        "share_pct": 0.16888450565261837,
+        "mean_us": 27.48333333333333
+      },
+      "reshape_and_cache_200000000": {
+        "count": 310,
+        "duration_us": 785.8799999999991,
+        "wait_us": 202.9799999999999,
+        "share_pct": 0.16097386937814384,
+        "mean_us": 2.5350967741935455
+      },
+      "IndexPutV2": {
+        "count": 30,
+        "duration_us": 759.6,
+        "wait_us": 728.3800000000002,
+        "share_pct": 0.15559086779105996,
+        "mean_us": 25.32
+      },
+      "Sub": {
+        "count": 349,
+        "duration_us": 512.3799999999994,
+        "wait_us": 7323.300000000016,
+        "share_pct": 0.10495214433752398,
+        "mean_us": 1.4681375358166173
+      },
+      "merge_16x16_to_64x64_inverse_kernel": {
+        "count": 30,
+        "duration_us": 423.21999999999997,
+        "wait_us": 9147.919999999998,
+        "share_pct": 0.08668926680691469,
+        "mean_us": 14.107333333333333
+      },
+      "chunk_scaled_dot_kkt_fwd_kernel": {
+        "count": 30,
+        "duration_us": 406.37999999999994,
+        "wait_us": 8515.92,
+        "share_pct": 0.08323988527242093,
+        "mean_us": 13.545999999999998
+      },
+      "l2norm_fwd_kernel2_loop": {
+        "count": 60,
+        "duration_us": 390.2399999999999,
+        "wait_us": 29176.709999999977,
+        "share_pct": 0.07993388658080994,
+        "mean_us": 6.503999999999999
+      },
+      "GatherV2": {
+        "count": 32,
+        "duration_us": 306.76,
+        "wait_us": 79.98000000000002,
+        "share_pct": 0.06283445840387777,
+        "mean_us": 9.58625
+      },
+      "_clear_ssm_states_kernel": {
+        "count": 30,
+        "duration_us": 249.08,
+        "wait_us": 6858.709999999998,
+        "share_pct": 0.05101971215033862,
+        "mean_us": 8.302666666666667
+      },
+      "Fill": {
+        "count": 166,
+        "duration_us": 237.2199999999999,
+        "wait_us": 8218.930000000004,
+        "share_pct": 0.048590397126639324,
+        "mean_us": 1.4290361445783126
+      },
+      "BroadcastTo": {
+        "count": 31,
+        "duration_us": 224.16,
+        "wait_us": 1064.9299999999998,
+        "share_pct": 0.045915282943712485,
+        "mean_us": 7.230967741935483
+      },
+      "GemmaRmsNorm": {
+        "count": 32,
+        "duration_us": 142.56000000000003,
+        "wait_us": 229.08999999999997,
+        "share_pct": 0.029200940116236855,
+        "mean_us": 4.455000000000001
+      },
+      "MaskedFill": {
+        "count": 32,
+        "duration_us": 105.02000000000001,
+        "wait_us": 209.74000000000004,
+        "share_pct": 0.021511523085067298,
+        "mean_us": 3.2818750000000003
+      },
+      "GreaterEqual": {
+        "count": 32,
+        "duration_us": 94.55999999999999,
+        "wait_us": 28.35,
+        "share_pct": 0.019368973747133526,
+        "mean_us": 2.9549999999999996
+      },
+      "Less": {
+        "count": 32,
+        "duration_us": 87.20000000000002,
+        "wait_us": 4.909999999999998,
+        "share_pct": 0.017861405570537694,
+        "mean_us": 2.7250000000000005
+      },
+      "chunk_local_cumsum_scalar_kernel": {
+        "count": 30,
+        "duration_us": 82.18000000000002,
+        "wait_us": 10357.47,
+        "share_pct": 0.01683314575443564,
+        "mean_us": 2.739333333333334
+      },
+      "ReshapeAndCacheNdKernel": {
+        "count": 10,
+        "duration_us": 51.36,
+        "wait_us": 5384.06,
+        "share_pct": 0.010520204014940547,
+        "mean_us": 5.136
+      },
+      "LogicalAnd": {
+        "count": 32,
+        "duration_us": 47.84,
+        "wait_us": 71.16999999999999,
+        "share_pct": 0.00979919314787297,
+        "mean_us": 1.495
+      },
+      "LogicalNot": {
+        "count": 32,
+        "duration_us": 46.720000000000006,
+        "wait_us": 53.429999999999986,
+        "share_pct": 0.009569780599260561,
+        "mean_us": 1.4600000000000002
+      },
+      "Greater": {
+        "count": 3,
+        "duration_us": 7.42,
+        "wait_us": 4.0,
+        "share_pct": 0.0015198581345572209,
+        "mean_us": 2.473333333333333
+      }
+    }
+  }
+]

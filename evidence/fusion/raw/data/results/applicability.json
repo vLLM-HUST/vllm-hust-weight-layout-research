@@ -1,0 +1,57 @@
+{
+  "status": "blocked-for-formal-evaluation",
+  "contract": "vLLM-HUST/vllm-hust-benchmark#254 / V5.5",
+  "benchmark_revision": "25bb369a2a188b33b4be4097dd2fe7ea4ca65c40",
+  "target": {
+    "model": "Qwen/Qwen3.5-35B-A3B",
+    "dtype": "bfloat16",
+    "tensor_parallel_size": 2,
+    "hardware": "2 x Ascend 910B2"
+  },
+  "common_blockers": [
+    "The persistent-matmul-empty treatment fails the Qwen3.5 TP2 Graph model correctness gate. Linear-SwiGLU has 0 observed fusion matches in the current text Graph.",
+    "Model weight shards are verified; task/evaluator/run contracts still require freezing before matched quality evaluation.",
+    "Formal V5.5 release manifest and OCI receipts are not yet available for this research deployment."
+  ],
+  "datasets": [
+    {
+      "id": "mmlu-pro",
+      "status": "blocked",
+      "reason": "Text runner can reuse the canonical benchmark adapter after runtime correctness and OPset path telemetry pass; no OPset matched task-quality run has been executed.",
+      "primary_metric": "task accuracy"
+    },
+    {
+      "id": "hle-verified",
+      "status": "blocked",
+      "reason": "Verified subset, license decision, grader/judge identity and modality contract must be frozen; batch-invariant vision profiling currently rejects a 3D Linear input.",
+      "primary_metric": "pinned verified HLE score"
+    },
+    {
+      "id": "swe-bench-pro",
+      "status": "blocked",
+      "reason": "This container has no Docker/Podman executable or Docker socket; fresh-sandbox images, repositories, tool policy, budgets and regrader contract remain required.",
+      "primary_metric": "fresh-sandbox resolved rate"
+    },
+    {
+      "id": "frontierscience",
+      "status": "blocked",
+      "reason": "Olympiad and Research must use separately frozen evaluator/judge contracts; runtime/path verification has not passed and no paired solver run exists.",
+      "primary_metric": "separate Olympiad and Research scores"
+    },
+    {
+      "id": "terminal-bench-2.1",
+      "status": "blocked",
+      "reason": "Harbor sandbox backend is absent; task images/digests, agent/tool policy, budgets and resolution scorer must be provisioned and frozen.",
+      "primary_metric": "Harbor task resolution"
+    }
+  ],
+  "optimization_claims": [],
+  "publication_order": [
+    "vllm-hust-benchmark canonical artifacts",
+    "website synchronization"
+  ],
+  "observations": {
+    "persistent-matmul-empty": "blocked: reproducible degenerate model Graph output despite standalone correctness passing",
+    "linear-swiglu-graph": "not-exercised: 0 fusion matches; smoke output equals baseline"
+  }
+}

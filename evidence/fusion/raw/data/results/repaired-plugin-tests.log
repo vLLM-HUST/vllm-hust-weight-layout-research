@@ -1,0 +1,66 @@
+......FFF                                                                [100%]
+=================================== FAILURES ===================================
+_______________ test_persistent_matmul_replaces_only_allocation ________________
+
+    def test_persistent_matmul_replaces_only_allocation():
+        module = make_module()
+        result = PersistentMatmulEmpty().apply(module)
+        x = types.SimpleNamespace(shape=(7, 17), dtype="bf16", device="npu")
+        y = types.SimpleNamespace(shape=(13, 17))
+    
+>       assert result.state == "applied"
+E       AssertionError: assert 'blocked' == 'applied'
+E         
+E         - applied
+E         + blocked
+
+opset-research/sources/opset/tests/test_rewrite.py:48: AssertionError
+__________ test_persistent_matmul_is_idempotent_for_upstreamed_change __________
+
+    def test_persistent_matmul_is_idempotent_for_upstreamed_change():
+        module = make_module("empty")
+    
+>       assert PersistentMatmulEmpty().apply(module).state == "already-applied"
+E       AssertionError: assert 'blocked' == 'already-applied'
+E         
+E         - already-applied
+E         + blocked
+
+opset-research/sources/opset/tests/test_rewrite.py:55: AssertionError
+_____________ test_persistent_matmul_rejects_unknown_source_shape ______________
+
+    def test_persistent_matmul_rejects_unknown_source_shape():
+        module = make_module()
+        source = """
+    def linear_persistent(x, y):
+        M, K = x.shape
+        N, _ = y.shape
+        return torch.zeros((M, N), dtype=x.dtype, device=x.device)
+    """
+        filename = "<unknown_persistent_matmul>"
+        linecache.cache[filename] = (len(source), None, source.splitlines(True), filename)
+        exec(compile(source, filename, "exec"), module.__dict__)  # noqa: S102
+    
+>       with pytest.raises(RuntimeError):
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+opset-research/sources/opset/tests/test_rewrite.py:70: Failed
+=============================== warnings summary ===============================
+tests/test_rewrite.py::test_persistent_matmul_replaces_only_allocation
+  /root/opset-research/sources/opset/tests/test_rewrite.py:44: RuntimeWarning: disabled: this tested backend combination failed poisoned-output and model correctness gates; retaining original torch.zeros
+    result = PersistentMatmulEmpty().apply(module)
+
+tests/test_rewrite.py::test_persistent_matmul_is_idempotent_for_upstreamed_change
+  /root/opset-research/sources/opset/tests/test_rewrite.py:55: RuntimeWarning: disabled: this tested backend combination failed poisoned-output and model correctness gates; retaining original torch.zeros
+    assert PersistentMatmulEmpty().apply(module).state == "already-applied"
+
+tests/test_rewrite.py::test_persistent_matmul_rejects_unknown_source_shape
+  /root/opset-research/sources/opset/tests/test_rewrite.py:71: RuntimeWarning: disabled: this tested backend combination failed poisoned-output and model correctness gates; retaining original torch.zeros
+    PersistentMatmulEmpty().apply(module)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED opset-research/sources/opset/tests/test_rewrite.py::test_persistent_matmul_replaces_only_allocation
+FAILED opset-research/sources/opset/tests/test_rewrite.py::test_persistent_matmul_is_idempotent_for_upstreamed_change
+FAILED opset-research/sources/opset/tests/test_rewrite.py::test_persistent_matmul_rejects_unknown_source_shape
+3 failed, 6 passed, 3 warnings in 0.10s

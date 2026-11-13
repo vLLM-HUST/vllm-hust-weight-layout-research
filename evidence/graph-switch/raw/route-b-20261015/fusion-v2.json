@@ -1,0 +1,59 @@
+{
+  "mode": "fusion",
+  "shape": [
+    7,
+    256,
+    2048
+  ],
+  "dtype": "bf16",
+  "capture_count": 1,
+  "checks": [
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 0,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 1,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    },
+    {
+      "index": 0,
+      "variant": "baseline",
+      "repeat": 2,
+      "finite": true,
+      "close": true,
+      "suffix": true,
+      "max_abs": 0.0
+    }
+  ],
+  "updates": [
+    {
+      "variant": "baseline",
+      "host_update_sync_ms": 1.167522743344307
+    }
+  ],
+  "evidence": "isolated-operator-task-group",
+  "stage": "update-1-candidate",
+  "versions": {
+    "torch": "2.10.0+cpu",
+    "torch-npu": "2.10.0.post4",
+    "triton-ascend": "3.2.2"
+  },
+  "addresses": {
+    "input": 20616935636992,
+    "output": 20616935666176,
+    "suffix": 20616935670272
+  },
+  "all_pass": false,
+  "error": "Traceback (most recent call last):\n  File \"/root/opset-research/route_b_probe.py\", line 114, in main\n    torch.npu.graph_task_update_end(update_stream)\n  File \"/usr/local/python3.12.13/lib/python3.12/site-packages/torch_npu/npu/graphs.py\", line 100, in graph_task_update_end\n    _graph_task_update_end(stream)\nRuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is _linear_swiglu_kernel.\nSince the operator is called asynchronously, the stacktrace may be inaccurate. If you want to get the accurate stacktrace, please set the environment variable ASCEND_LAUNCH_BLOCKING=1.\nNote: ASCEND_LAUNCH_BLOCKING=1 will force ops to run in synchronous mode, resulting in performance degradation. Please unset ASCEND_LAUNCH_BLOCKING in time after debugging.\n[ERROR] 2026-10-15-07:47:30 (PID:57500, Device:0, RankID:-1) ERR00100 PTA call acl api failed.\nEE9999: Inner Error!\nEE9999[PID: 57500] 2026-10-15-07:47:30.192.385 (EE9999):  Check kernel task failed, stream_id=44, task_id=10, retCode=0x7080005.[FUNC:StreamLaunchKernelV1][FILE:aix_stars.cc][LINE:674]\nTraceBack (most recent call last):\n       rtKernelLaunch execution failed, reason=kernel type error[FUNC:FuncErrorReason][FILE:error_message_manage.cc][LINE:69]\n\n"
+}
