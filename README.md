@@ -1,51 +1,52 @@
-# vLLM-HUST 权重分配研究与实验结果
+# vLLM-HUST Weight Placement Research and Experimental Results
 
-作者：**周升晖**。
+Author: **Zhou Shenghui (周升晖)**.
 
-研究模型：Qwen3.5-35B-A3B；硬件平台：双 Ascend 910B2。当前收录2026年10月实验结果。
+Model: **Qwen3.5-35B-A3B**. Hardware: **two Ascend 910B2 NPUs**. This repository contains experimental results from October 2026.
 
-本仓库研究 vLLM-HUST 双卡推理中的权重分配与并行配置，记录 B0 TP2 基线和 W1 TP2+EP2 筛选实验的配置、原始结果及分析。同时收录相关的共享专家算子融合和 Graph 任务组切换探索，分别说明验证范围和实验结论。
+This project investigates weight placement and parallel configurations for dual-NPU inference with vLLM-HUST. It records the configuration, raw results, and analysis of the B0 TP2 baseline and W1 TP2+EP2 screening experiments. Related shared-expert operator fusion and Graph task-group switching experiments are also included, with their validation scope and conclusions documented separately.
 
-## 实验日期
+## Experiment Dates
 
-以下日期均为北京时间（Asia/Shanghai）。
+All dates below use Beijing time (Asia/Shanghai, UTC+8).
 
-| 实验 | 实验日期 |
+| Experiment | Date |
 |---|---|
-| 共享专家融合适配、数值修复与三轮性能验证 | 2026-10-14 |
-| Graph任务组切换探针 | 2026-10-15 |
-| B0权重布局基线 | 2026-10-23 至 2026-10-24；结束于10月24日00:47 |
-| W1 TP2+EP2 Small筛选 | 2026-10-26 |
+| Shared-expert fusion adaptation, numerical fixes, and three-round performance validation | October 14, 2026 |
+| Graph task-group switching probes | October 15, 2026 |
+| B0 weight-placement baseline | October 23–24, 2026; completed at 00:47 on October 24 |
+| W1 TP2+EP2 Small screening | October 26, 2026 |
 
-原始日志中的 `Z` 时间戳为UTC，换算北京时间需加8小时。
+Timestamps ending in `Z` in the original logs are UTC; add eight hours to convert them to Beijing time.
 
-## 阅读顺序
+## Reading Guide
 
-1. [实验结果与数据索引](docs/RESULTS_INDEX.md)：实验结论、原始文件及适用范围。
-2. [个人工作分工](docs/CONTRIBUTIONS.md)：周升晖负责的工作及对应过程材料。
-3. [数据完整性与复核方法](docs/METHODOLOGY.md)：尚未补齐的原始数据及复核步骤。
-4. [离线复核结果](verification/results.json)：从请求级记录或采集摘要重新计算关键数字。
-5. [来源与SHA-256清单](provenance.json)：每份复制文件对应原工作区路径、大小和哈希。
+1. [Experimental results and data index](docs/RESULTS_INDEX.md): conclusions, original files, and scope.
+2. [Contributions](docs/CONTRIBUTIONS.md): work performed by Zhou Shenghui and the corresponding records.
+3. [Data completeness and verification methodology](docs/METHODOLOGY.md): data availability and verification steps.
+4. [Offline verification results](verification/results.json): key metrics recomputed from request-level records or collected summaries.
+5. [Provenance and SHA-256 manifest](provenance.json): original workspace paths, file sizes, and hashes.
 
-## 实验结果概览
+## Results Overview
 
-| 实验 | 已有结果 | 可支持的结论 |
+| Experiment | Observations | Conclusion |
 |---|---|---|
-| 共享专家MatMul–SwiGLU融合 | 三对独立服务；短/长C1 TPOT均值改善1.97%/0.67%；20题每轮均13题正确 | 适配与数值修正完成；不能证明稳定端到端提速 |
-| zeros→empty | 实际形状及NaN/非零预填充出现反例 | 当前环境禁用；不推广为所有环境均失败 |
-| Graph任务组切换 | 三种兼容单任务探针通过；任务链替换失败 | 仅验证受限结构切换，未实现任意子图热切换 |
-| B0权重布局基线 | Medium 90单元，87成功、3预热超时；P2 C64三轮均值944.92 token/s；质量1414/2406 | 已完成固定TP2配置基线，不能证明最优布局 |
-| W1 TP2+EP2 | Small 12单元、384请求成功；对历史B0吞吐比几何平均−1.80% | 单轮跨时段筛选无明确收益，未进入Mini/Medium |
+| Shared-expert MatMul–SwiGLU fusion | Three independent baseline/fusion service pairs; mean C1 TPOT improved by 1.97% for short prompts and 0.67% for long prompts; 13/20 quality questions answered correctly in every round | Adaptation and numerical fixes validated; a stable end-to-end speedup has not been established |
+| zeros→empty | Counterexamples observed with production shapes and NaN/nonzero output prefilling | Disabled in the tested environment; this does not establish failure in every environment |
+| Graph task-group switching | Three compatible single-task probes passed; task-chain replacement failed | Validated switching for restricted structures; arbitrary subgraph hot switching remains unimplemented |
+| B0 weight-placement baseline | 90 Medium test cells: 87 completed and 3 warmup timeouts; three-round mean P2 C64 throughput of 944.92 output tokens/s; quality score of 1414/2406 | Fixed-configuration TP2 baseline completed; optimal weight placement has not been established |
+| W1 TP2+EP2 | All 12 Small performance cells and 384 requests completed; geometric mean throughput ratio changed by −1.80% relative to historical B0 | No clear benefit in single-round screening across different test periods; Mini/Medium testing was not started |
 
-本仓库中的融合实验B0/B1与权重布局实验B0/W1属于不同实验，不能混用。Small与Medium预算不同，Large整批吞吐未参与Medium统计。
+The fusion experiments labeled B0/B1 and the weight-placement experiments labeled B0/W1 are separate experiments. Small and Medium use different scheduling budgets. Large batch throughput is excluded from Medium statistics.
 
-## 文件与复核
+## Files and Verification
 
-`evidence/` 保留原文件内容；`tools/` 提供离线校验脚本，`docs/` 说明实验结果和复核方法。历史文档中的绝对路径、远端路径或相对链接可能指向原工作区，优先使用本仓库数据索引。历史计划不表示后来实际执行，尤其W1的Mini/Medium脚本仅为准备材料。
+`evidence/` preserves the original files. `tools/` provides offline verification scripts, and `docs/` explains the results and methodology. Absolute paths, remote paths, and relative links in historical documents may refer to the original workspace; use this repository's data index to locate archived files. Historical plans do not establish that an experiment was executed: in particular, the W1 Mini/Medium scripts were preparation only.
 
 ```bash
 python tools/verify_evidence.py
 ```
 
-完整融合原始归档为 `opset-repair-evidence-20261014.tar.gz`（约121 MB），含Profiler CSV/DB/trace，放入Release附件而非普通Git文件。未上传前只在本地 `release-assets/` 保存；发布状态以实际GitHub附件为准。SHA-256：`91a8967a208da284d13ce4c749332f238f3e58e3679ffe64299889c283eaab8d`。
+The complete fusion archive, `opset-repair-evidence-20261014.tar.gz` (approximately 121 MB), contains Profiler CSV files, databases, and traces. It is distributed as a [Release attachment](https://github.com/vLLM-HUST/vllm-hust-weight-layout-research/releases/tag/experiments-2026-10), rather than as a regular Git file. Until the upload completes, the archive is available locally under `release-assets/`; attachment availability is determined by the actual Release contents.
 
+SHA-256: `91a8967a208da284d13ce4c749332f238f3e58e3679ffe64299889c283eaab8d`.
