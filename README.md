@@ -49,4 +49,3 @@ python tools/verify_evidence.py
 
 完整融合原始归档为 `opset-repair-evidence-20261014.tar.gz`（约121 MB），含Profiler CSV/DB/trace，放入Release附件而非普通Git文件。未上传前只在本地 `release-assets/` 保存；发布状态以实际GitHub附件为准。SHA-256：`91a8967a208da284d13ce4c749332f238f3e58e3679ffe64299889c283eaab8d`。
 
-**仍待补齐：B0 Medium正式性能测试逐请求原始文件及完整原始Profiler数据。** 本仓库收录采集到的单元摘要、监控、稳定性请求及质量复用来源，不将这些摘要冒充缺失的请求级文件。
