@@ -78,7 +78,7 @@ assert correct==1414
 stability=lines('evidence/b0/final-audit/stability/P2/requests.jsonl')
 assert len(stability)==896 and all(x['success'] for x in stability)
 
-result={'audit_date':'2026-11-13','hash_verified_files':checked,'release_assets_not_present':missing,
+result={'hash_verified_files':checked,'release_assets_not_present':missing,
  'fusion_C1_recomputed_from_requests':fusion,'W1_small':{'cells':12,'requests':384,'throughput_ratio_geomean_change_pct':geomean,'scope':'single-round historical comparison; different physical cards/time'},
  'B0_medium_from_collected_cell_summaries':{'statuses':counts,'formal_requests_in_successful_cells':formal,'P2_C64_mean_tokens_s':p2},
  'B0_medium_quality_from_large_raw_outputs':{'correct':correct,'total':len(selected),'accuracy_pct':correct/len(selected)*100},

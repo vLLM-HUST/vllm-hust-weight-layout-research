@@ -1,5 +1,4 @@
 {
-  "prepared_date": "2026-11-13",
   "note": "SHA-256 verifies byte-identical copies; original experiment timestamps are preserved in source records.",
   "files": [
     {

@@ -46,7 +46,7 @@ for split in ['small', 'medium']:
 archive = WORKSPACE / fusion / 'raw/opset-repair-evidence-20261014.tar.gz'
 copy(archive, Path('release-assets') / archive.name)
 assert digest(archive) == '91a8967a208da284d13ce4c749332f238f3e58e3679ffe64299889c283eaab8d'
-(ROOT / 'provenance.json').write_text(json.dumps({'prepared_date': '2026-11-13',
+(ROOT / 'provenance.json').write_text(json.dumps({
     'note': 'SHA-256 verifies byte-identical copies; original experiment timestamps are preserved in source records.',
     'files': rows}, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps({'files': len(rows), 'bytes': sum(r['bytes'] for r in rows)}, indent=2))
